@@ -23,6 +23,9 @@
             height: 700px;
             width: 100%;
         }
+        #search-bar {
+            margin-bottom: 1em;
+        }
     </style>
 </head>
 <body>
@@ -32,6 +35,7 @@
     <main>
         <h2>ようこそ！</h2>
         <p>ここでは日本全国の水族館情報を提供します。</p>
+        <input type="text" id="search-bar" placeholder="水族館を検索">
         <div id="map"></div>
     </main>
     <script>
@@ -56,6 +60,7 @@
             ];
 
             var infowindow = new google.maps.InfoWindow();
+            var markers = [];
 
             aquariums.forEach(function(aquarium) {
                 var marker = new google.maps.Marker({
@@ -64,11 +69,24 @@
                     title: aquarium.name
                 });
 
+                markers.push(marker);
+
                 var contentString = '<div><h2>' + aquarium.name + '</h2><p>' + aquarium.details + '</p><a href="' + aquarium.url + '" target="_blank">公式サイト</a></div>';
 
                 marker.addListener('click', function() {
                     infowindow.setContent(contentString);
                     infowindow.open(map, marker);
+                });
+            });
+
+            document.getElementById('search-bar').addEventListener('input', function() {
+                var searchText = this.value.toLowerCase();
+                markers.forEach(function(marker, index) {
+                    if (aquariums[index].name.toLowerCase().includes(searchText)) {
+                        marker.setVisible(true);
+                    } else {
+                        marker.setVisible(false);
+                    }
                 });
             });
         }
