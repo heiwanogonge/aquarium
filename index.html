@@ -36,20 +36,36 @@
     </main>
     <script>
         function initMap() {
-            // 地図の初期位置を設定（例: 東京タワー）
-            var tokyoTower = {lat: 35.6585805, lng: 139.7454329};
             var map = new google.maps.Map(document.getElementById('map'), {
-                zoom: 10,
-                center: tokyoTower
+                zoom: 5,
+                center: {lat: 35.6895, lng: 139.6917}  // 地図の初期位置を東京に設定
             });
 
-            // サンプルのマーカーを追加
-            var marker = new google.maps.Marker({
-                position: tokyoTower,
-                map: map
+            var aquariums = [
+                {"name": "鴨川シーワールド", "lat": 35.113019, "lng": 140.102564},
+                {"name": "新江ノ島水族館", "lat": 35.311647, "lng": 139.484045},
+                {"name": "サンシャイン水族館", "lat": 35.729503, "lng": 139.719409},
+                {"name": "大阪海遊館", "lat": 34.654513, "lng": 135.428135},
+                {"name": "沖縄美ら海水族館", "lat": 26.694169, "lng": 127.878708}
+            ];
+
+            aquariums.forEach(function(aquarium) {
+                var marker = new google.maps.Marker({
+                    position: {lat: aquarium.lat, lng: aquarium.lng},
+                    map: map,
+                    title: aquarium.name
+                });
+
+                var infowindow = new google.maps.InfoWindow({
+                    content: aquarium.name
+                });
+
+                marker.addListener('click', function() {
+                    infowindow.open(map, marker);
+                });
             });
         }
     </script>
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD_M35qC01HD45MkO62v8MORuo_E_OXaq0&callback=initMap" async defer></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap" async defer></script>
 </body>
 </html>
