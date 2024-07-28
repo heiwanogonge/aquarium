@@ -12,7 +12,7 @@
             text-align: center;
         }
         header {
-            background-color: #00bfff;
+            background-color: #4CAF50;
             color: white;
             padding: 1em;
         }
@@ -20,7 +20,7 @@
             margin: 2em;
         }
         #map {
-            height: 680px;
+            height: 700px;
             width: 100%;
         }
     </style>
@@ -42,15 +42,17 @@
             });
 
             var aquariums = [
-                {"name": "鴨川シーワールド", "lat": 35.113019, "lng": 140.102564},
-                {"name": "新江ノ島水族館", "lat": 35.311647, "lng": 139.484045},
-                {"name": "サンシャイン水族館", "lat": 35.729503, "lng": 139.719409},
-                {"name": "大阪海遊館", "lat": 34.654513, "lng": 135.428135},
-                {"name": "沖縄美ら海水族館", "lat": 26.694169, "lng": 127.878708},
-                {"name": "名古屋港水族館", "lat": 35.101779, "lng": 136.884296},
-                {"name": "しながわ水族館", "lat": 35.608356, "lng": 139.738824},
-                {"name": "横浜・八景島シーパラダイス", "lat": 35.337542, "lng": 139.640422}
-                // 他の水族館のデータもここに追加
+                {"name": "鴨川シーワールド", "lat": 35.113019, "lng": 140.102564, "details": "鴨川シーワールドは千葉県にある大型水族館です。", "公式サイトへ": "http://www.kamogawa-seaworld.jp/"},
+                {"name": "新江ノ島水族館", "lat": 35.311647, "lng": 139.484045, "details": "新江ノ島水族館は神奈川県にあります。", "公式サイトへ": "https://www.enosui.com/"},
+                {"name": "サンシャイン水族館", "lat": 35.729503, "lng": 139.719409, "details": "サンシャイン水族館は東京都にある都市型水族館です。", "公式サイトへ": "https://sunshinecity.jp/aquarium/"},
+                {"name": "大阪海遊館", "lat": 34.654513, "lng": 135.428135, "details": "大阪海遊館は大阪府にある大規模な水族館です。", "公式サイトへ": "https://www.kaiyukan.com/"},
+                {"name": "沖縄美ら海水族館", "lat": 26.694169, "lng": 127.878708, "details": "沖縄美ら海水族館は沖縄県にあります。", "公式サイトへ": "https://churaumi.okinawa/"},
+                {"name": "名古屋港水族館", "lat": 35.101779, "lng": 136.884296, "details": "名古屋港水族館は愛知県にあります。", "公式サイトへ": "http://www.nagoyaaqua.jp/"},
+                {"name": "しながわ水族館", "lat": 35.608356, "lng": 139.738824, "details": "しながわ水族館は東京都にあります。", "公式サイトへ": "http://www.aquarium.gr.jp/"},
+                {"name": "横浜・八景島シーパラダイス", "lat": 35.337542, "lng": 139.640422, "details": "横浜・八景島シーパラダイスは神奈川県にあるテーマパーク型の水族館です。", "url": "http://www.seaparadise.co.jp/"},
+                {"name": "海響館", "lat": 33.957666, "lng": 130.941185, "details": "海響館は山口県下関市にあります。", "公式サイトへ": "https://www.kaikyokan.com/"},
+                {"name": "鳥羽水族館", "lat": 34.483026, "lng": 136.841957, "details": "鳥羽水族館は三重県にあります。", "公式サイトへ": "https://www.aquarium.co.jp/"},
+                {"name": "京都水族館", "lat": 34.987451, "lng": 135.749934, "details": "京都水族館は京都府にあります。", "公式サイトへ": "https://www.kyoto-aquarium.com/"}
             ];
 
             aquariums.forEach(function(aquarium) {
@@ -60,8 +62,10 @@
                     title: aquarium.name
                 });
 
+                var contentString = '<div><h2>' + aquarium.name + '</h2><p>' + aquarium.details + '</p><a href="' + aquarium.url + '" target="_blank">公式サイト</a></div>';
+
                 var infowindow = new google.maps.InfoWindow({
-                    content: aquarium.name
+                    content: contentString
                 });
 
                 marker.addListener('click', function() {
@@ -70,6 +74,6 @@
             });
         }
     </script>
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD_M35qC01HD45MkO62v8MORuo_E_OXaq0&callback=initMap" async defer></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap" async defer></script>
 </body>
 </html>
