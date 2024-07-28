@@ -55,6 +55,8 @@
                 {"name": "京都水族館", "lat": 34.987451, "lng": 135.749934, "details": "京都水族館は京都府にあります。", "url": "https://www.kyoto-aquarium.com/"}
             ];
 
+            var infowindow = new google.maps.InfoWindow();
+
             aquariums.forEach(function(aquarium) {
                 var marker = new google.maps.Marker({
                     position: {lat: aquarium.lat, lng: aquarium.lng},
@@ -64,11 +66,8 @@
 
                 var contentString = '<div><h2>' + aquarium.name + '</h2><p>' + aquarium.details + '</p><a href="' + aquarium.url + '" target="_blank">公式サイト</a></div>';
 
-                var infowindow = new google.maps.InfoWindow({
-                    content: contentString
-                });
-
                 marker.addListener('click', function() {
+                    infowindow.setContent(contentString);
                     infowindow.open(map, marker);
                 });
             });
