@@ -19,6 +19,10 @@
         main {
             margin: 2em;
         }
+        #map {
+            height: 500px;
+            width: 100%;
+        }
     </style>
 </head>
 <body>
@@ -28,6 +32,25 @@
     <main>
         <h2>ようこそ！</h2>
         <p>ここでは日本全国の水族館情報を提供します。</p>
+        <div id="map"></div>
     </main>
+    <script>
+        function initMap() {
+            // 地図の初期位置を設定（例: 東京タワー）
+            var tokyoTower = {lat: 35.6585805, lng: 139.7454329};
+            var map = new google.maps.Map(document.getElementById('map'), {
+                zoom: 10,
+                center: tokyoTower
+            });
+
+            // サンプルのマーカーを追加
+            var marker = new google.maps.Marker({
+                position: tokyoTower,
+                map: map
+            });
+        }
+    </script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD_M35qC01HD45MkO62v8MORuo_E_OXaq0&callback=initMap" async defer></script>
 </body>
 </html>
+
