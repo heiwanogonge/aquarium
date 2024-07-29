@@ -148,7 +148,8 @@
 
             // リスト表示
             var aquariumTableBody = document.getElementById('aquarium-table-body');
-            aquariums.forEach(function(aquarium var row = document.createElement('tr');
+            aquariums.forEach(function(aquarium){
+                              var row = document.createElement('tr');
                 row.innerHTML = `
                     <td>${aquarium.name}</td>
                     <td>${aquarium.prefecture}</td>
