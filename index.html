@@ -26,7 +26,11 @@
         #search-bar, #list-search-bar {
             margin-bottom: 1em;
             padding: 0.5em;
-            width: 80%;
+            width: 70%;
+            font-size: 1em;
+        }
+        #map-search-button, #list-search-button {
+            padding: 0.5em;
             font-size: 1em;
         }
         #aquarium-list {
@@ -51,8 +55,10 @@
         <h2>ようこそ！</h2>
         <p>ここでは日本全国の水族館情報を提供します。</p>
         <input type="text" id="search-bar" placeholder="地図上の水族館を検索">
+        <button id="map-search-button">検索</button>
         <div id="map"></div>
         <input type="text" id="list-search-bar" placeholder="リストから水族館を検索">
+        <button id="list-search-button">検索</button>
         <div id="aquarium-list"></div>
     </main>
     <script>
@@ -96,8 +102,8 @@
                 });
             });
 
-            document.getElementById('search-bar').addEventListener('input', function() {
-                var searchText = this.value.toLowerCase();
+            function filterMapMarkers() {
+                var searchText = document.getElementById('search-bar').value.toLowerCase();
                 markers.forEach(function(marker, index) {
                     var aquarium = aquariums[index];
                     if (aquarium.name.toLowerCase().includes(searchText) || aquarium.prefecture.toLowerCase().includes(searchText)) {
@@ -106,7 +112,9 @@
                         marker.setVisible(false);
                     }
                 });
-            });
+            }
+
+            document.getElementById('map-search-button').addEventListener('click', filterMapMarkers);
 
             // リスト表示
             var aquariumList = document.getElementById('aquarium-list');
@@ -123,18 +131,20 @@
                 aquariumList.appendChild(listItem);
             });
 
-            document.getElementById('list-search-bar').addEventListener('input', function() {
-                var searchText = this.value.toLowerCase();
+            function filterListItems() {
+                var searchText = document.getElementById('list-search-bar').value.toLowerCase();
                 var items = document.querySelectorAll('.aquarium-item');
                 items.forEach(function(item, index) {
                     var aquarium = aquariums[index];
                     if (aquarium.name.toLowerCase().includes(searchText) || aquarium.prefecture.toLowerCase().includes(searchText)) {
-                        item.style.display = "block";
+                        item.style.display = '';
                     } else {
-                        item.style.display = "none";
+                        item.style.display = 'none';
                     }
                 });
-            });
+            }
+
+            document.getElementById('list-search-button').addEventListener('click', filterListItems);
         }
     </script>
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD_M35qC01HD45MkO62v8MORuo_E_OXaq0&callback=initMap" async defer></script>
