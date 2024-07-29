@@ -25,11 +25,11 @@
             border-radius: 15px;  /* 角丸にする */
         }
         #search-bar, #list-search-bar {
-    margin-bottom: 1em;
-    padding: 0.5em;
-    width: 70%;
-    font-size: 1em;
-}
+            margin-bottom: 1em;
+            padding: 0.5em;
+            width: 70%;
+            font-size: 1em;
+        }
         #map-search-button, #list-search-button {
             padding: 0.5em;
             font-size: 1em;
@@ -37,11 +37,11 @@
             vertical-align: middle; /* 縦位置を合わせる */
         }
         #aquarium-list {
-    margin-top: 1em; /* リストの上部のマージンを減らして位置を上に移動 */
-    text-align: left;
-    display: inline-block;
-    width: 100%;
-}
+            margin-top: 1em; /* リストの上部のマージンを減らして位置を上に移動 */
+            text-align: left;
+            display: inline-block;
+            width: 100%;
+        }
         table {
             width: 100%;
             border-collapse: collapse;
@@ -73,7 +73,56 @@
             <input type="text" id="search-bar" placeholder="地図上の水族館を検索">
             <button id="map-search-button">検索</button>
         </div>
-        <div id="map"></div>
+        <div id="map">
+            <!-- イラストマップを表示 -->
+            <img src="aquarium_map_アートボード 1.png" usemap="#image-map">
+            <map name="image-map">
+                <area target="_self" alt="北海道" title="北海道" href="hokkaido_aquariums.html" coords="1061,206,1284,2" shape="rect">
+                <area target="_self" alt="青森" title="青森" href="aomori_aquariums.html" coords="1063,236,1248,301" shape="rect">
+                <area target="_self" alt="秋田" title="秋田" href="akita_aquariums.html" coords="1065,306,1152,373" shape="rect">
+                <area target="_self" alt="岩田" title="岩田" href="iwate_aquariums.html" coords="1159,309,1248,375" shape="rect">
+                <area target="_self" alt="山形" title="山形" href="yamagata_aquariums.html" coords="1064,377,1154,444" shape="rect">
+                <area target="_self" alt="宮城" title="宮城" href="miyagi_aquariums.html" coords="1159,379,1248,443" shape="rect">
+                <area target="_self" alt="福島" title="福島" href="fukushima_aquariums.html" coords="1063,449,1248,516" shape="rect">
+                <area target="_self" alt="群馬" title="群馬" href="gunma_aquariums.html" coords="1063,522,1153,588" shape="rect">
+                <area target="_self" alt="栃木" title="栃木" href="tochigi_aquariums.html" coords="1157,521,1249,588" shape="rect">
+                <area target="_self" alt="埼玉" title="埼玉" href="saitama_aquariums.html" coords="1064,594,1152,659" shape="rect">
+                <area target="_self" alt="東京" title="東京" href="tokyo_aquariums.html" coords="1061,663,1153,733" shape="rect">
+                <area target="_self" alt="千葉" title="千葉" href="chiba_aquariums.html" coords="1158,664,1249,802" shape="rect">
+                <area target="_self" alt="神奈川" title="神奈川" href="kanagawa_aquariums.html" coords="1064,738,1153,804" shape="rect">
+                <area target="_self" alt="茨城" title="茨城" href="ibaraki_aquariums.html" coords="1156,594,1248,659" shape="rect">
+                <area target="_self" alt="新潟" title="新潟" href="niigata_aquariums.html" coords="967,448,1058,515" shape="rect">
+                <area target="_self" alt="富山" title="富山" href="toyama_aquariums.html" coords="873,448,965,518" shape="rect">
+                <area target="_self" alt="石川" title="石川" href="ishikawa_aquariums.html" coords="780,448,870,515" shape="rect">
+                <area target="_self" alt="福井" title="福井" href="fukui_aquariums.html" coords="779,521,870,590" shape="rect">
+                <area target="_self" alt="岐阜" title="岐阜" href="gifu_aquariums.html" coords="964,659,872,520" shape="rect">
+                <area target="_self" alt="長野" title="長野" href="nagano_aquariums.html" coords="969,520,1057,657" shape="rect">
+                <area target="_self" alt="愛知" title="愛知" href="aichi_aquariums.html" coords="874,663,964,730" shape="rect">
+                <area target="_self" alt="山梨" title="山梨" href="yamanashi_aquariums.html" coords="969,663,1057,731" shape="rect">
+                <area target="_self" alt="静岡" title="静岡" href="shizuoka_aquariums.html" coords="968,735,1058,801" shape="rect">
+                <area target="_self" alt="滋賀" title="滋賀" href="shiga_aquariums.html" coords="779,594,868,658" shape="rect">
+                <area target="_self" alt="三重" title="三重" href="mie_aquariums.html" coords="779,664,871,732" shape="rect">
+                <area target="_self" alt="京都" title="京都" href="kyoto_aquariums.html" coords="685,591,775,659" shape="rect">
+                <area target="_self" alt="奈良" title="奈良" href="nara_aquariums.html" coords="686,663,775,731" shape="rect">
+                <area target="_self" alt="兵庫" title="兵庫" href="hyogo_aquariums.html" coords="589,589,681,658" shape="rect">
+                <area target="_self" alt="大阪" title="大阪" href="osaka_aquariums.html" coords="590,663,681,730" shape="rect">
+                <area target="_self" alt="和歌山" title="和歌山" href="wakayama_aquariums.html" coords="590,735,775,802" shape="rect">
+                <area target="_self" alt="鳥取" title="鳥取" href="tottori_aquariums.html" coords="496,590,585,658" shape="rect">
+                <area target="_self" alt="島根" title="島根" href="shimane_aquariums.html" coords="493,663,581,731" shape="rect">
+                <area target="_self" alt="岡山" title="岡山" href="okayama_aquariums.html" coords="491,736,585,803" shape="rect">
+                <area target="_self" alt="広島" title="広島" href="hiroshima_aquariums.html" coords="405,591,492,658" shape="rect">
+                <area target="_self" alt="山口" title="山口" href="yamaguchi_aquariums.html" coords="406,664,491,732" shape="rect">
+                <area target="_self" alt="香川" title="香川" href="kagawa_aquariums.html" coords="406,736,491,802" shape="rect">
+                <area target="_self" alt="徳島" title="徳島" href="tokushima_aquariums.html" coords="340,592,406,658" shape="rect">
+                <area target="_self" alt="高知" title="高知" href="kochi_aquariums.html" coords="339,663,406,732" shape="rect">
+                <area target="_self" alt="愛媛" title="愛媛" href="ehime_aquariums.html" coords="340,735,407,802" shape="rect">
+                <area target="_self" alt="佐賀" title="佐賀" href="saga_aquariums.html" coords="0,592,92,661" shape="rect">
+                <area target="_self" alt="宮崎" title="宮崎" href="miyazaki_aquariums.html" coords="186,662,278,803" shape="rect">
+                <area target="_self" alt="熊本" title="熊本" href="kumamoto_aquariums.html" coords="94,661,188,732" shape="rect">
+                <area target="_self" alt="長崎" title="長崎" href="nagasaki_aquariums.html" coords="1,663,91,732" shape="rect">
+                <area target="_self" alt="沖縄" title="沖縄" href="okinawa_aquariums.html" coords="2,841,92,905" shape="rect">
+            </map>
+        </div>
         <div class="search-container">
             <input type="text" id="list-search-bar" placeholder="リストから水族館を検索">
             <button id="list-search-button">検索</button>
