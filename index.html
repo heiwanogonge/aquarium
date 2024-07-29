@@ -37,13 +37,19 @@
             margin-top: 2em;
             text-align: left;
             display: inline-block;
+            width: 100%;
         }
-        .aquarium-item {
-            border-bottom: 1px solid #ccc;
-            padding: 1em 0;
+        table {
+            width: 100%;
+            border-collapse: collapse;
         }
-        .aquarium-item h3 {
-            margin: 0.5em 0;
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+        }
+        th {
+            background-color: #f2f2f2;
         }
     </style>
 </head>
@@ -59,7 +65,22 @@
         <div id="map"></div>
         <input type="text" id="list-search-bar" placeholder="リストから水族館を検索">
         <button id="list-search-button">検索</button>
-        <div id="aquarium-list"></div>
+        <div id="aquarium-list">
+            <table>
+                <thead>
+                    <tr>
+                        <th>水族館名</th>
+                        <th>都道府県</th>
+                        <th>Instagram</th>
+                        <th>Twitter</th>
+                        <th>公式サイト</th>
+                    </tr>
+                </thead>
+                <tbody id="aquarium-table-body">
+                    <!-- 水族館データをここに追加 -->
+                </tbody>
+            </table>
+        </div>
     </main>
     <script>
         function initMap() {
@@ -117,29 +138,30 @@
             document.getElementById('map-search-button').addEventListener('click', filterMapMarkers);
 
             // リスト表示
-            var aquariumList = document.getElementById('aquarium-list');
+            var aquariumTableBody = document.getElementById('aquarium-table-body');
             aquariums.forEach(function(aquarium) {
-                var listItem = document.createElement('div');
-                listItem.classList.add('aquarium-item');
-                listItem.innerHTML = `
-                    <h3>${aquarium.name}</h3>
-                    <p>都道府県: ${aquarium.prefecture}</p>
-                    <p>Instagram: ${aquarium.instagram !== "-" ? `<a href="${aquarium.instagram}" target="_blank">${aquarium.instagram}</a>` : "-"}</p>
-                    <p>Twitter: ${aquarium.twitter !== "-" ? `<a href="${aquarium.twitter}" target="_blank">${aquarium.twitter}</a>` : "-"}</p>
-                    <p>公式サイト: ${aquarium.url !== "-" ? `<a href="${aquarium.url}" target="_blank">${aquarium.url}</a>` : "-"}</p>
+                var row = document.createElement('tr');
+                row.innerHTML = `
+                    <td>${aquarium.name}</td>
+                    <td>${aquarium.prefecture}</td>
+                    <td>${aquarium.instagram !== "-" ? `<a href="${aquarium.instagram}" target="_blank">${aquarium.instagram}</a>` : "-"}</td>
+                    <td>${aquarium.twitter !== "-" ? `<a href="${aquarium.twitter}" target="_blank">${aquarium.twitter}</a>` : "-"}</td>
+                    <td>${aquarium.url !== "-" ? `<a href="${aquarium.url}" target="_blank">${aquarium.url}</a>` : "-"}</td>
                 `;
-                aquariumList.appendChild(listItem);
+                aquariumTableBody.appendChild(row);
             });
 
             function filterListItems() {
                 var searchText = document.getElementById('list-search-bar').value.toLowerCase();
-                var items = document.querySelectorAll('.aquarium-item');
-                items.forEach(function(item, index) {
-                    var aquarium = aquariums[index];
-                    if (aquarium.name.toLowerCase().includes(searchText) || aquarium.prefecture.toLowerCase().includes(searchText)) {
-                        item.style.display = '';
+                var rows = aquariumTableBody.getElementsByTagName('tr');
+                Array.from(rows).forEach(function(row) {
+                    var cells = row.getElementsByTagName('td');
+                    var aquariumName = cells[0].innerText.toLowerCase();
+                    var prefecture = cells[1].innerText.toLowerCase();
+                    if (aquariumName.includes(searchText) || prefecture.includes(searchText)) {
+                        row.style.display = '';
                     } else {
-                        item.style.display = 'none';
+                        row.style.display = 'none';
                     }
                 });
             }
