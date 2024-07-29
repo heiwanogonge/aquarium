@@ -23,11 +23,23 @@
             height: 700px;
             width: 100%;
         }
-        #search-bar {
+        #search-bar, #list-search-bar {
             margin-bottom: 1em;
             padding: 0.5em;
             width: 80%;
             font-size: 1em;
+        }
+        #aquarium-list {
+            margin-top: 2em;
+            text-align: left;
+            display: inline-block;
+        }
+        .aquarium-item {
+            border-bottom: 1px solid #ccc;
+            padding: 1em 0;
+        }
+        .aquarium-item h3 {
+            margin: 0.5em 0;
         }
     </style>
 </head>
@@ -38,8 +50,10 @@
     <main>
         <h2>ようこそ！</h2>
         <p>ここでは日本全国の水族館情報を提供します。</p>
-        <input type="text" id="search-bar" placeholder="水族館を検索">
+        <input type="text" id="search-bar" placeholder="地図上の水族館を検索">
         <div id="map"></div>
+        <input type="text" id="list-search-bar" placeholder="リストから水族館を検索">
+        <div id="aquarium-list"></div>
     </main>
     <script>
         function initMap() {
@@ -49,17 +63,17 @@
             });
 
             var aquariums = [
-                {"name": "鴨川シーワールド", "lat": 35.113019, "lng": 140.102564, "details": "鴨川シーワールドは千葉県にある大型水族館です。", "prefecture": "千葉県", "url": "http://www.kamogawa-seaworld.jp/"},
-                {"name": "新江ノ島水族館", "lat": 35.311647, "lng": 139.484045, "details": "新江ノ島水族館は神奈川県にあります。", "prefecture": "神奈川県", "url": "https://www.enosui.com/"},
-                {"name": "サンシャイン水族館", "lat": 35.729503, "lng": 139.719409, "details": "サンシャイン水族館は東京都にある都市型水族館です。", "prefecture": "東京都", "url": "https://sunshinecity.jp/aquarium/"},
-                {"name": "大阪海遊館", "lat": 34.654513, "lng": 135.428135, "details": "大阪海遊館は大阪府にある大規模な水族館です。", "prefecture": "大阪府", "url": "https://www.kaiyukan.com/"},
-                {"name": "沖縄美ら海水族館", "lat": 26.694169, "lng": 127.878708, "details": "沖縄美ら海水族館は沖縄県にあります。", "prefecture": "沖縄県", "url": "https://churaumi.okinawa/"},
-                {"name": "名古屋港水族館", "lat": 35.101779, "lng": 136.884296, "details": "名古屋港水族館は愛知県にあります。", "prefecture": "愛知県", "url": "http://www.nagoyaaqua.jp/"},
-                {"name": "しながわ水族館", "lat": 35.608356, "lng": 139.738824, "details": "しながわ水族館は東京都にあります。", "prefecture": "東京都", "url": "http://www.aquarium.gr.jp/"},
-                {"name": "横浜・八景島シーパラダイス", "lat": 35.337542, "lng": 139.640422, "details": "横浜・八景島シーパラダイスは神奈川県にあるテーマパーク型の水族館です。", "prefecture": "神奈川県", "url": "http://www.seaparadise.co.jp/"},
-                {"name": "海響館", "lat": 33.957666, "lng": 130.941185, "details": "海響館は山口県下関市にあります。", "prefecture": "山口県", "url": "https://www.kaikyokan.com/"},
-                {"name": "鳥羽水族館", "lat": 34.483026, "lng": 136.841957, "details": "鳥羽水族館は三重県にあります。", "prefecture": "三重県", "url": "https://www.aquarium.co.jp/"},
-                {"name": "京都水族館", "lat": 34.987451, "lng": 135.749934, "details": "京都水族館は京都府にあります。", "prefecture": "京都府", "url": "https://www.kyoto-aquarium.com/"}
+                {"name": "鴨川シーワールド", "lat": 35.113019, "lng": 140.102564, "details": "鴨川シーワールドは千葉県にある大型水族館です。", "prefecture": "千葉県", "instagram": "-", "twitter": "-", "url": "http://www.kamogawa-seaworld.jp/"},
+                {"name": "新江ノ島水族館", "lat": 35.311647, "lng": 139.484045, "details": "新江ノ島水族館は神奈川県にあります。", "prefecture": "神奈川県", "instagram": "https://www.instagram.com/enosui_official/", "twitter": "https://twitter.com/enosui_com", "url": "https://www.enosui.com/"},
+                {"name": "サンシャイン水族館", "lat": 35.729503, "lng": 139.719409, "details": "サンシャイン水族館は東京都にある都市型水族館です。", "prefecture": "東京都", "instagram": "https://www.instagram.com/sunshineaquarium/", "twitter": "-", "url": "https://sunshinecity.jp/aquarium/"},
+                {"name": "大阪海遊館", "lat": 34.654513, "lng": 135.428135, "details": "大阪海遊館は大阪府にある大規模な水族館です。", "prefecture": "大阪府", "instagram": "-", "twitter": "-", "url": "https://www.kaiyukan.com/"},
+                {"name": "沖縄美ら海水族館", "lat": 26.694169, "lng": 127.878708, "details": "沖縄美ら海水族館は沖縄県にあります。", "prefecture": "沖縄県", "instagram": "https://www.instagram.com/churaumi_aquarium/", "twitter": "-", "url": "https://churaumi.okinawa/"},
+                {"name": "名古屋港水族館", "lat": 35.101779, "lng": 136.884296, "details": "名古屋港水族館は愛知県にあります。", "prefecture": "愛知県", "instagram": "-", "twitter": "-", "url": "http://www.nagoyaaqua.jp/"},
+                {"name": "しながわ水族館", "lat": 35.608356, "lng": 139.738824, "details": "しながわ水族館は東京都にあります。", "prefecture": "東京都", "instagram": "-", "twitter": "-", "url": "http://www.aquarium.gr.jp/"},
+                {"name": "横浜・八景島シーパラダイス", "lat": 35.337542, "lng": 139.640422, "details": "横浜・八景島シーパラダイスは神奈川県にあるテーマパーク型の水族館です。", "prefecture": "神奈川県", "instagram": "-", "twitter": "-", "url": "http://www.seaparadise.co.jp/"},
+                {"name": "海響館", "lat": 33.957666, "lng": 130.941185, "details": "海響館は山口県下関市にあります。", "prefecture": "山口県", "instagram": "-", "twitter": "-", "url": "https://www.kaikyokan.com/"},
+                {"name": "鳥羽水族館", "lat": 34.483026, "lng": 136.841957, "details": "鳥羽水族館は三重県にあります。", "prefecture": "三重県", "instagram": "-", "twitter": "-", "url": "https://www.aquarium.co.jp/"},
+                {"name": "京都水族館", "lat": 34.987451, "lng": 135.749934, "details": "京都水族館は京都府にあります。", "prefecture": "京都府", "instagram": "-", "twitter": "-", "url": "https://www.kyoto-aquarium.com/"}
             ];
 
             var infowindow = new google.maps.InfoWindow();
@@ -93,8 +107,33 @@
                     }
                 });
             });
+
+            // リスト表示
+            var aquariumList = document.getElementById('aquarium-list');
+            aquariums.forEach(function(aquarium) {
+                var listItem = document.createElement('div');
+                listItem.classList.add('aquarium-item');
+                listItem.innerHTML = `
+                    <h3>${aquarium.name}</h3>
+                    <p>都道府県: ${aquarium.prefecture}</p>
+                    <p>Instagram: ${aquarium.instagram !== "-" ? `<a href="${aquarium.instagram}" target="_blank">${aquarium.instagram}</a>` : "-"}</p>
+                    <p>Twitter: ${aquarium.twitter !== "-" ? `<a href="${aquarium.twitter}" target="_blank">${aquarium.twitter}</a>` : "-"}</p>
+                    <p>公式サイト: ${aquarium.url !== "-" ? `<a href="${aquarium.url}" target="_blank">${aquarium.url}</a>` : "-"}</p>
+                `;
+                aquariumList.appendChild(listItem);
+            });
+
+            document.getElementById('list-search-bar').addEventListener('input', function() {
+                var searchText = this.value.toLowerCase();
+                var items = document.querySelectorAll('.aquarium-item');
+                items.forEach(function(item, index) {
+                    var aquarium = aquariums[index];
+                    if (aquarium.name.toLowerCase().includes(searchText) || aquarium.prefecture.toLowerCase().includes(searchText)) {
+                        item.style.display = "block";
+                    } else {
+                        item.style.display = "none";
+                    }
+                });
+            });
         }
-    </script>
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD_M35qC01HD45MkO62v8MORuo_E_OXaq0&callback=initMap" async defer></script>
-</body>
-</html>
+    </
