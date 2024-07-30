@@ -3,73 +3,79 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>日本地図のイラストマップ</title>
+    <title>日本地図 - イラストマップ</title>
     <style>
         body {
             font-family: Arial, sans-serif;
             text-align: center;
             padding: 2em;
         }
-        #map {
-            width: 100%;
+        img {
+            max-width: 100%;
             height: auto;
-            max-width: 1200px; /* サイズを調整 */
-            margin: 0 auto;
+        }
+        .map-container {
+            position: relative;
+            display: inline-block;
+        }
+        .map-container img {
+            display: block;
         }
     </style>
 </head>
 <body>
-    <h1>日本地図のイラストマップ</h1>
-    <p>都道府県をクリックして、それぞれのページへ移動します。</p>
-    <img id="map" src="aquarium_map.png" usemap="#mapareas" alt="日本地図のイラストマップ">
-    <map name="mapareas">
-        <area target="_top" alt="北海道" title="北海道" href="hokkaido.html" coords="1061,206,1284,2" shape="rect">
-        <area target="_top" alt="青森" title="青森" href="aomori.html" coords="1063,236,1248,301" shape="rect">
-        <area target="_top" alt="秋田" title="秋田" href="akita.html" coords="1065,306,1152,373" shape="rect">
-        <area target="_top" alt="岩手" title="岩手" href="iwate.html" coords="1159,309,1248,375" shape="rect">
-        <area target="_top" alt="山形" title="山形" href="yamagata.html" coords="1064,377,1154,444" shape="rect">
-        <area target="_top" alt="宮城" title="宮城" href="miyagi.html" coords="1159,379,1248,443" shape="rect">
-        <area target="_top" alt="福島" title="福島" href="fukushima.html" coords="1063,449,1248,516" shape="rect">
-        <area target="_top" alt="群馬" title="群馬" href="gunma.html" coords="1063,522,1153,588" shape="rect">
-        <area target="_top" alt="栃木" title="栃木" href="tochigi.html" coords="1157,521,1249,588" shape="rect">
-        <area target="_top" alt="埼玉" title="埼玉" href="saitama.html" coords="1064,594,1152,659" shape="rect">
-        <area target="_top" alt="東京" title="東京" href="tokyo.html" coords="1061,663,1153,733" shape="rect">
-        <area target="_top" alt="千葉" title="千葉" href="chiba.html" coords="1158,664,1249,802" shape="rect">
-        <area target="_top" alt="神奈川" title="神奈川" href="kanagawa.html" coords="1064,738,1153,804" shape="rect">
-        <area target="_top" alt="茨城" title="茨城" href="ibaraki.html" coords="1156,594,1248,659" shape="rect">
-        <area target="_top" alt="新潟" title="新潟" href="niigata.html" coords="967,448,1058,515" shape="rect">
-        <area target="_top" alt="富山" title="富山" href="toyama.html" coords="873,448,965,518" shape="rect">
-        <area target="_top" alt="石川" title="石川" href="ishikawa.html" coords="780,448,870,515" shape="rect">
-        <area target="_top" alt="福井" title="福井" href="fukui.html" coords="779,521,870,590" shape="rect">
-        <area target="_top" alt="岐阜" title="岐阜" href="gifu.html" coords="964,659,872,520" shape="rect">
-        <area target="_top" alt="長野" title="長野" href="nagano.html" coords="969,520,1057,657" shape="rect">
-        <area target="_top" alt="愛知" title="愛知" href="aichi.html" coords="874,663,964,730" shape="rect">
-        <area target="_top" alt="山梨" title="山梨" href="yamanashi.html" coords="969,663,1057,731" shape="rect">
-        <area target="_top" alt="静岡" title="静岡" href="shizuoka.html" coords="968,735,1058,801" shape="rect">
-        <area target="_top" alt="滋賀" title="滋賀" href="shiga.html" coords="779,594,868,658" shape="rect">
-        <area target="_top" alt="三重" title="三重" href="mie.html" coords="779,664,871,732" shape="rect">
-        <area target="_top" alt="京都" title="京都" href="kyoto.html" coords="685,591,775,659" shape="rect">
-        <area target="_top" alt="奈良" title="奈良" href="nara.html" coords="686,663,775,731" shape="rect">
-        <area target="_top" alt="兵庫" title="兵庫" href="hyogo.html" coords="589,589,681,658" shape="rect">
-        <area target="_top" alt="大阪" title="大阪" href="osaka.html" coords="590,663,681,730" shape="rect">
-        <area target="_top" alt="和歌山" title="和歌山" href="wakayama.html" coords="590,735,775,802" shape="rect">
-        <area target="_top" alt="鳥取" title="鳥取" href="tottori.html" coords="496,590,585,658" shape="rect">
-        <area target="_top" alt="岡山" title="岡山" href="okayama.html" coords="495,663,587,732" shape="rect">
-        <area target="_top" alt="島根" title="島根" href="shimane.html" coords="401,592,492,662" shape="rect">
-        <area target="_top" alt="広島" title="広島" href="hiroshima.html" coords="401,662,494,732" shape="rect">
-        <area target="_top" alt="山口" title="山口" href="yamaguchi.html" coords="305,591,397,732" shape="rect">
-        <area target="_top" alt="香川" title="香川" href="kagawa.html" coords="207,522,299,587" shape="rect">
-        <area target="_top" alt="愛媛" title="愛媛" href="ehime.html" coords="208,594,299,660" shape="rect">
-        <area target="_top" alt="徳島" title="徳島" href="tokushima.html" coords="113,592,204,662" shape="rect">
-        <area target="_top" alt="高知" title="高知" href="kochi.html" coords="112,664,205,731" shape="rect">
-        <area target="_top" alt="福岡" title="福岡" href="fukuoka.html" coords="210,735,397,805" shape="rect">
-        <area target="_top" alt="大分" title="大分" href="oita.html" coords="206,808,297,872" shape="rect">
-        <area target="_top" alt="佐賀" title="佐賀" href="saga.html" coords="302,808,391,872" shape="rect">
-        <area target="_top" alt="長崎" title="長崎" href="nagasaki.html" coords="301,876,391,941" shape="rect">
-        <area target="_top" alt="宮崎" title="宮崎" href="miyazaki.html" coords="211,876,299,941" shape="rect">
-        <area target="_top" alt="熊本" title="熊本" href="kumamoto.html" coords="302,949,391,1016" shape="rect">
-        <area target="_top" alt="鹿児島" title="鹿児島" href="kagoshima.html" coords="206,949,299,1014" shape="rect">
-        <area target="_top" alt="沖縄" title="沖縄" href="okinawa.html" coords="212,1084,301,1149" shape="rect">
-    </map>
+    <h1>日本地図 - イラストマップ</h1>
+    <div class="map-container">
+        <img src="aquarium_map.jpg" usemap="#japan-map" alt="日本地図">
+        <map name="japan-map">
+            <area target="_top" alt="北海道" title="北海道" href="hokkaido.html" coords="0%,0%,31%,20%" shape="rect">
+            <area target="_top" alt="青森" title="青森" href="aomori.html" coords="32%,21%,50%,35%" shape="rect">
+            <area target="_top" alt="秋田" title="秋田" href="akita.html" coords="51%,36%,70%,50%" shape="rect">
+            <area target="_top" alt="岩手" title="岩手" href="iwate.html" coords="71%,37%,90%,55%" shape="rect">
+            <area target="_top" alt="山形" title="山形" href="yamagata.html" coords="51%,56%,70%,70%" shape="rect">
+            <area target="_top" alt="宮城" title="宮城" href="miyagi.html" coords="71%,57%,90%,70%" shape="rect">
+            <area target="_top" alt="福島" title="福島" href="fukushima.html" coords="51%,71%,90%,85%" shape="rect">
+            <area target="_top" alt="群馬" title="群馬" href="gunma.html" coords="31%,80%,50%,95%" shape="rect">
+            <area target="_top" alt="栃木" title="栃木" href="tochigi.html" coords="51%,80%,70%,95%" shape="rect">
+            <area target="_top" alt="埼玉" title="埼玉" href="saitama.html" coords="31%,96%,50%,115%" shape="rect">
+            <area target="_top" alt="東京" title="東京" href="tokyo.html" coords="51%,97%,70%,115%" shape="rect">
+            <area target="_top" alt="千葉" title="千葉" href="chiba.html" coords="71%,96%,90%,115%" shape="rect">
+            <area target="_top" alt="神奈川" title="神奈川" href="kanagawa.html" coords="31%,116%,50%,135%" shape="rect">
+            <area target="_top" alt="茨城" title="茨城" href="ibaraki.html" coords="51%,116%,70%,135%" shape="rect">
+            <area target="_top" alt="新潟" title="新潟" href="niigata.html" coords="10%,70%,30%,90%" shape="rect">
+            <area target="_top" alt="富山" title="富山" href="toyama.html" coords="0%,90%,10%,110%" shape="rect">
+            <area target="_top" alt="石川" title="石川" href="ishikawa.html" coords="0%,110%,10%,130%" shape="rect">
+            <area target="_top" alt="福井" title="福井" href="fukui.html" coords="0%,130%,10%,150%" shape="rect">
+            <area target="_top" alt="岐阜" title="岐阜" href="gifu.html" coords="31%,116%,50%,135%" shape="rect">
+            <area target="_top" alt="長野" title="長野" href="nagano.html" coords="31%,135%,50%,155%" shape="rect">
+            <area target="_top" alt="愛知" title="愛知" href="aichi.html" coords="51%,135%,70%,155%" shape="rect">
+            <area target="_top" alt="山梨" title="山梨" href="yamanashi.html" coords="51%,155%,70%,175%" shape="rect">
+            <area target="_top" alt="静岡" title="静岡" href="shizuoka.html" coords="51%,175%,70%,195%" shape="rect">
+            <area target="_top" alt="滋賀" title="滋賀" href="shiga.html" coords="30%,96%,50%,115%" shape="rect">
+            <area target="_top" alt="三重" title="三重" href="mie.html" coords="31%,115%,50%,135%" shape="rect">
+            <area target="_top" alt="京都" title="京都" href="kyoto.html" coords="21%,96%,31%,115%" shape="rect">
+            <area target="_top" alt="奈良" title="奈良" href="nara.html" coords="21%,115%,31%,135%" shape="rect">
+            <area target="_top" alt="兵庫" title="兵庫" href="hyogo.html" coords="0%,96%,21%,115%" shape="rect">
+            <area target="_top" alt="大阪" title="大阪" href="osaka.html" coords="0%,115%,21%,135%" shape="rect">
+            <area target="_top" alt="和歌山" title="和歌山" href="wakayama.html" coords="0%,135%,21%,155%" shape="rect">
+            <area target="_top" alt="鳥取" title="鳥取" href="tottori.html" coords="0%,155%,21%,175%" shape="rect">
+            <area target="_top" alt="岡山" title="岡山" href="okayama.html" coords="0%,175%,21%,195%" shape="rect">
+            <area target="_top" alt="島根" title="島根" href="shimane.html" coords="0%,195%,21%,215%" shape="rect">
+            <area target="_top" alt="広島" title="広島" href="hiroshima.html" coords="0%,215%,21%,235%" shape="rect">
+            <area target="_top" alt="山口" title="山口" href="yamaguchi.html" coords="0%,235%,21%,255%" shape="rect">
+            <area target="_top" alt="香川" title="香川" href="kagawa.html" coords="0%,255%,21%,275%" shape="rect">
+            <area target="_top" alt="愛媛" title="愛媛" href="ehime.html" coords="0%,275%,21%,295%" shape="rect">
+            <area target="_top" alt="徳島" title="徳島" href="tokushima.html" coords="0%,295%,21%,315%" shape="rect">
+            <area target="_top" alt="高知" title="高知" href="kochi.html" coords="0%,315%,21%,335%" shape="rect">
+            <area target="_top" alt="福岡" title="福岡" href="fukuoka.html" coords="0%,335%,21%,355%" shape="rect">
+            <area target="_top" alt="大分" title="大分" href="oita.html" coords="0%,355%,21%,375%" shape="rect">
+            <area target="_top" alt="佐賀" title="佐賀" href="saga.html" coords="0%,375%,21%,395%" shape="rect">
+            <area target="_top" alt="長崎" title="長崎" href="nagasaki.html" coords="0%,395%,21%,415%" shape="rect">
+            <area target="_top" alt="宮崎" title="宮崎" href="miyazaki.html" coords="0%,415%,21%,435%" shape="rect">
+            <area target="_top" alt="熊本" title="熊本" href="kumamoto.html" coords="0%,435%,21%,455%" shape="rect">
+            <area target="_top" alt="鹿児島" title="鹿児島" href="kagoshima.html" coords="0%,455%,21%,475%" shape="rect">
+            <area target="_top" alt="沖縄" title="沖縄" href="okinawa.html" coords="0%,475%,21%,495%" shape="rect">
+        </map>
+    </div>
 </body>
 </html>
