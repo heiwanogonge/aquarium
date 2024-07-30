@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>日本の水族館 - 一覧</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            padding: 2em;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+        .search-container {
+            margin-bottom: 2em;
+        }
+    </style>
+</head>
+<body>
+    <h1>日本の水族館 - 一覧</h1>
+    <div class="search-container">
+        <input type="text" id="list-search-bar" placeholder="水族館を検索">
+        <button id="list-search-button">検索</button>
+    </div>
+    <table>
+        <thead>
+            <tr>
+                <th>水族館</th>
+                <th>都道府県</th>
+                <th>レビュー</th>
+                <th>公式サイト</th>
+                <th>Instagram</th>
+                <th>X</th>
+            </tr>
+        </thead>
+        <tbody id="aquarium-table-body">
+            <!-- 水族館データをここに追加 -->
+            <tr>
+                <td>鴨川シーワールド</td>
+                <td>千葉県</td>
+                <td>⭐4.5</td>
+                <td><a href="http://www.kamogawa-seaworld.jp/" target="_blank">公式サイト</a></td>
+                <td>-</td>
+                <td>-</td>
+            </tr>
+            <tr>
+                <td>新江ノ島水族館</td>
+                <td>神奈川県</td>
+                <td>⭐4.0</td>
+                <td><a href="https://www.enosui.com/" target="_blank">公式サイト</a></td>
+                <td><a href="https://www.instagram.com/enosui_official/" target="_blank">Instagram</a></td>
+                <td><a href="https://twitter.com/enosui_com" target="_blank">X</a></td>
+            </tr>
+            <tr>
+                <td>サンシャイン水族館</td>
+                <td>東京都</td>
+                <td>⭐4.2</td>
+                <td><a href="https://sunshinecity.jp/aquarium/" target="_blank">公式サイト</a></td>
+                <td><a href="https://www.instagram.com/sunshineaquarium/" target="_blank">Instagram</a></td>
+                <td>-</td>
+            </tr>
+            <tr>
+                <td>大阪海遊館</td>
+                <td>大阪府</td>
+                <td>⭐4.6</td>
+                <td><a href="https://www.kaiyukan.com/" target="_blank">公式サイト</a></td>
+                <td>-</td>
+                <td>-</td>
+            </tr>
+            <tr>
+                <td>沖縄美ら海水族館</td>
+                <td>沖縄県</td>
+                <td>⭐4.8</td>
+                <td><a href="https://churaumi.okinawa/" target="_blank">公式サイト</a></td>
+                <td><a href="https://www.instagram.com/churaumi_aquarium/" target="_blank">Instagram</a></td>
+                <td>-</td>
+            </tr>
+        </tbody>
+    </table>
+    <script>
+        document.getElementById('list-search-button').addEventListener('click', function() {
+            var searchText = document.getElementById('list-search-bar').value.toLowerCase();
+            var rows = document.querySelectorAll('#aquarium-table-body tr');
+            rows.forEach(function(row) {
+                var cells = row.getElementsByTagName('td');
+                var match = false;
+                for (var i = 0; i < cells.length; i++) {
+                    if (cells[i].textContent.toLowerCase().includes(searchText)) {
+                        match = true;
+                        break;
+                    }
+                }
+                row.style.display = match ? '' : 'none';
+            });
+        });
+    </script>
+</body>
+</html>
