@@ -11,11 +11,12 @@
         }
         .map-container {
             display: grid;
-            grid-template-columns: repeat(50, 1fr); /* より細かいグリッド */
+            grid-template-columns: repeat(20, 1fr); /* より細かいグリッド */
             gap: 1px;
             justify-items: center;
             align-items: center;
-            margin: 20px;
+            margin: 20px auto;
+            max-width: 800px;
         }
         .region {
             display: flex;
@@ -25,38 +26,118 @@
             cursor: pointer;
             font-size: 0.7rem;
             color: #333;
+            height: 40px; /* 基本の高さを設定 */
         }
         .region:hover {
             background-color: #e2e2e2;
         }
 
         /* 地方ごとの色設定 */
-        .hokkaido { background-color: #cfe2f3; }
-        .tohoku { background-color: #9fc5e8; }
-        .kanto { background-color: #6fa8dc; }
-        .chubu { background-color: #3d85c6; }
-        .kansai { background-color: #073763; }
-        .chugoku { background-color: #cc4125; }
-        .shikoku { background-color: #e06666; }
-        .kyushu { background-color: #f4cccc; }
+        .hokkaido { background-color: #a8d08d; }
+        .tohoku { background-color: #d9e2f3; }
+        .kanto { background-color: #ffd966; }
+        .chubu { background-color: #f4b084; }
+        .kansai { background-color: #d5a6bd; }
+        .chugoku { background-color: #f6b26b; }
+        .shikoku { background-color: #a4c2f4; }
+        .kyushu { background-color: #e06666; }
 
         /* 各都道府県のサイズと位置 */
-        .hokkaido { grid-column: 38 / span 12; grid-row: 1 / span 3; width: 240px; height: 60px; }
-        .aomori, .akita, .iwate, .yamagata, .miyagi, .fukushima { grid-column: 38 / span 4; grid-row: auto / span 2; width: 80px; height: 40px; }
-        .niigata, .nagano, .gifu, .tochigi, .gunma, .chiba, .saitama, .tokyo, .kanagawa, .shizuoka, .aichi, .shiga, .miyazaki, .osaka, .wakayama, .hyogo, .kyoto, .yamanashi, .nara, .fukui, .toyama, .ishikawa, .tottori, .shimane, .okayama, .hiroshima, .yamaguchi, .tokushima, .kagawa, .ehime, .kochi, .fukuoka, .saga, .nagasaki, .kumamoto, .oita, .kagoshima, .okinawa {
-            grid-column: auto / span 2; /* 地方に応じて適切な場所に */
-            grid-row: auto / span 1;
-            width: 60px; height: 30px;
-        }
+        .hokkaido { grid-column: 16 / span 4; grid-row: 1 / span 2; }
+        .aomori { grid-column: 16 / span 2; grid-row: 3 / span 1; }
+        .akita { grid-column: 14 / span 2; grid-row: 3 / span 1; }
+        .iwate { grid-column: 16 / span 2; grid-row: 4 / span 1; }
+        .yamagata { grid-column: 14 / span 2; grid-row: 4 / span 1; }
+        .miyagi { grid-column: 16 / span 2; grid-row: 5 / span 1; }
+        .fukushima { grid-column: 16 / span 2; grid-row: 6 / span 1; }
+        .niigata { grid-column: 12 / span 2; grid-row: 6 / span 1; }
+        .nagano { grid-column: 10 / span 2; grid-row: 7 / span 1; }
+        .gifu { grid-column: 12 / span 2; grid-row: 7 / span 1; }
+        .tochigi { grid-column: 16 / span 2; grid-row: 7 / span 1; }
+        .gunma { grid-column: 14 / span 2; grid-row: 7 / span 1; }
+        .chiba { grid-column: 18 / span 2; grid-row: 7 / span 2; }
+        .saitama { grid-column: 16 / span 2; grid-row: 8 / span 1; }
+        .tokyo { grid-column: 16 / span 2; grid-row: 9 / span 1; }
+        .kanagawa { grid-column: 18 / span 2; grid-row: 9 / span 1; }
+        .shizuoka { grid-column: 16 / span 2; grid-row: 10 / span 1; }
+        .aichi { grid-column: 14 / span 2; grid-row: 10 / span 1; }
+        .shiga { grid-column: 12 / span 2; grid-row: 9 / span 1; }
+        .miyazaki { grid-column: 6 / span 2; grid-row: 13 / span 1; }
+        .osaka { grid-column: 14 / span 2; grid-row: 11 / span 1; }
+        .wakayama { grid-column: 16 / span 2; grid-row: 11 / span 1; }
+        .hyogo { grid-column: 12 / span 2; grid-row: 11 / span 1; }
+        .kyoto { grid-column: 12 / span 2; grid-row: 8 / span 1; }
+        .yamanashi { grid-column: 14 / span 2; grid-row: 8 / span 1; }
+        .nara { grid-column: 16 / span 2; grid-row: 10 / span 1; }
+        .fukui { grid-column: 10 / span 2; grid-row: 6 / span 1; }
+        .toyama { grid-column: 12 / span 2; grid-row: 5 / span 1; }
+        .ishikawa { grid-column: 10 / span 2; grid-row: 5 / span 1; }
+        .tottori { grid-column: 10 / span 2; grid-row: 11 / span 1; }
+        .shimane { grid-column: 8 / span 2; grid-row: 11 / span 1; }
+        .okayama { grid-column: 10 / span 2; grid-row: 10 / span 1; }
+        .hiroshima { grid-column: 8 / span 2; grid-row: 10 / span 1; }
+        .yamaguchi { grid-column: 8 / span 2; grid-row: 9 / span 1; }
+        .tokushima { grid-column: 10 / span 2; grid-row: 13 / span 1; }
+        .kagawa { grid-column: 12 / span 2; grid-row: 13 / span 1; }
+        .ehime { grid-column: 10 / span 2; grid-row: 12 / span 1; }
+        .kochi { grid-column: 12 / span 2; grid-row: 12 / span 1; }
+        .fukuoka { grid-column: 8 / span 2; grid-row: 8 / span 1; }
+        .saga { grid-column: 6 / span 2; grid-row: 8 / span 1; }
+        .nagasaki { grid-column: 4 / span 2; grid-row: 8 / span 1; }
+        .kumamoto { grid-column: 6 / span 2; grid-row: 9 / span 1; }
+        .oita { grid-column: 8 / span 2; grid-row: 9 / span 1; }
+        .kagoshima { grid-column: 4 / span 2; grid-row: 9 / span 1; }
+        .okinawa { grid-column: 4 / span 2; grid-row: 15 / span 1; }
     </style>
 </head>
 <body>
     <h1>どこ行きタイ？日本全国水族館マップ</h1>
     <div class="map-container">
         <div class="region hokkaido hokkaido" onclick="location.href='hokkaido.html';">北海道</div>
-        <!-- 他の都道府県も同様に追加、クラスに地方名を追加して色を適用 -->
-        <!-- 例: <div class="region aomori tohoku" onclick="location.href='aomori.html';">青森</div> -->
-        <!-- 適切な位置とサイズを各都道府県に設定する -->
+        <div class="region aomori tohoku" onclick="location.href='aomori.html';">青森</div>
+        <div class="region akita tohoku" onclick="location.href='akita.html';">秋田</div>
+        <div class="region iwate tohoku" onclick="location.href='iwate.html';">岩手</div>
+        <div class="region yamagata tohoku" onclick="location.href='yamagata.html';">山形</div>
+        <div class="region miyagi tohoku" onclick="location.href='miyagi.html';">宮城</div>
+        <div class="region fukushima tohoku" onclick="location.href='fukushima.html';">福島</div>
+        <div class="region niigata chubu" onclick="location.href='niigata.html';">新潟</div>
+        <div class="region nagano chubu" onclick="location.href='nagano.html';">長野</div>
+        <div class="region gifu chubu" onclick="location.href='gifu.html';">岐阜</div>
+        <div class="region tochigi kanto" onclick="location.href='tochigi.html';">栃木</div>
+        <div class="region gunma kanto" onclick="location.href='gunma.html';">群馬</div>
+        <div class="region chiba kanto" onclick="location.href='chiba.html';">千葉</div>
+        <div class="region saitama kanto" onclick="location.href='saitama.html';">埼玉</div>
+        <div class="region tokyo kanto" onclick="location.href='tokyo.html';">東京</div>
+        <div class="region kanagawa kanto" onclick="location.href='kanagawa.html';">神奈川</div>
+        <div class="region shizuoka chubu" onclick="location.href='shizuoka.html';">静岡</div>
+        <div class="region aichi chubu" onclick="location.href='aichi.html';">愛知</div>
+        <div class="region shiga kansai" onclick="location.href='shiga.html';">滋賀</div>
+        <div class="region miyazaki kyushu" onclick="location.href='miyazaki.html';">宮崎</div>
+        <div class="region osaka kansai" onclick="location.href='osaka.html';">大阪</div>
+        <div class="region wakayama kansai" onclick="location.href='wakayama.html';">和歌山</div>
+        <div class="region hyogo kansai" onclick="location.href='hyogo.html';">兵庫</div>
+        <div class="region kyoto kansai" onclick="location.href='kyoto.html';">京都</div>
+        <div class="region yamanashi chubu" onclick="location.href='yamanashi.html';">山梨</div>
+        <div class="region nara kansai" onclick="location.href='nara.html';">奈良</div>
+        <div class="region fukui chubu" onclick="location.href='fukui.html';">福井</div>
+        <div class="region toyama chubu" onclick="location.href='toyama.html';">富山</div>
+        <div class="region ishikawa chubu" onclick="location.href='ishikawa.html';">石川</div>
+        <div class="region tottori chugoku" onclick="location.href='tottori.html';">鳥取</div>
+        <div class="region shimane chugoku" onclick="location.href='shimane.html';">島根</div>
+        <div class="region okayama chugoku" onclick="location.href='okayama.html';">岡山</div>
+        <div class="region hiroshima chugoku" onclick="location.href='hiroshima.html';">広島</div>
+        <div class="region yamaguchi chugoku" onclick="location.href='yamaguchi.html';">山口</div>
+        <div class="region tokushima shikoku" onclick="location.href='tokushima.html';">徳島</div>
+        <div class="region kagawa shikoku" onclick="location.href='kagawa.html';">香川</div>
+        <div class="region ehime shikoku" onclick="location.href='ehime.html';">愛媛</div>
+        <div class="region kochi shikoku" onclick="location.href='kochi.html';">高知</div>
+        <div class="region fukuoka kyushu" onclick="location.href='fukuoka.html';">福岡</div>
+        <div class="region saga kyushu" onclick="location.href='saga.html';">佐賀</div>
+        <div class="region nagasaki kyushu" onclick="location.href='nagasaki.html';">長崎</div>
+        <div class="region kumamoto kyushu" onclick="location.href='kumamoto.html';">熊本</div>
+        <div class="region oita kyushu" onclick="location.href='oita.html';">大分</div>
+        <div class="region kagoshima kyushu" onclick="location.href='kagoshima.html';">鹿児島</div>
+        <div class="region okinawa kyushu" onclick="location.href='okinawa.html';">沖縄</div>
     </div>
 </body>
 </html>
