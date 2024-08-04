@@ -11,73 +11,70 @@
         }
         .map-container {
             display: grid;
-            grid-template-columns: repeat(12, 1fr);
+            grid-template-columns: repeat(14, 1fr);
             gap: 2px;
             justify-items: center;
             align-items: center;
             margin: 20px;
         }
         .region {
-            width: 80px;
-            height: 40px;
             display: flex;
             justify-content: center;
             align-items: center;
             background-color: #f2f2f2;
             border: 1px solid #ddd;
             cursor: pointer;
+            font-size: 0.8rem;
+            color: #333;
         }
         .region:hover {
             background-color: #e2e2e2;
         }
-        .hokkaido {
-            grid-column: 10 / span 2;
-            grid-row: 1;
-        }
-        .aomori { grid-column: 10; grid-row: 2; }
-        .akita { grid-column: 9; grid-row: 2; }
-        .iwate { grid-column: 10; grid-row: 3; }
-        .yamagata { grid-column: 9; grid-row: 3; }
-        .miyagi { grid-column: 10; grid-row: 4; }
-        .fukushima { grid-column: 10; grid-row: 5; }
-        .niigata { grid-column: 8; grid-row: 5; }
-        .nagano { grid-column: 7; grid-row: 6; }
-        .gifu { grid-column: 8; grid-row: 6; }
-        .tochigi { grid-column: 10; grid-row: 6; }
-        .gunma { grid-column: 9; grid-row: 6; }
-        .chiba { grid-column: 12; grid-row: 6; }
-        .saitama { grid-column: 11; grid-row: 6; }
-        .tokyo { grid-column: 11; grid-row: 7; }
-        .kanagawa { grid-column: 12; grid-row: 7; }
-        .shizuoka { grid-column: 11; grid-row: 8; }
-        .aichi { grid-column: 9; grid-row: 8; }
-        .shiga { grid-column: 8; grid-row: 8; }
-        .miyazaki { grid-column: 5; grid-row: 11; }
-        .osaka { grid-column: 9; grid-row: 9; }
-        .wakayama { grid-column: 10; grid-row: 9; }
-        .hyogo { grid-column: 8; grid-row: 9; }
-        .kyoto { grid-column: 8; grid-row: 7; }
-        .yamanashi { grid-column: 7; grid-row: 7; }
-        .nara { grid-column: 10; grid-row: 8; }
-        .fukui { grid-column: 7; grid-row: 5; }
-        .toyama { grid-column: 8; grid-row: 4; }
-        .ishikawa { grid-column: 7; grid-row: 4; }
-        .tottori { grid-column: 6; grid-row: 9; }
-        .shimane { grid-column: 5; grid-row: 9; }
-        .okayama { grid-column: 6; grid-row: 8; }
-        .hiroshima { grid-column: 5; grid-row: 8; }
-        .yamaguchi { grid-column: 5; grid-row: 7; }
-        .tokushima { grid-column: 6; grid-row: 11; }
-        .kagawa { grid-column: 7; grid-row: 11; }
-        .ehime { grid-column: 6; grid-row: 10; }
-        .kochi { grid-column: 7; grid-row: 10; }
-        .fukuoka { grid-column: 4; grid-row: 6; }
-        .saga { grid-column: 3; grid-row: 6; }
-        .nagasaki { grid-column: 2; grid-row: 6; }
-        .kumamoto { grid-column: 3; grid-row: 7; }
-        .oita { grid-column: 4; grid-row: 7; }
-        .kagoshima { grid-column: 2; grid-row: 7; }
-        .okinawa { grid-column: 1; grid-row: 8; }
+        .hokkaido { grid-column: 11 / span 2; grid-row: 1 / span 2; width: 160px; height: 80px; }
+        .aomori { grid-column: 11; grid-row: 3; width: 80px; height: 40px; }
+        .akita { grid-column: 10; grid-row: 3; width: 80px; height: 40px; }
+        .iwate { grid-column: 11; grid-row: 4; width: 80px; height: 40px; }
+        .yamagata { grid-column: 10; grid-row: 4; width: 80px; height: 40px; }
+        .miyagi { grid-column: 11; grid-row: 5; width: 80px; height: 40px; }
+        .fukushima { grid-column: 11; grid-row: 6; width: 80px; height: 40px; }
+        .niigata { grid-column: 9; grid-row: 6; width: 80px; height: 40px; }
+        .nagano { grid-column: 8; grid-row: 7; width: 80px; height: 40px; }
+        .gifu { grid-column: 9; grid-row: 7; width: 80px; height: 40px; }
+        .tochigi { grid-column: 11; grid-row: 7; width: 80px; height: 40px; }
+        .gunma { grid-column: 10; grid-row: 7; width: 80px; height: 40px; }
+        .chiba { grid-column: 13; grid-row: 7; width: 80px; height: 40px; }
+        .saitama { grid-column: 12; grid-row: 7; width: 80px; height: 40px; }
+        .tokyo { grid-column: 12; grid-row: 8; width: 80px; height: 40px; }
+        .kanagawa { grid-column: 13; grid-row: 8; width: 80px; height: 40px; }
+        .shizuoka { grid-column: 12; grid-row: 9; width: 80px; height: 40px; }
+        .aichi { grid-column: 10; grid-row: 9; width: 80px; height: 40px; }
+        .shiga { grid-column: 9; grid-row: 9; width: 80px; height: 40px; }
+        .miyazaki { grid-column: 5; grid-row: 12; width: 80px; height: 40px; }
+        .osaka { grid-column: 10; grid-row: 10; width: 80px; height: 40px; }
+        .wakayama { grid-column: 11; grid-row: 10; width: 80px; height: 40px; }
+        .hyogo { grid-column: 9; grid-row: 10; width: 80px; height: 40px; }
+        .kyoto { grid-column: 9; grid-row: 8; width: 80px; height: 40px; }
+        .yamanashi { grid-column: 8; grid-row: 8; width: 80px; height: 40px; }
+        .nara { grid-column: 11; grid-row: 9; width: 80px; height: 40px; }
+        .fukui { grid-column: 8; grid-row: 6; width: 80px; height: 40px; }
+        .toyama { grid-column: 9; grid-row: 5; width: 80px; height: 40px; }
+        .ishikawa { grid-column: 8; grid-row: 5; width: 80px; height: 40px; }
+        .tottori { grid-column: 7; grid-row: 9; width: 80px; height: 40px; }
+        .shimane { grid-column: 6; grid-row: 9; width: 80px; height: 40px; }
+        .okayama { grid-column: 7; grid-row: 8; width: 80px; height: 40px; }
+        .hiroshima { grid-column: 6; grid-row: 8; width: 80px; height: 40px; }
+        .yamaguchi { grid-column: 6; grid-row: 7; width: 80px; height: 40px; }
+        .tokushima { grid-column: 7; grid-row: 12; width: 80px; height: 40px; }
+        .kagawa { grid-column: 8; grid-row: 12; width: 80px; height: 40px; }
+        .ehime { grid-column: 7; grid-row: 11; width: 80px; height: 40px; }
+        .kochi { grid-column: 8; grid-row: 11; width: 80px; height: 40px; }
+        .fukuoka { grid-column: 5; grid-row: 6; width: 80px; height: 40px; }
+        .saga { grid-column: 4; grid-row: 6; width: 80px; height: 40px; }
+        .nagasaki { grid-column: 3; grid-row: 6; width: 80px; height: 40px; }
+        .kumamoto { grid-column: 4; grid-row: 7; width: 80px; height: 40px; }
+        .oita { grid-column: 5; grid-row: 7; width: 80px; height: 40px; }
+        .kagoshima { grid-column: 3; grid-row: 7; width: 80px; height: 40px; }
+        .okinawa { grid-column: 2; grid-row: 12; width: 80px; height: 40px; }
     </style>
 </head>
 <body>
