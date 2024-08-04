@@ -11,13 +11,15 @@
         }
         .map-container {
             display: grid;
-            grid-template-columns: repeat(10, 1fr);
+            grid-template-columns: repeat(12, 1fr);
             gap: 2px;
             justify-items: center;
+            align-items: center;
+            margin: 20px;
         }
         .region {
-            width: 100px;
-            height: 50px;
+            width: 80px;
+            height: 40px;
             display: flex;
             justify-content: center;
             align-items: center;
@@ -28,56 +30,104 @@
         .region:hover {
             background-color: #e2e2e2;
         }
+        .hokkaido {
+            grid-column: 10 / span 2;
+            grid-row: 1;
+        }
+        .aomori { grid-column: 10; grid-row: 2; }
+        .akita { grid-column: 9; grid-row: 2; }
+        .iwate { grid-column: 10; grid-row: 3; }
+        .yamagata { grid-column: 9; grid-row: 3; }
+        .miyagi { grid-column: 10; grid-row: 4; }
+        .fukushima { grid-column: 10; grid-row: 5; }
+        .niigata { grid-column: 8; grid-row: 5; }
+        .nagano { grid-column: 7; grid-row: 6; }
+        .gifu { grid-column: 8; grid-row: 6; }
+        .tochigi { grid-column: 10; grid-row: 6; }
+        .gunma { grid-column: 9; grid-row: 6; }
+        .chiba { grid-column: 12; grid-row: 6; }
+        .saitama { grid-column: 11; grid-row: 6; }
+        .tokyo { grid-column: 11; grid-row: 7; }
+        .kanagawa { grid-column: 12; grid-row: 7; }
+        .shizuoka { grid-column: 11; grid-row: 8; }
+        .aichi { grid-column: 9; grid-row: 8; }
+        .shiga { grid-column: 8; grid-row: 8; }
+        .miyazaki { grid-column: 5; grid-row: 11; }
+        .osaka { grid-column: 9; grid-row: 9; }
+        .wakayama { grid-column: 10; grid-row: 9; }
+        .hyogo { grid-column: 8; grid-row: 9; }
+        .kyoto { grid-column: 8; grid-row: 7; }
+        .yamanashi { grid-column: 7; grid-row: 7; }
+        .nara { grid-column: 10; grid-row: 8; }
+        .fukui { grid-column: 7; grid-row: 5; }
+        .toyama { grid-column: 8; grid-row: 4; }
+        .ishikawa { grid-column: 7; grid-row: 4; }
+        .tottori { grid-column: 6; grid-row: 9; }
+        .shimane { grid-column: 5; grid-row: 9; }
+        .okayama { grid-column: 6; grid-row: 8; }
+        .hiroshima { grid-column: 5; grid-row: 8; }
+        .yamaguchi { grid-column: 5; grid-row: 7; }
+        .tokushima { grid-column: 6; grid-row: 11; }
+        .kagawa { grid-column: 7; grid-row: 11; }
+        .ehime { grid-column: 6; grid-row: 10; }
+        .kochi { grid-column: 7; grid-row: 10; }
+        .fukuoka { grid-column: 4; grid-row: 6; }
+        .saga { grid-column: 3; grid-row: 6; }
+        .nagasaki { grid-column: 2; grid-row: 6; }
+        .kumamoto { grid-column: 3; grid-row: 7; }
+        .oita { grid-column: 4; grid-row: 7; }
+        .kagoshima { grid-column: 2; grid-row: 7; }
+        .okinawa { grid-column: 1; grid-row: 8; }
     </style>
 </head>
 <body>
     <h1>どこ行きタイ？日本全国水族館マップ</h1>
     <div class="map-container">
-        <div class="region" onclick="location.href='hokkaido.html';">北海道</div>
-        <div class="region" onclick="location.href='aomori.html';">青森</div>
-        <div class="region" onclick="location.href='akita.html';">秋田</div>
-        <div class="region" onclick="location.href='iwate.html';">岩手</div>
-        <div class="region" onclick="location.href='yamagata.html';">山形</div>
-        <div class="region" onclick="location.href='miyagi.html';">宮城</div>
-        <div class="region" onclick="location.href='fukushima.html';">福島</div>
-        <div class="region" onclick="location.href='niigata.html';">新潟</div>
-        <div class="region" onclick="location.href='nagano.html';">長野</div>
-        <div class="region" onclick="location.href='gifu.html';">岐阜</div>
-        <div class="region" onclick="location.href='tochigi.html';">栃木</div>
-        <div class="region" onclick="location.href='gunma.html';">群馬</div>
-        <div class="region" onclick="location.href='chiba.html';">千葉</div>
-        <div class="region" onclick="location.href='saitama.html';">埼玉</div>
-        <div class="region" onclick="location.href='tokyo.html';">東京</div>
-        <div class="region" onclick="location.href='kanagawa.html';">神奈川</div>
-        <div class="region" onclick="location.href='shizuoka.html';">静岡</div>
-        <div class="region" onclick="location.href='aichi.html';">愛知</div>
-        <div class="region" onclick="location.href='shiga.html';">滋賀</div>
-        <div class="region" onclick="location.href='miyazaki.html';">宮崎</div>
-        <div class="region" onclick="location.href='osaka.html';">大阪</div>
-        <div class="region" onclick="location.href='wakayama.html';">和歌山</div>
-        <div class="region" onclick="location.href='hyogo.html';">兵庫</div>
-        <div class="region" onclick="location.href='kyoto.html';">京都</div>
-        <div class="region" onclick="location.href='yamanashi.html';">山梨</div>
-        <div class="region" onclick="location.href='nara.html';">奈良</div>
-        <div class="region" onclick="location.href='fukui.html';">福井</div>
-        <div class="region" onclick="location.href='toyama.html';">富山</div>
-        <div class="region" onclick="location.href='ishikawa.html';">石川</div>
-        <div class="region" onclick="location.href='tottori.html';">鳥取</div>
-        <div class="region" onclick="location.href='shimane.html';">島根</div>
-        <div class="region" onclick="location.href='okayama.html';">岡山</div>
-        <div class="region" onclick="location.href='hiroshima.html';">広島</div>
-        <div class="region" onclick="location.href='yamaguchi.html';">山口</div>
-        <div class="region" onclick="location.href='tokushima.html';">徳島</div>
-        <div class="region" onclick="location.href='kagawa.html';">香川</div>
-        <div class="region" onclick="location.href='ehime.html';">愛媛</div>
-        <div class="region" onclick="location.href='kochi.html';">高知</div>
-        <div class="region" onclick="location.href='fukuoka.html';">福岡</div>
-        <div class="region" onclick="location.href='saga.html';">佐賀</div>
-        <div class="region" onclick="location.href='nagasaki.html';">長崎</div>
-        <div class="region" onclick="location.href='kumamoto.html';">熊本</div>
-        <div class="region" onclick="location.href='oita.html';">大分</div>
-        <div class="region" onclick="location.href='kagoshima.html';">鹿児島</div>
-        <div class="region" onclick="location.href='okinawa.html';">沖縄</div>
+        <div class="region hokkaido" onclick="location.href='hokkaido.html';">北海道</div>
+        <div class="region aomori" onclick="location.href='aomori.html';">青森</div>
+        <div class="region akita" onclick="location.href='akita.html';">秋田</div>
+        <div class="region iwate" onclick="location.href='iwate.html';">岩手</div>
+        <div class="region yamagata" onclick="location.href='yamagata.html';">山形</div>
+        <div class="region miyagi" onclick="location.href='miyagi.html';">宮城</div>
+        <div class="region fukushima" onclick="location.href='fukushima.html';">福島</div>
+        <div class="region niigata" onclick="location.href='niigata.html';">新潟</div>
+        <div class="region nagano" onclick="location.href='nagano.html';">長野</div>
+        <div class="region gifu" onclick="location.href='gifu.html';">岐阜</div>
+        <div class="region tochigi" onclick="location.href='tochigi.html';">栃木</div>
+        <div class="region gunma" onclick="location.href='gunma.html';">群馬</div>
+        <div class="region chiba" onclick="location.href='chiba.html';">千葉</div>
+        <div class="region saitama" onclick="location.href='saitama.html';">埼玉</div>
+        <div class="region tokyo" onclick="location.href='tokyo.html';">東京</div>
+        <div class="region kanagawa" onclick="location.href='kanagawa.html';">神奈川</div>
+        <div class="region shizuoka" onclick="location.href='shizuoka.html';">静岡</div>
+        <div class="region aichi" onclick="location.href='aichi.html';">愛知</div>
+        <div class="region shiga" onclick="location.href='shiga.html';">滋賀</div>
+        <div class="region miyazaki" onclick="location.href='miyazaki.html';">宮崎</div>
+        <div class="region osaka" onclick="location.href='osaka.html';">大阪</div>
+        <div class="region wakayama" onclick="location.href='wakayama.html';">和歌山</div>
+        <div class="region hyogo" onclick="location.href='hyogo.html';">兵庫</div>
+        <div class="region kyoto" onclick="location.href='kyoto.html';">京都</div>
+        <div class="region yamanashi" onclick="location.href='yamanashi.html';">山梨</div>
+        <div class="region nara" onclick="location.href='nara.html';">奈良</div>
+        <div class="region fukui" onclick="location.href='fukui.html';">福井</div>
+        <div class="region toyama" onclick="location.href='toyama.html';">富山</div>
+        <div class="region ishikawa" onclick="location.href='ishikawa.html';">石川</div>
+        <div class="region tottori" onclick="location.href='tottori.html';">鳥取</div>
+        <div class="region shimane" onclick="location.href='shimane.html';">島根</div>
+        <div class="region okayama" onclick="location.href='okayama.html';">岡山</div>
+        <div class="region hiroshima" onclick="location.href='hiroshima.html';">広島</div>
+        <div class="region yamaguchi" onclick="location.href='yamaguchi.html';">山口</div>
+        <div class="region tokushima" onclick="location.href='tokushima.html';">徳島</div>
+        <div class="region kagawa" onclick="location.href='kagawa.html';">香川</div>
+        <div class="region ehime" onclick="location.href='ehime.html';">愛媛</div>
+        <div class="region kochi" onclick="location.href='kochi.html';">高知</div>
+        <div class="region fukuoka" onclick="location.href='fukuoka.html';">福岡</div>
+        <div class="region saga" onclick="location.href='saga.html';">佐賀</div>
+        <div class="region nagasaki" onclick="location.href='nagasaki.html';">長崎</div>
+        <div class="region kumamoto" onclick="location.href='kumamoto.html';">熊本</div>
+        <div class="region oita" onclick="location.href='oita.html';">大分</div>
+        <div class="region kagoshima" onclick="location.href='kagoshima.html';">鹿児島</div>
+        <div class="region okinawa" onclick="location.href='okinawa.html';">沖縄</div>
     </div>
 </body>
 </html>
