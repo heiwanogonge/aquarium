@@ -10,9 +10,18 @@
             text-align: center;
             margin: 0;
             padding: 0;
-            font-weight: 600; /* 文字を少し太くする */
+            font-weight: 600;
+            display: flex;
+        }
+        .list-container {
+            width: 30%;
+            padding: 15px;
+            border-right: 1px solid #ddd;
+            height: 100vh;
+            overflow-y: auto;
         }
         .map-container {
+            width: 70%;
             display: grid;
             grid-gap: 5px;
             grid-template-columns: repeat(13, 1fr);
@@ -20,7 +29,6 @@
             justify-items: center;
             align-items: center;
             margin: 0px auto;
-            max-width: 800px;
             padding: 15px;
         }
         .region {
@@ -38,6 +46,35 @@
         .region:hover {
             background-color: #e2e2e2;
         }
+
+        table {
+    width: 100%;
+    border-collapse: separate; /* border-collapse を separate に設定 */
+    border-spacing: 0; /* ボーダースペーシングを 0 に設定 */
+    margin-top: 1em;
+    border-radius: 8px; /* 表全体を角丸にする */
+    overflow: hidden; /* 角丸が反映されるように overflow を hidden に設定 */
+}
+
+        th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+        th {
+    background-color: #f2f2f2;
+}
+
+        a {
+    text-decoration: none;
+    color: #333;
+}
+
+        a:hover {
+    text-decoration: underline;
+}
+
 
         /* 地方ごとの色設定 */
         .hokkaido { background-color: #4CAF50; }
@@ -100,55 +137,158 @@
     </style>
 </head>
 <body>
-    <h1>どこ行きタイ？日本全国水族館マップ</h1>
-    <div class="map-container">
-        <div class="region hokkaido hokkaido" onclick="location.href='hokkaido.html';">北海道</div>
-        <div class="region aomori tohoku" onclick="location.href='aomori.html';">青森</div>
-        <div class="region akita tohoku" onclick="location.href='akita.html';">秋田</div>
-        <div class="region iwate tohoku" onclick="location.href='iwate.html';">岩手</div>
-        <div class="region yamagata tohoku" onclick="location.href='yamagata.html';">山形</div>
-        <div class="region miyagi tohoku" onclick="location.href='miyagi.html';">宮城</div>
-        <div class="region fukushima tohoku" onclick="location.href='fukushima.html';">福島</div>
-        <div class="region niigata chubu" onclick="location.href='niigata.html';">新潟</div>
-        <div class="region nagano chubu" onclick="location.href='nagano.html';">長野</div>
-        <div class="region gifu chubu" onclick="location.href='gifu.html';">岐阜</div>
-        <div class="region tochigi kanto" onclick="location.href='tochigi.html';">栃木</div>
-        <div class="region ibaraki kanto" onclick="location.href='ibaraki.html';">茨城</div>
-        <div class="region gunma kanto" onclick="location.href='gunma.html';">群馬</div>
-        <div class="region chiba kanto" onclick="location.href='chiba.html';">千葉</div>
-        <div class="region saitama kanto" onclick="location.href='saitama.html';">埼玉</div>
-        <div class="region tokyo kanto" onclick="location.href='tokyo.html';">東京</div>
-        <div class="region kanagawa kanto" onclick="location.href='kanagawa.html';">神奈川</div>
-        <div class="region shizuoka chubu" onclick="location.href='shizuoka.html';">静岡</div>
-        <div class="region aichi chubu" onclick="location.href='aichi.html';">愛知</div>
-        <div class="region shiga kansai" onclick="location.href='shiga.html';">滋賀</div>
-        <div class="region mie kansai" onclick="location.href='mie.html';">三重</div>
-        <div class="region miyazaki kyushu" onclick="location.href='miyazaki.html';">宮崎</div>
-        <div class="region osaka kansai" onclick="location.href='osaka.html';">大阪</div>
-        <div class="region wakayama kansai" onclick="location.href='wakayama.html';">和歌山</div>
-        <div class="region hyogo kansai" onclick="location.href='hyogo.html';">兵庫</div>
-        <div class="region kyoto kansai" onclick="location.href='kyoto.html';">京都</div>
-        <div class="region yamanashi chubu" onclick="location.href='yamanashi.html';">山梨</div>
-        <div class="region nara kansai" onclick="location.href='nara.html';">奈良</div>
-        <div class="region fukui chubu" onclick="location.href='fukui.html';">福井</div>
-        <div class="region toyama chubu" onclick="location.href='toyama.html';">富山</div>
-        <div class="region ishikawa chubu" onclick="location.href='ishikawa.html';">石川</div>
-        <div class="region tottori chugoku" onclick="location.href='tottori.html';">鳥取</div>
-        <div class="region shimane chugoku" onclick="location.href='shimane.html';">島根</div>
-        <div class="region okayama chugoku" onclick="location.href='okayama.html';">岡山</div>
-        <div class="region hiroshima chugoku" onclick="location.href='hiroshima.html';">広島</div>
-        <div class="region yamaguchi chugoku" onclick="location.href='yamaguchi.html';">山口</div>
-        <div class="region tokushima shikoku" onclick="location.href='tokushima.html';">徳島</div>
-        <div class="region kagawa shikoku" onclick="location.href='kagawa.html';">香川</div>
-        <div class="region ehime shikoku" onclick="location.href='ehime.html';">愛媛</div>
-        <div class="region kochi shikoku" onclick="location.href='kochi.html';">高知</div>
-        <div class="region fukuoka kyushu" onclick="location.href='fukuoka.html';">福岡</div>
-        <div class="region saga kyushu" onclick="location.href='saga.html';">佐賀</div>
-        <div class="region nagasaki kyushu" onclick="location.href='nagasaki.html';">長崎</div>
-        <div class="region kumamoto kyushu" onclick="location.href='kumamoto.html';">熊本</div>
-        <div class="region oita kyushu" onclick="location.href='oita.html';">大分</div>
-        <div class="region kagoshima kyushu" onclick="location.href='kagoshima.html';">鹿児島</div>
-        <div class="region okinawa kyushu" onclick="location.href='okinawa.html';">沖縄</div>
+    <div class="list-container">
+        <h2>日本の水族館</h2>
+        <div id="aquarium-list">
+            <p>都道府県をクリックしてください</p>
+        </div>
     </div>
+    <div class="map-container">
+        <div class="region hokkaido hokkaido" onclick="showAquariums('hokkaido')">北海道</div>
+        <div class="region aomori tohoku" onclick="showAquariums('aomori')">青森</div>
+        <div class="region akita tohoku" onclick="showAquariums('akita')">秋田</div>
+        <div class="region iwate tohoku" onclick="showAquariums('iwate')">岩手</div>
+        <div class="region yamagata tohoku" onclick="showAquariums('yamagata')">山形</div>
+        <div class="region miyagi tohoku" onclick="showAquariums('miyagi')">宮城</div>
+        <div class="region fukushima tohoku" onclick="showAquariums('fukushima')">福島</div>
+        <div class="region niigata chubu" onclick="showAquariums('niigata')">新潟</div>
+        <div class="region nagano chubu" onclick="showAquariums('nagano')">長野</div>
+        <div class="region gifu chubu" onclick="showAquariums('gifu')">岐阜</div>
+        <div class="region tochigi kanto" onclick="showAquariums('tochigi')">栃木</div>
+        <div class="region ibaraki kanto" onclick="showAquariums('ibaraki')">茨城</div>
+        <div class="region gunma kanto" onclick="showAquariums('gunma')">群馬</div>
+        <div class="region chiba kanto" onclick="showAquariums('chiba')">千葉</div>
+        <div class="region saitama kanto" onclick="showAquariums('saitama')">埼玉</div>
+        <div class="region tokyo kanto" onclick="showAquariums('tokyo')">東京</div>
+        <div class="region kanagawa kanto" onclick="showAquariums('kanagawa')">神奈川</div>
+        <div class="region shizuoka chubu" onclick="showAquariums('shizuoka')">静岡</div>
+        <div class="region aichi chubu" onclick="showAquariums('aichi')">愛知</div>
+        <div class="region shiga kansai" onclick="showAquariums('shiga')">滋賀</div>
+        <div class="region mie kansai" onclick="showAquariums('mie')">三重</div>
+        <div class="region miyazaki kyushu" onclick="showAquariums('miyazaki')">宮崎</div>
+        <div class="region osaka kansai" onclick="showAquariums('osaka')">大阪</div>
+        <div class="region wakayama kansai" onclick="showAquariums('wakayama')">和歌山</div>
+        <div class="region hyogo kansai" onclick="showAquariums('hyogo')">兵庫</div>
+        <div class="region kyoto kansai" onclick="showAquariums('kyoto')">京都</div>
+        <div class="region yamanashi chubu" onclick="showAquariums('yamanashi')">山梨</div>
+        <div class="region nara kansai" onclick="showAquariums('nara')">奈良</div>
+        <div class="region fukui chubu" onclick="showAquariums('fukui')">福井</div>
+        <div class="region toyama chubu" onclick="showAquariums('toyama')">富山</div>
+        <div class="region ishikawa chubu" onclick="showAquariums('ishikawa')">石川</div>
+        <div class="region tottori chugoku" onclick="showAquariums('tottori')">鳥取</div>
+        <div class="region shimane chugoku" onclick="showAquariums('shimane')">島根</div>
+        <div class="region okayama chugoku" onclick="showAquariums('okayama')">岡山</div>
+        <div class="region hiroshima chugoku" onclick="showAquariums('hiroshima')">広島</div>
+        <div class="region yamaguchi chugoku" onclick="showAquariums('yamaguchi')">山口</div>
+        <div class="region tokushima shikoku" onclick="showAquariums('tokushima')">徳島</div>
+        <div class="region kagawa shikoku" onclick="showAquariums('kagawa')">香川</div>
+        <div class="region ehime shikoku" onclick="showAquariums('ehime')">愛媛</div>
+        <div class="region kochi shikoku" onclick="showAquariums('kochi')">高知</div>
+        <div class="region fukuoka kyushu" onclick="showAquariums('fukuoka')">福岡</div>
+        <div class="region saga kyushu" onclick="showAquariums('saga')">佐賀</div>
+        <div class="region nagasaki kyushu" onclick="showAquariums('nagasaki')">長崎</div>
+        <div class="region kumamoto kyushu" onclick="showAquariums('kumamoto')">熊本</div>
+        <div class="region oita kyushu" onclick="showAquariums('oita')">大分</div>
+        <div class="region kagoshima kyushu" onclick="showAquariums('kagoshima')">鹿児島</div>
+        <div class="region okinawa kyushu" onclick="showAquariums('okinawa')">沖縄</div>
+    </div>
+
+    <script>
+const aquariums = {
+    hokkaido: [
+        {name: "旭山動物園", url: "https://www.city.asahikawa.hokkaido.jp/asahiyamazoo/"},
+        {name: "おたる水族館", url: "http://otaru-aq.jp/"},
+        {name: "サケのふるさと 千歳水族館", url: "http://chitose-aq.jp/"}
+    ],
+    aomori: [
+        {name: "青森県営浅虫水族館", url: "http://www.asamushi-aqua.com/"},
+        {name: "青森県立三沢航空科学館", url: "https://www.kokukagaku.jp/"}
+    ],
+    // 他の都道府県の水族館データをここに追加
+};
+
+const prefectureNames = {
+    hokkaido: "北海道",
+    aomori: "青森",
+    akita: "秋田",
+    iwate: "岩手",
+    yamagata: "山形",
+    miyagi: "宮城",
+    fukushima: "福島",
+    niigata: "新潟",
+    nagano: "長野",
+    gifu: "岐阜",
+    tochigi: "栃木",
+    ibaraki: "茨城",
+    gunma: "群馬",
+    chiba: "千葉",
+    saitama: "埼玉",
+    tokyo: "東京",
+    kanagawa: "神奈川",
+    shizuoka: "静岡",
+    aichi: "愛知",
+    shiga: "滋賀",
+    mie: "三重",
+    miyazaki: "宮崎",
+    osaka: "大阪",
+    wakayama: "和歌山",
+    hyogo: "兵庫",
+    kyoto: "京都",
+    yamanashi: "山梨",
+    nara: "奈良",
+    fukui: "福井",
+    toyama: "富山",
+    ishikawa: "石川",
+    tottori: "鳥取",
+    shimane: "島根",
+    okayama: "岡山",
+    hiroshima: "広島",
+    yamaguchi: "山口",
+    tokushima: "徳島",
+    kagawa: "香川",
+    ehime: "愛媛",
+    kochi: "高知",
+    fukuoka: "福岡",
+    saga: "佐賀",
+    nagasaki: "長崎",
+    kumamoto: "熊本",
+    oita: "大分",
+    kagoshima: "鹿児島",
+    okinawa: "沖縄"
+};
+
+function showAquariums(prefecture) {
+    const listContainer = document.getElementById('aquarium-list');
+    const prefectureName = prefectureNames[prefecture];
+    listContainer.innerHTML = `<h2>${prefectureName}の水族館</h2>`;
+    if (aquariums[prefecture]) {
+        const table = document.createElement('table');
+        const thead = document.createElement('thead');
+        const tbody = document.createElement('tbody');
+        
+        thead.innerHTML = `
+            <tr>
+                <th>水族館名</th>
+            </tr>
+        `;
+        
+        aquariums[prefecture].forEach(aquarium => {
+            const row = document.createElement('tr');
+            row.innerHTML = `
+                <td><a href="${aquarium.url}" target="_blank">${aquarium.name}</a></td>
+            `;
+            tbody.appendChild(row);
+        });
+
+        table.appendChild(thead);
+        table.appendChild(tbody);
+        listContainer.appendChild(table);
+    } else {
+        listContainer.innerHTML += '<p>該当する水族館がありません。</p>';
+    }
+}
+
+
+    </script>
 </body>
 </html>
