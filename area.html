@@ -75,6 +75,21 @@
     text-decoration: underline;
 }
 
+@media screen and (max-width: 768px) {
+    body {
+        flex-direction: column; /* 縦方向に並べる */
+    }
+    .list-container {
+        width: 100%;
+        height: auto;
+        border-right: none;
+        border-bottom: 1px solid #ddd;
+    }
+    .map-container {
+        width: 100%;
+    }
+}
+
 
         /* 地方ごとの色設定 */
         .hokkaido { background-color: #4CAF50; }
