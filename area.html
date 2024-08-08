@@ -30,6 +30,7 @@
             align-items: center;
             margin: 0px auto;
             padding: 15px;
+            position: relative;
         }
         .region {
             display: flex;
@@ -48,48 +49,75 @@
         }
 
         table {
-    width: 100%;
-    border-collapse: separate; /* border-collapse を separate に設定 */
-    border-spacing: 0; /* ボーダースペーシングを 0 に設定 */
-    margin-top: 1em;
-    border-radius: 8px; /* 表全体を角丸にする */
-    overflow: hidden; /* 角丸が反映されるように overflow を hidden に設定 */
-}
+            width: 100%;
+            border-collapse: separate; /* border-collapse を separate に設定 */
+            border-spacing: 0; /* ボーダースペーシングを 0 に設定 */
+            margin-top: 1em;
+            border-radius: 8px; /* 表全体を角丸にする */
+            overflow: hidden; /* 角丸が反映されるように overflow を hidden に設定 */
+        }
 
         th, td {
-    border: 1px solid #ddd;
-    padding: 8px;
-    text-align: left;
-}
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+        }
 
         th {
-    background-color: #f2f2f2;
-}
+            background-color: #f2f2f2;
+        }
 
         a {
-    text-decoration: none;
-    color: #333;
-}
+            text-decoration: none;
+            color: #333;
+        }
 
         a:hover {
-    text-decoration: underline;
-}
+            text-decoration: underline;
+        }
 
-@media screen and (max-width: 768px) {
-    body {
-        flex-direction: column; /* 縦方向に並べる */
-    }
-    .list-container {
-        width: 100%;
-        height: auto;
-        border-right: none;
-        border-bottom: 1px solid #ddd;
-    }
-    .map-container {
-        width: 100%;
-    }
-}
+        @media screen and (max-width: 768px) {
+            body {
+                flex-direction: column; /* 縦方向に並べる */
+            }
+            .list-container {
+                width: 100%;
+                height: auto;
+                border-right: none;
+                border-bottom: 1px solid #ddd;
+            }
+            .map-container {
+                width: 100%;
+            }
+        }
 
+        .map-popup {
+        display: none;
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 30%;
+        justify-content: center;
+        align-items: center;
+        background-color: rgba(0, 0, 0, 0.5);
+    }
+    .map-content {
+        position: relative;
+        width: 70%;
+        height: 70%;
+        background-color: #fff;
+        border-radius: 8px;
+        overflow: hidden;
+    }
+    .close-btn {
+        position: absolute;
+        top: 10px;
+        right: 10px;
+        font-size: 1.5em;
+        cursor: pointer;
+        z-index: 1000;
+    }
 
         /* 地方ごとの色設定 */
         .hokkaido { background-color: #4CAF50; }
@@ -159,58 +187,65 @@
         </div>
     </div>
     <div class="map-container">
-        <div class="region hokkaido hokkaido" onclick="showAquariums('hokkaido')">北海道</div>
-        <div class="region aomori tohoku" onclick="showAquariums('aomori')">青森</div>
-        <div class="region akita tohoku" onclick="showAquariums('akita')">秋田</div>
-        <div class="region iwate tohoku" onclick="showAquariums('iwate')">岩手</div>
-        <div class="region yamagata tohoku" onclick="showAquariums('yamagata')">山形</div>
-        <div class="region miyagi tohoku" onclick="showAquariums('miyagi')">宮城</div>
-        <div class="region fukushima tohoku" onclick="showAquariums('fukushima')">福島</div>
-        <div class="region niigata chubu" onclick="showAquariums('niigata')">新潟</div>
-        <div class="region nagano chubu" onclick="showAquariums('nagano')">長野</div>
-        <div class="region gifu chubu" onclick="showAquariums('gifu')">岐阜</div>
-        <div class="region tochigi kanto" onclick="showAquariums('tochigi')">栃木</div>
-        <div class="region ibaraki kanto" onclick="showAquariums('ibaraki')">茨城</div>
-        <div class="region gunma kanto" onclick="showAquariums('gunma')">群馬</div>
-        <div class="region chiba kanto" onclick="showAquariums('chiba')">千葉</div>
-        <div class="region saitama kanto" onclick="showAquariums('saitama')">埼玉</div>
-        <div class="region tokyo kanto" onclick="showAquariums('tokyo')">東京</div>
-        <div class="region kanagawa kanto" onclick="showAquariums('kanagawa')">神奈川</div>
-        <div class="region shizuoka chubu" onclick="showAquariums('shizuoka')">静岡</div>
-        <div class="region aichi chubu" onclick="showAquariums('aichi')">愛知</div>
-        <div class="region shiga kansai" onclick="showAquariums('shiga')">滋賀</div>
-        <div class="region mie kansai" onclick="showAquariums('mie')">三重</div>
-        <div class="region miyazaki kyushu" onclick="showAquariums('miyazaki')">宮崎</div>
-        <div class="region osaka kansai" onclick="showAquariums('osaka')">大阪</div>
-        <div class="region wakayama kansai" onclick="showAquariums('wakayama')">和歌山</div>
-        <div class="region hyogo kansai" onclick="showAquariums('hyogo')">兵庫</div>
-        <div class="region kyoto kansai" onclick="showAquariums('kyoto')">京都</div>
-        <div class="region yamanashi chubu" onclick="showAquariums('yamanashi')">山梨</div>
-        <div class="region nara kansai" onclick="showAquariums('nara')">奈良</div>
-        <div class="region fukui chubu" onclick="showAquariums('fukui')">福井</div>
-        <div class="region toyama chubu" onclick="showAquariums('toyama')">富山</div>
-        <div class="region ishikawa chubu" onclick="showAquariums('ishikawa')">石川</div>
-        <div class="region tottori chugoku" onclick="showAquariums('tottori')">鳥取</div>
-        <div class="region shimane chugoku" onclick="showAquariums('shimane')">島根</div>
-        <div class="region okayama chugoku" onclick="showAquariums('okayama')">岡山</div>
-        <div class="region hiroshima chugoku" onclick="showAquariums('hiroshima')">広島</div>
-        <div class="region yamaguchi chugoku" onclick="showAquariums('yamaguchi')">山口</div>
-        <div class="region tokushima shikoku" onclick="showAquariums('tokushima')">徳島</div>
-        <div class="region kagawa shikoku" onclick="showAquariums('kagawa')">香川</div>
-        <div class="region ehime shikoku" onclick="showAquariums('ehime')">愛媛</div>
-        <div class="region kochi shikoku" onclick="showAquariums('kochi')">高知</div>
-        <div class="region fukuoka kyushu" onclick="showAquariums('fukuoka')">福岡</div>
-        <div class="region saga kyushu" onclick="showAquariums('saga')">佐賀</div>
-        <div class="region nagasaki kyushu" onclick="showAquariums('nagasaki')">長崎</div>
-        <div class="region kumamoto kyushu" onclick="showAquariums('kumamoto')">熊本</div>
-        <div class="region oita kyushu" onclick="showAquariums('oita')">大分</div>
-        <div class="region kagoshima kyushu" onclick="showAquariums('kagoshima')">鹿児島</div>
-        <div class="region okinawa kyushu" onclick="showAquariums('okinawa')">沖縄</div>
+        <div class="region hokkaido hokkaido" onclick="showAquariums('hokkaido', {lat: 43.2203, lng: 142.8635})">北海道</div>
+        <div class="region aomori tohoku" onclick="showAquariums('aomori', {lat: 40.8246, lng: 140.7406})">青森</div>
+        <div class="region akita tohoku" onclick="showAquariums('akita', {lat: 39.7200, lng: 140.1024})">秋田</div>
+        <div class="region iwate tohoku" onclick="showAquariums('iwate', {lat: 39.5935, lng: 141.3757})">岩手</div>
+        <div class="region yamagata tohoku" onclick="showAquariums('yamagata', {lat: 38.4484, lng: 140.1024})">山形</div>
+        <div class="region miyagi tohoku" onclick="showAquariums('miyagi', {lat: 38.2682, lng: 140.8694})">宮城</div>
+        <div class="region fukushima tohoku" onclick="showAquariums('fukushima', {lat: 37.7503, lng: 140.4676})">福島</div>
+        <div class="region niigata chubu" onclick="showAquariums('niigata', {lat: 37.9022, lng: 139.0235})">新潟</div>
+        <div class="region nagano chubu" onclick="showAquariums('nagano', {lat: 36.6513, lng: 138.1810})">長野</div>
+        <div class="region gifu chubu" onclick="showAquariums('gifu', {lat: 35.4233, lng: 136.7606})">岐阜</div>
+        <div class="region tochigi kanto" onclick="showAquariums('tochigi', {lat: 36.5657, lng: 139.8836})">栃木</div>
+        <div class="region ibaraki kanto" onclick="showAquariums('ibaraki', {lat: 36.3414, lng: 140.4468})">茨城</div>
+        <div class="region gunma kanto" onclick="showAquariums('gunma', {lat: 36.3907, lng: 139.0604})">群馬</div>
+        <div class="region chiba kanto" onclick="showAquariums('chiba', {lat: 35.6073, lng: 140.1063})">千葉</div>
+        <div class="region saitama kanto" onclick="showAquariums('saitama', {lat: 35.8569, lng: 139.6488})">埼玉</div>
+        <div class="region tokyo kanto" onclick="showAquariums('tokyo', {lat: 35.6895, lng: 139.6917})">東京</div>
+        <div class="region kanagawa kanto" onclick="showAquariums('kanagawa', {lat: 35.4475, lng: 139.6423})">神奈川</div>
+        <div class="region shizuoka chubu" onclick="showAquariums('shizuoka', {lat: 34.9769, lng: 138.3831})">静岡</div>
+        <div class="region aichi chubu" onclick="showAquariums('aichi', {lat: 35.1802, lng: 136.9066})">愛知</div>
+        <div class="region shiga kansai" onclick="showAquariums('shiga', {lat: 35.0045, lng: 135.8686})">滋賀</div>
+        <div class="region mie kansai" onclick="showAquariums('mie', {lat: 34.7303, lng: 136.5086})">三重</div>
+        <div class="region miyazaki kyushu" onclick="showAquariums('miyazaki', {lat: 31.9077, lng: 131.4202})">宮崎</div>
+        <div class="region osaka kansai" onclick="showAquariums('osaka', {lat: 34.6937, lng: 135.5023})">大阪</div>
+        <div class="region wakayama kansai" onclick="showAquariums('wakayama', {lat: 34.2260, lng: 135.1675})">和歌山</div>
+        <div class="region hyogo kansai" onclick="showAquariums('hyogo', {lat: 34.6913, lng: 135.1830})">兵庫</div>
+        <div class="region kyoto kansai" onclick="showAquariums('kyoto', {lat: 35.0116, lng: 135.7681})">京都</div>
+        <div class="region yamanashi chubu" onclick="showAquariums('yamanashi', {lat: 35.6642, lng: 138.5684})">山梨</div>
+        <div class="region nara kansai" onclick="showAquariums('nara', {lat: 34.6851, lng: 135.8050})">奈良</div>
+        <div class="region fukui chubu" onclick="showAquariums('fukui', {lat: 36.0652, lng: 136.2216})">福井</div>
+        <div class="region toyama chubu" onclick="showAquariums('toyama', {lat: 36.6953, lng: 137.2114})">富山</div>
+        <div class="region ishikawa chubu" onclick="showAquariums('ishikawa', {lat: 36.5947, lng: 136.6256})">石川</div>
+        <div class="region tottori chugoku" onclick="showAquariums('tottori', {lat: 35.5011, lng: 134.2351})">鳥取</div>
+        <div class="region shimane chugoku" onclick="showAquariums('shimane', {lat: 35.4723, lng: 133.0505})">島根</div>
+        <div class="region okayama chugoku" onclick="showAquariums('okayama', {lat: 34.6618, lng: 133.9344})">岡山</div>
+        <div class="region hiroshima chugoku" onclick="showAquariums('hiroshima', {lat: 34.3966, lng: 132.4596})">広島</div>
+        <div class="region yamaguchi chugoku" onclick="showAquariums('yamaguchi', {lat: 34.1859, lng: 131.4714})">山口</div>
+        <div class="region tokushima shikoku" onclick="showAquariums('tokushima', {lat: 34.0703, lng: 134.5548})">徳島</div>
+        <div class="region kagawa shikoku" onclick="showAquariums('kagawa', {lat: 34.3401, lng: 134.0434})">香川</div>
+        <div class="region ehime shikoku" onclick="showAquariums('ehime', {lat: 33.8416, lng: 132.7657})">愛媛</div>
+        <div class="region kochi shikoku" onclick="showAquariums('kochi', {lat: 33.5597, lng: 133.5311})">高知</div>
+        <div class="region fukuoka kyushu" onclick="showAquariums('fukuoka', {lat: 33.5902, lng: 130.4017})">福岡</div>
+        <div class="region saga kyushu" onclick="showAquariums('saga', {lat: 33.2635, lng: 130.3009})">佐賀</div>
+        <div class="region nagasaki kyushu" onclick="showAquariums('nagasaki', {lat: 32.7503, lng: 129.8777})">長崎</div>
+        <div class="region kumamoto kyushu" onclick="showAquariums('kumamoto', {lat: 32.8031, lng: 130.7079})">熊本</div>
+        <div class="region oita kyushu" onclick="showAquariums('oita', {lat: 33.2396, lng: 131.6093})">大分</div>
+        <div class="region kagoshima kyushu" onclick="showAquariums('kagoshima', {lat: 31.5966, lng: 130.5571})">鹿児島</div>
+        <div class="region okinawa kyushu" onclick="showAquariums('okinawa', {lat: 26.2124, lng: 127.6809})">沖縄</div>
+    </div>
+
+    <div id="map-popup" class="map-popup">
+        <div class="map-content">
+            <span class="close-btn" onclick="closeMap()">&times;</span>
+            <div id="map" style="width: 100%; height: 100%;"></div>
+        </div>
     </div>
 
     <script>
-const aquariums = {
-    hokkaido: [
+        const aquariums = {
+            hokkaido: [
         {name: "旭山動物園", url: "https://www.city.asahikawa.hokkaido.jp/asahiyamazoo/"},
         {name: "おたる水族館", url: "http://otaru-aq.jp/"},
         {name: "サケのふるさと 千歳水族館", url: "http://chitose-aq.jp/"}
@@ -245,159 +280,153 @@ const aquariums = {
         {name: "伊豆アニマルキングダム", url: "http://www.izu-kamori.jp/izu-biopark/"},
         {name: "熱川バナナワニ園", url: "http://bananawani.jp/"},
         {name: "沼津港深海水族館", url: "https://www.numazu-deepsea.com/"},
+        {name: "伊豆の国パノラマパーク アニマルハウス", url: "https://www.panoramapark.co.jp/animalhouse/"}
     ],
-　　tokyo: [
-    {name: "サンシャイン水族館", url: "https://sunshinecity.jp/aquarium/"},
-    {name: "葛西臨海水族園", url: "https://www.tokyo-zoo.net/zoo/kasai/"},
-    {name: "アクアパーク品川", url: "https://www.aqua-park.jp/"},
-    {name: "すみだ水族館", url: "https://www.sumida-aquarium.com/"},
-    {name: "しながわ水族館", url: "http://www.aquarium.gr.jp/"}
-],
-kanagawa: [
-    {name: "新江ノ島水族館", url: "https://www.enosui.com/"},
-    {name: "箱根園水族館", url: "https://www.princehotels.co.jp/amuse/hakone-en/suizokukan/"},
-    {name: "八景島シーパラダイス", url: "http://www.seaparadise.co.jp/"}
-],
-chiba: [
-    {name: "鴨川シーワールド", url: "http://www.kamogawa-seaworld.jp/"},
-    {name: "千葉市動物公園", url: "http://www.city.chiba.jp/zoo/"},
-    {name: "大洗水族館", url: "https://www.aquaworld-oarai.com/"}
-],
-saitama: [
-    {name: "さいたま水族館", url: "https://saitama-aquarium.com/"}
-],
-ibaraki: [
-    {name: "アクアワールド茨城県大洗水族館", url: "http://www.aquaworld-oarai.com/"}
-],
-tochigi: [
-    {name: "那須どうぶつ王国", url: "https://www.nasu-oukoku.com/"},
-    {name: "那須ハイランドパーク", url: "https://www.nasuhai.co.jp/"}
-],
-gunma: [
-],
-kagawa: [
-    {name: "四国水族館", url: "https://shikoku-aquarium.jp/"}
-],
-ehime: [
-    {name: "愛媛県立とべ動物園", url: "http://www.tobezoo.com/"},
-    {name: "長浜水族館", url: "https://www.city.ozu.ehime.jp/soshiki/nagahama/24/"}
-],
-kochi: [
-    {name: "桂浜水族館", url: "https://katurahama-aq.jp/"},
-    {name: "室戸ドルフィンセンター", url: "http://www.dolphincenter.jp/"}
-],
-tokushima: [
-    {name: "日和佐うみがめ博物館", url: "http://www.hiwasa-turtle.jp/"}
-],
+    tokyo: [
+        {name: "サンシャイン水族館", url: "https://sunshinecity.jp/aquarium/"},
+        {name: "葛西臨海水族園", url: "https://www.tokyo-zoo.net/zoo/kasai/"},
+        {name: "アクアパーク品川", url: "https://www.aqua-park.jp/"},
+        {name: "すみだ水族館", url: "https://www.sumida-aquarium.com/"},
+        {name: "しながわ水族館", url: "http://www.aquarium.gr.jp/"}
+    ],
+    kanagawa: [
+        {name: "新江ノ島水族館", url: "https://www.enosui.com/"},
+        {name: "箱根園水族館", url: "https://www.princehotels.co.jp/amuse/hakone-en/suizokukan/"},
+        {name: "八景島シーパラダイス", url: "http://www.seaparadise.co.jp/"}
+    ],
+    chiba: [
+        {name: "鴨川シーワールド", url: "http://www.kamogawa-seaworld.jp/"},
+        {name: "千葉市動物公園", url: "http://www.city.chiba.jp/zoo/"},
+        {name: "大洗水族館", url: "https://www.aquaworld-oarai.com/"}
+    ],
+    saitama: [
+        {name: "さいたま水族館", url: "https://saitama-aquarium.com/"}
+    ],
+    ibaraki: [
+        {name: "アクアワールド茨城県大洗水族館", url: "http://www.aquaworld-oarai.com/"}
+    ],
+    tochigi: [
+        {name: "那須どうぶつ王国", url: "https://www.nasu-oukoku.com/"},
+        {name: "那須ハイランドパーク", url: "https://www.nasuhai.co.jp/"}
+    ],
+    gunma: [
+    ],
+    kagawa: [
+        {name: "四国水族館", url: "https://shikoku-aquarium.jp/"}
+    ],
+    ehime: [
+        {name: "愛媛県立とべ動物園", url: "http://www.tobezoo.com/"},
+        {name: "長浜水族館", url: "https://www.city.ozu.ehime.jp/soshiki/nagahama/24/"}
+    ],
+    kochi: [
+        {name: "桂浜水族館", url: "https://katurahama-aq.jp/"},
+        {name: "室戸ドルフィンセンター", url: "http://www.dolphincenter.jp/"}
+    ],
+    tokushima: [
+        {name: "日和佐うみがめ博物館", url: "http://www.hiwasa-turtle.jp/"}
+    ],
     fukuoka: [
-    {name: "マリンワールド海の中道", url: "http://marine-world.jp/"},
-    {name: "福岡市動植物園", url: "http://zoo.city.fukuoka.lg.jp/"}
-],
-saga: [
-],
-nagasaki: [
-    {name: "長崎ペンギン水族館", url: "http://penguin-aqua.jp/"},
-    {name: "九十九島水族館海きらら", url: "http://www.umikirara.jp/"}
-],
-kumamoto: [
-    {name: "熊本市動植物園", url: "https://www.ezooko.jp/"}
-],
-oita: [
-    {name: "うみたまご", url: "http://www.umitamago.jp/"},
-    {name: "高崎山自然動物園", url: "http://www.takasakiyama.jp/"}
-],
-miyazaki: [
-    {name: "フェニックス自然動物園", url: "https://www.miyazaki-city-zoo.jp/"}
-],
-kagoshima: [
-    {name: "いおワールドかごしま水族館", url: "http://www.kagoshima-kouhaku.jp/"},
-    {name: "平川動物公園", url: "https://hirakawazoo.jp/"}
-],
-okinawa: [
-    {name: "沖縄美ら海水族館", url: "https://churaumi.okinawa/"},
-    {name: "DMMかりゆし水族館", url: "https://kariyushi-aquarium.com/"}
-],
+        {name: "マリンワールド海の中道", url: "http://marine-world.jp/"},
+        {name: "福岡市動植物園", url: "http://zoo.city.fukuoka.lg.jp/"}
+    ],
+    saga: [
+    ],
+    nagasaki: [
+        {name: "長崎ペンギン水族館", url: "http://penguin-aqua.jp/"},
+        {name: "九十九島水族館海きらら", url: "http://www.umikirara.jp/"}
+    ],
+    kumamoto: [
+        {name: "熊本市動植物園", url: "https://www.ezooko.jp/"}
+    ],
+    oita: [
+        {name: "うみたまご", url: "http://www.umitamago.jp/"},
+        {name: "高崎山自然動物園", url: "http://www.takasakiyama.jp/"}
+    ],
+    miyazaki: [
+        {name: "フェニックス自然動物園", url: "https://www.miyazaki-city-zoo.jp/"}
+    ],
+    kagoshima: [
+        {name: "いおワールドかごしま水族館", url: "http://www.kagoshima-kouhaku.jp/"},
+        {name: "平川動物公園", url: "https://hirakawazoo.jp/"}
+    ],
+    okinawa: [
+        {name: "沖縄美ら海水族館", url: "https://churaumi.okinawa/"},
+        {name: "DMMかりゆし水族館", url: "https://kariyushi-aquarium.com/"}
+    ],
     niigata: [
-    {name: "新潟市水族館 マリンピア日本海", url: "https://www.marinepia.or.jp/"},
-    {name: "佐渡島たらい舟とサドッキー水族館", url: "https://www.sadokisen.com/sado-wm/"}
-],
-toyama: [
-    {name: "魚津水族館", url: "https://www.uozu-aquarium.jp/"}
-],
-ishikawa: [
-    {name: "のとじま水族館", url: "https://www.notoaqua.jp/"}
-],
-fukui: [
-    {name: "越前松島水族館", url: "https://www.echizen-aquarium.com/"}
-],
-yamanashi: [
-    {name: "森の中の水族館。", url: "http://www.morinonakano-suizokukan.com/index.html"}
-],
-nagano: [
-    {name: "蓼科アミューズメント水族館", url: "https://www.tateshina-aquarium.jp/"},
-    {name: "小諸市動物園", url: "http://www.city.komoro.nagano.jp/zoo/"}
-],
-gifu: [
-    {name: "アクア・トトぎふ", url: "https://aquatotto.com/"}
-],
-aichi: [
-    {name: "名古屋港水族館", url: "http://www.nagoyaaqua.jp/"},
-    {name: "竹島水族館", url: "https://www.city.gamagori.lg.jp/site/takesui/"},
-    {name: "碧南海浜水族館", url: "https://www.city.hekinan.lg.jp/aquarium/"}
-],
-shiga: [
-    {name: "琵琶湖博物館", url: "https://www.biwahaku.jp/"},
-    {name: "大津市立科学館", url: "https://www.otsu.ed.jp/kagaku/"}
-],
+        {name: "新潟市水族館 マリンピア日本海", url: "https://www.marinepia.or.jp/"},
+        {name: "佐渡島たらい舟とサドッキー水族館", url: "https://www.sadokisen.com/sado-wm/"}
+    ],
+    toyama: [
+        {name: "魚津水族館", url: "https://www.uozu-aquarium.jp/"}
+    ],
+    ishikawa: [
+        {name: "のとじま水族館", url: "https://www.notoaqua.jp/"}
+    ],
+    fukui: [
+        {name: "越前松島水族館", url: "https://www.echizen-aquarium.com/"}
+    ],
+    yamanashi: [
+        {name: "森の中の水族館。", url: "http://www.morinonakano-suizokukan.com/index.html"}
+    ],
+    nagano: [
+        {name: "蓼科アミューズメント水族館", url: "https://www.tateshina-aquarium.jp/"},
+        {name: "小諸市動物園", url: "http://www.city.komoro.nagano.jp/zoo/"}
+    ],
+    gifu: [
+        {name: "アクア・トトぎふ", url: "https://aquatotto.com/"}
+    ],
+    aichi: [
+        {name: "名古屋港水族館", url: "http://www.nagoyaaqua.jp/"},
+        {name: "竹島水族館", url: "https://www.city.gamagori.lg.jp/site/takesui/"},
+        {name: "碧南海浜水族館", url: "https://www.city.hekinan.lg.jp/aquarium/"}
+    ],
+    shiga: [
+        {name: "琵琶湖博物館", url: "https://www.biwahaku.jp/"},
+        {name: "大津市立科学館", url: "https://www.otsu.ed.jp/kagaku/"}
+    ],
     tottori: [
-    {name: "鳥取砂丘こどもの国", url: "https://www.kodomonokuni.com/"},
-    {name: "とっとり花回廊", url: "https://www.tottorihanakairou.or.jp/"}
-],
-shimane: [
-    {name: "しまね海洋館アクアス", url: "https://aquas.or.jp/"},
-    {name: "宍道湖自然館ゴビウス", url: "https://gobius.jp/"}
-],
-okayama: [
-    {name: "渋川マリン水族館", url: "https://www.city.tamano.lg.jp/site/kaihaku/"},
-    {name: "岡山淡水魚水族館", url: "http://kibitanago.blog.fc2.com/"}
-],
-hiroshima: [
-    {name: "宮島水族館", url: "http://www.miyajima-aqua.jp/"},
-    {name: "福山自然動物園", url: "http://www.fukuyama-zoo.jp/"}
-],
-yamaguchi: [
-    {name: "海響館", url: "https://www.kaikyokan.com/"},
-    {name: "秋吉台自然動物公園サファリランド", url: "http://www.safariland.jp/"}
-],
+        {name: "鳥取砂丘こどもの国", url: "https://www.kodomonokuni.com/"},
+        {name: "とっとり花回廊", url: "https://www.tottorihanakairou.or.jp/"}
+    ],
+    shimane: [
+        {name: "しまね海洋館アクアス", url: "https://aquas.or.jp/"},
+        {name: "宍道湖自然館ゴビウス", url: "https://gobius.jp/"}
+    ],
+    okayama: [
+        {name: "渋川マリン水族館", url: "https://www.city.tamano.lg.jp/site/kaihaku/"},
+        {name: "岡山淡水魚水族館", url: "http://kibitanago.blog.fc2.com/"}
+    ],
+    hiroshima: [
+        {name: "宮島水族館", url: "http://www.miyajima-aqua.jp/"},
+        {name: "福山自然動物園", url: "http://www.fukuyama-zoo.jp/"}
+    ],
+    yamaguchi: [
+        {name: "海響館", url: "https://www.kaikyokan.com/"},
+        {name: "秋吉台自然動物公園サファリランド", url: "http://www.safariland.jp/"}
+    ],
     osaka: [
-    {name: "大阪海遊館", url: "https://www.kaiyukan.com/"},
-    {name: "ニフレル", url: "https://www.nifrel.jp/"}
-],
-kyoto: [
-    {name: "京都水族館", url: "https://www.kyoto-aquarium.com/"},
-    {name: "京都府立植物園", url: "http://www.pref.kyoto.jp/plant/"}
-],
-hyogo: [
-    {name: "神戸市立須磨海浜水族園", url: "https://kobe-sumasui.jp/"}
-],
-nara: [
-],
-shiga: [
-    {name: "琵琶湖博物館", url: "https://www.lbm.go.jp/"}
-],
-wakayama: [
-    {name: "アドベンチャーワールド", url: "https://www.aws-s.com/"},
-    {name: "串本海中公園", url: "http://www.kushimoto.co.jp/"}
-]
+        {name: "大阪海遊館", url: "https://www.kaiyukan.com/"},
+        {name: "ニフレル", url: "https://www.nifrel.jp/"}
+    ],
+    kyoto: [
+        {name: "京都水族館", url: "https://www.kyoto-aquarium.com/"},
+        {name: "京都府立植物園", url: "http://www.pref.kyoto.jp/plant/"}
+    ],
+    hyogo: [
+        {name: "神戸市立須磨海浜水族園", url: "https://kobe-sumasui.jp/"}
+    ],
+    nara: [
+    ],
+    wakayama: [
+        {name: "アドベンチャーワールド", url: "https://www.aws-s.com/"},
+        {name: "串本海中公園", url: "http://www.kushimoto.co.jp/"}
+    ]
+            // ここにすべての水族館データを追加します。
+        };
 
-
-
-    
-    // 他の都道府県の水族館データをここに追加
-};
-
-const prefectureNames = {
-    hokkaido: "北海道",
+        const prefectureNames = {
+            hokkaido: "北海道",
     aomori: "青森",
     akita: "秋田",
     iwate: "岩手",
@@ -444,40 +473,63 @@ const prefectureNames = {
     oita: "大分",
     kagoshima: "鹿児島",
     okinawa: "沖縄"
-};
+            // ここにすべての都道府県の名前を追加します。
+        };
 
-function showAquariums(prefecture) {
-    const listContainer = document.getElementById('aquarium-list');
-    const prefectureName = prefectureNames[prefecture];
-    listContainer.innerHTML = `<h2>${prefectureName}の水族館</h2>`;
-    if (aquariums[prefecture]) {
-        const table = document.createElement('table');
-        const thead = document.createElement('thead');
-        const tbody = document.createElement('tbody');
-        
-        thead.innerHTML = `
-            <tr>
-                <th>水族館名</th>
-            </tr>
-        `;
-        
-        aquariums[prefecture].forEach(aquarium => {
-            const row = document.createElement('tr');
-            row.innerHTML = `
-                <td><a href="${aquarium.url}" target="_blank">${aquarium.name}</a></td>
-            `;
-            tbody.appendChild(row);
-        });
+        function showAquariums(prefecture, location) {
+            const listContainer = document.getElementById('aquarium-list');
+            const prefectureName = prefectureNames[prefecture];
+            listContainer.innerHTML = `<h2>${prefectureName}の水族館</h2>`;
+            if (aquariums[prefecture]) {
+                const table = document.createElement('table');
+                const thead = document.createElement('thead');
+                const tbody = document.createElement('tbody');
 
-        table.appendChild(thead);
-        table.appendChild(tbody);
-        listContainer.appendChild(table);
-    } else {
-        listContainer.innerHTML += '<p>該当する水族館がありません。</p>';
-    }
-}
+                thead.innerHTML = `
+                    <tr>
+                        <th>水族館名</th>
+                    </tr>
+                `;
 
+                aquariums[prefecture].forEach(aquarium => {
+                    const row = document.createElement('tr');
+                    row.innerHTML = `
+                        <td><a href="${aquarium.url}" target="_blank">${aquarium.name}</a></td>
+                    `;
+                    tbody.appendChild(row);
+                });
 
+                table.appendChild(thead);
+                table.appendChild(tbody);
+                listContainer.appendChild(table);
+            } else {
+                listContainer.innerHTML += '<p>該当する水族館がありません。</p>';
+            }
+            showMap(location);
+        }
+
+        function showMap(location) {
+            const mapPopup = document.getElementById('map-popup');
+            mapPopup.style.display = 'flex';
+
+            const map = new google.maps.Map(document.getElementById('map'), {
+                center: location,
+                zoom: 8
+            });
+
+            new google.maps.Marker({
+                position: location,
+                map: map
+            });
+        }
+
+        function closeMap() {
+            const mapPopup = document.getElementById('map-popup');
+            mapPopup.style.display = 'none';
+        }
+    </script>
+    <script async defer
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD_M35qC01HD45MkO62v8MORuo_E_OXaq0&callback=initMap">
     </script>
 </body>
 </html>
