@@ -76,20 +76,6 @@
             text-decoration: underline;
         }
 
-        @media screen and (max-width: 768px) {
-            body {
-                flex-direction: column; /* 縦方向に並べる */
-            }
-            .list-container {
-                width: 100%;
-                height: auto;
-                border-right: none;
-                border-bottom: 1px solid #ddd;
-            }
-            .map-container {
-                width: 100%;
-            }
-        }
 
         .map-popup {
         display: none;
@@ -118,6 +104,30 @@
         cursor: pointer;
         z-index: 1000;
     }
+
+    @media screen and (max-width: 750px) {
+    body {
+        flex-direction: column;
+    }
+    .list-container {
+        width: 100%;
+        height: auto;
+        border-right: none;
+        border-bottom: 1px solid #ddd;
+    }
+    .map-container {
+        width: 100%;
+    }
+    .map-popup {
+        left: 0;
+        width: 100%; /* ポップアップの横幅を画面の100%に設定 */
+        height: 60%; /* ポップアップの高さを少し小さくする */
+        bottom: auto; /* リストと重ならないように調整 */
+    }
+    .map-content {
+        height: 100%; /* ポップアップ内の地図の高さも調整 */
+    }
+}
 
         /* 地方ごとの色設定 */
         .hokkaido { background-color: #4CAF50; }
