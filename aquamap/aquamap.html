@@ -1,1 +1,37 @@
 
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>スイゾクカンにイットクカ</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div id="logo">仮のロゴテキスト</div>
+        <div id="menu-icon">☰</div>
+        <nav id="menu-bar">
+            <ul>
+                <li><a href="#">AQUA MAP</a></li>
+                <li><a href="#">SEARCH</a></li>
+                <li><a href="#">MAGAZINE</a></li>
+                <li><a href="#">WIKI</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main id="map-container">
+        <div id="map"></div>
+        <div id="search-bar">
+            <input type="text" id="search-input" placeholder="Search for Aquariums">
+            <button id="search-button">検索</button>
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+    <script async defer
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD_M35qC01HD45MkO62v8MORuo_E_OXaq0&callback=initMap">
+    </script>
+</body>
+</html>
