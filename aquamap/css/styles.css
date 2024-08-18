@@ -133,3 +133,7 @@ header {
     cursor: pointer;
     z-index: 1001; /* 閉じるボタンを最前面に表示 */
 }
+    /* デフォルトの閉じるボタンを非表示にする */
+    .gm-ui-hover-effect {
+        display: none !important;
+    }
