@@ -77,3 +77,23 @@ header {
     padding: 5px 10px;
     cursor: pointer;
 }
+
+/* styles.css内の追加 */
+.navbar {
+    background-color: #679CF7;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    color: white;
+    font-size: 1em;
+    font-weight: bold;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+}
+
+.navbar a.active {
+    font-weight: bold;
+}
