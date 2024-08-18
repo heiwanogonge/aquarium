@@ -6,23 +6,28 @@ body {
     padding: 0;
 }
 
+/* styles.css内の追加 */
 header {
-    background-color: #679CF7;
-    color: white;
+    background-color: #FFFFFF;
+    padding: 10px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px;
 }
 
-#logo {
-    font-size: 24px;
+header .logo {
+    font-size: 1.5em;
+    font-weight: bold;
 }
 
-#menu-icon {
-    font-size: 24px;
-    cursor: pointer;
+header .menu-icon {
+    width: 24px;
+    height: 24px;
+    background-image: url('path_to_menu_icon.png'); /* メニューアイコンの画像を指定 */
+    background-size: contain;
+    background-repeat: no-repeat;
 }
+
 
 #menu-bar {
     display: none; /* 初期状態でメニューは非表示 */
