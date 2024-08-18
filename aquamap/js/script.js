@@ -3,11 +3,11 @@
 function initMap() {
     const tokyo = { lat: 35.6895, lng: 139.6917 };
 
-    const map = new google.maps.Map(document.getElementById("map"), {
-        zoom: 10,
-        center: tokyo,
+    const map = new google.maps.Map(document.getElementById('map'), {
+        center: { lat: 35.6895, lng: 139.6917 },
+        zoom: 10
     });
-
+    
     const aquariums = [
         { name: 'サンシャイン水族館', lat: 35.7295, lng: 139.7177, prefecture: '東京都', url: '#' },
         { name: '葛西臨海水族園', lat: 35.6402, lng: 139.8791, prefecture: '東京都', url: '#' },
@@ -15,7 +15,7 @@ function initMap() {
         { name: 'すみだ水族館', lat: 35.7100, lng: 139.8107, prefecture: '東京都', url: '#' },
         { name: 'しながわ水族館', lat: 35.6085, lng: 139.7387, prefecture: '東京都', url: '#' }
     ];
-
+    
     aquariums.forEach(function(aquarium) {
         const marker = new google.maps.Marker({
             position: { lat: aquarium.lat, lng: aquarium.lng },
@@ -25,13 +25,13 @@ function initMap() {
     
         const infoWindow = new google.maps.InfoWindow({
             content: `
-                <div style="position: relative;">
+                <div style="position: relative; padding-right: 20px;">
                     <h3 style="margin: 0; font-size: 16px;"><a href="${aquarium.url}" target="_blank" style="color: black; text-decoration: none;">${aquarium.name}</a></h3>
                     <p style="margin: 4px 0; font-size: 14px;">${aquarium.prefecture}</p>
-                    <span class="custom-close-btn" style="cursor: pointer; position: absolute; top: 0; right: 0; font-size: 18px; line-height: 1; padding: 2px; color: black;">&times;</span>
+                    <span class="custom-close-btn" style="cursor: pointer; position: absolute; top: -10px; right: 1px; font-size: 25px; color: black;">&times;</span>
                 </div>
             `,
-            disableAutoPan: true  // デフォルトの閉じるボタンを無効化
+            disableAutoPan: true  // パンを無効にする
         });
     
         marker.addListener('click', function() {
@@ -44,7 +44,6 @@ function initMap() {
             });
         });
     });
-     
 }
 
 document.getElementById("menu-icon").addEventListener("click", function() {
@@ -93,4 +92,3 @@ document.addEventListener("DOMContentLoaded", function() {
         menuPage.style.display = "none";
     });
 });
-
