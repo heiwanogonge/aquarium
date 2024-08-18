@@ -56,7 +56,8 @@ header .menu-icon {
 
 #map {
     width: 100%;
-    height: 100%;
+    height: calc(100vh - 120px); /* ヘッダーとメニューバーの高さを引いた値 */
+    margin-top: 10px;
 }
 
 #search-bar {
@@ -102,3 +103,6 @@ header .menu-icon {
 .navbar a.active {
     font-weight: bold;
 }
+
+/* styles.css内の追加 */
+
