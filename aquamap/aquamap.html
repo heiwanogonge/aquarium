@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="ja">
 <head>
@@ -8,31 +7,39 @@
     <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-<!-- aquamap.html内の修正 -->
-<body>
     <header>
-        <div class="logo">ロゴ</div>
-        <div class="menu-icon"></div>
+        <div class="logo">スイゾクカンにイットクカ</div>
+        <div id="menu-icon" class="menu-icon">☰</div>
     </header>
     
+    <!-- Navbarを常に表示 -->
     <nav class="navbar">
         <a href="#">AQUA MAP</a>
         <a href="#">SEARCH</a>
         <a href="#">MAGAZINE</a>
         <a href="#">WIKI</a>
     </nav>
+
+    <!-- メニューボタンで表示されるページを追加 -->
+    <div class="menu-page" id="menu-page">
+        <div class="menu-page-content">
+            <span class="close-btn" id="close-menu">&times;</span> <!-- ここに閉じるボタンを追加 -->
+            <div class="menu-page-navbar">
+                <a href="#">AQUA MAP</a>
+                <a href="#">SEARCH</a>
+                <a href="#">MAGAZINE</a>
+                <a href="#">WIKI</a>
+            </div>
+        </div>
+    </div>
     
     <div id="map"></div>
-    <!-- Googleマップのエリア -->
-</body>
 
-    <main id="map-container">
-        <div id="map"></div>
-        <div id="search-bar">
-            <input type="text" id="search-input" placeholder="Search for Aquariums">
-            <button id="search-button">検索</button>
-        </div>
-    </main>
+    <button id="search-toggle" class="search-button">検索</button>
+    <div id="searchbar" class="searchbar">
+        <input type="text" id="search-input" placeholder="水族館名、都道府県、駅などで検索">
+        <button id="search-button">検索</button>
+    </div>
 
     <script src="js/script.js"></script>
     <script async defer
