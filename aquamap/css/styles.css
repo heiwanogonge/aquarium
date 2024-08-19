@@ -1,3 +1,7 @@
+
+
+/* styles.css */
+
 body {
     margin: 0;
     padding: 0;
@@ -133,7 +137,15 @@ header {
     cursor: pointer;
     z-index: 1001; /* 閉じるボタンを最前面に表示 */
 }
+
     /* デフォルトの閉じるボタンを非表示にする */
     .gm-ui-hover-effect {
         display: none !important;
+    }
+
+    a {
+        text-decoration: none; /* 下線を削除 */
+        color: black; /* 文字色を黒に設定 */
+        border: none; /* 枠線を削除 */
+        outline: none; /* フォーカス時の枠線を削除 */
     }
