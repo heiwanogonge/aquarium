@@ -45,7 +45,7 @@ function initMap() {
                 <div style="position: relative; padding-right: 20px;">
                     <h3 style="margin: 0; font-size: 16px;"><a href="${aquarium.url}" target="_blank" style="color: black; text-decoration: none;">${aquarium.name}</a></h3>
                     <p style="margin: 4px 0; font-size: 14px;">${aquarium.prefecture}</p>
-                    <span class="custom-close-btn" style="cursor: pointer; position: absolute; top: 0px; right: 10px; font-size: 18px; color: black;">&times;</span>
+                    <span class="custom-close-btn" style="cursor: pointer; position: absolute; top: -10px; right: 3px; font-size: 25px; color: black;">&times;</span>
                 </div>
             `
         });
