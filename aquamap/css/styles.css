@@ -43,6 +43,10 @@ header {
     padding: 10px;
 }
 
+.navbar a.active {
+    font-weight: bold;
+}
+
 #map {
     height: calc(100vh - 110px); /* ヘッダーとメニューを除いた高さに設定 */
     width: 100%;
