@@ -1,0 +1,102 @@
+[
+    {
+        "name": "サンシャイン水族館",
+        "latitude": 35.7295,
+        "longitude": 139.7177,
+        "prefecture": "東京都",
+        "description": "池袋サンシャインシティにある都市型水族館。",
+        "URL": "https://sunshinecity.jp/aquarium/",
+        "address": "東京都豊島区東池袋3-1",
+        "opening_hours": "10:00-20:00",
+        "ticket_price": "2200円（大人）",
+        "breeding_types": 200,
+        "like": 150,
+        "comment": 45,
+        "website": "https://sunshinecity.jp/aquarium/",
+        "photos": [
+            "https://example.com/photo1.jpg",
+            "https://example.com/photo2.jpg"
+        ],
+        "icon": "https://example.com/icon_sunshine.png"
+    },
+    {
+        "name": "葛西臨海水族園",
+        "latitude": 35.6402,
+        "longitude": 139.8791,
+        "prefecture": "東京都",
+        "description": "東京湾岸の大規模な水族館。",
+        "URL": "https://www.tokyo-zoo.net/zoo/kasai/",
+        "address": "東京都江戸川区臨海町6-2-3",
+        "opening_hours": "9:30-17:00",
+        "ticket_price": "700円（大人）",
+        "breeding_types": 600,
+        "like": 250,
+        "comment": 75,
+        "website": "https://www.tokyo-zoo.net/zoo/kasai/",
+        "photos": [
+            "https://example.com/photo3.jpg",
+            "https://example.com/photo4.jpg"
+        ],
+        "icon": "https://example.com/icon_kasai.png"
+    },
+    {
+        "name": "アクアパーク品川",
+        "latitude": 35.6275,
+        "longitude": 139.7402,
+        "prefecture": "東京都",
+        "description": "エプソンアクアパーク品川は、光と水のショーが特徴の水族館。",
+        "URL": "https://www.aqua-park.jp/",
+        "address": "東京都港区高輪4-10-30",
+        "opening_hours": "10:00-22:00",
+        "ticket_price": "2300円（大人）",
+        "breeding_types": 300,
+        "like": 180,
+        "comment": 50,
+        "website": "https://www.aqua-park.jp/",
+        "photos": [
+            "https://example.com/photo5.jpg",
+            "https://example.com/photo6.jpg"
+        ],
+        "icon": "https://example.com/icon_aqua_park.png"
+    },
+    {
+        "name": "すみだ水族館",
+        "latitude": 35.7100,
+        "longitude": 139.8107,
+        "prefecture": "東京都",
+        "description": "東京スカイツリータウンにある最新の水族館。",
+        "URL": "https://www.sumida-aquarium.com/",
+        "address": "東京都墨田区押上1-1-2",
+        "opening_hours": "9:00-21:00",
+        "ticket_price": "2050円（大人）",
+        "breeding_types": 400,
+        "like": 200,
+        "comment": 60,
+        "website": "https://www.sumida-aquarium.com/",
+        "photos": [
+            "https://example.com/photo7.jpg",
+            "https://example.com/photo8.jpg"
+        ],
+        "icon": "https://example.com/icon_sumida.png"
+    },
+    {
+        "name": "しながわ水族館",
+        "latitude": 35.6085,
+        "longitude": 139.7387,
+        "prefecture": "東京都",
+        "description": "品川区にあるファミリー向けの水族館。",
+        "URL": "http://www.aquarium.gr.jp/",
+        "address": "東京都品川区勝島3-2-1",
+        "opening_hours": "10:00-17:00",
+        "ticket_price": "1350円（大人）",
+        "breeding_types": 350,
+        "like": 120,
+        "comment": 40,
+        "website": "http://www.aquarium.gr.jp/",
+        "photos": [
+            "https://example.com/photo9.jpg",
+            "https://example.com/photo10.jpg"
+        ],
+        "icon": "https://example.com/icon_shinagawa.png"
+    }
+]
