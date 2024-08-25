@@ -122,3 +122,10 @@ document.addEventListener("DOMContentLoaded", function() {
         menuPage.style.display = "none";
     });
 });
+
+document.addEventListener("DOMContentLoaded", function() {
+    const pageId = "nav-aquamap"; // 今回はAQUAMAPページが表示されていると仮定
+
+    // 対象のリンクにactiveクラスを追加
+    document.getElementById(pageId).classList.add("active");
+});
