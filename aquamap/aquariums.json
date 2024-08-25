@@ -144,7 +144,7 @@
         "latitude": 35.6713698,
         "longitude": 139.7657375,
         "prefecture": "東京都",
-        "description": "",
+        "description": "https://artaquarium.jp/",
         "URL": "",
         "address": "日本、〒104-8212 東京都中央区銀座４丁目６−１６ 三越新館 8階 9階入場口",
         "opening_hours": [
@@ -160,7 +160,7 @@
         "breeding_types": 400,
         "like": 200,
         "comment": 60,
-        "website": "",
+        "website": "https://artaquarium.jp/",
         "photos": [
             "",
             ""
@@ -172,7 +172,7 @@
         "latitude": 35.62820740000001,
         "longitude": 139.7736833,
         "prefecture": "東京都",
-        "description": "",
+        "description": "https://uws-gakyo.com/",
         "URL": "",
         "address": "日本、〒135-0091 東京都港区台場１丁目７−１ アクアシティ お台場",
         "opening_hours": [
@@ -184,7 +184,7 @@
             "土曜日: 11時00分～21時00分",
             "日曜日: 11時00分～21時00分"
         ],
-        "ticket_price": "",
+        "ticket_price": "https://uws-gakyo.com/",
         "breeding_types": 400,
         "like": 200,
         "comment": 60,
@@ -200,7 +200,7 @@
         "latitude": 35.781408,
         "longitude": 139.8783839,
         "prefecture": "東京都",
-        "description": "",
+        "description": "https://www.city.katsushika.lg.jp/institution/1000096/1006909.html",
         "URL": "",
         "address": "日本、〒125-0034 東京都葛飾区水元公園１−１",
         "opening_hours": [
@@ -213,10 +213,10 @@
             "日曜日: 定休日"
         ],
         "ticket_price": "",
-        "breeding_types": 400,
+        "breeding_types": "24種類約1,000匹",
         "like": 200,
         "comment": 60,
-        "website": "",
+        "website": "https://www.city.katsushika.lg.jp/institution/1000096/1006909.html",
         "photos": [
             "",
             ""
@@ -228,7 +228,7 @@
         "latitude": 35.7003977,
         "longitude": 139.5753888,
         "prefecture": "東京都",
-        "description": "",
+        "description": "https://www.tokyo-zoo.net/zoo/ino/",
         "URL": "",
         "address": "日本、〒181-0001 東京都三鷹市井の頭４丁目１",
         "opening_hours": [
@@ -244,7 +244,7 @@
         "breeding_types": 400,
         "like": 200,
         "comment": 60,
-        "website": "",
+        "website": "https://www.tokyo-zoo.net/zoo/ino/",
         "photos": [
             "",
             ""
@@ -256,7 +256,7 @@
         "latitude": 35.6971764,
         "longitude": 139.3674957,
         "prefecture": "東京都",
-        "description": "",
+        "description": "https://www.gesui.metro.tokyo.lg.jp/business/b4/guide/s-fureai/index.html",
         "URL": "",
         "address": "日本、〒196-0024 東京都昭島市宮沢町３丁目１５−１ 多摩川上流水再生センター内",
         "opening_hours": [
@@ -268,11 +268,11 @@
             "土曜日: 定休日",
             "日曜日: 定休日"
         ],
-        "ticket_price": "",
+        "ticket_price": "無料",
         "breeding_types": 400,
         "like": 200,
         "comment": 60,
-        "website": "",
+        "website": "https://www.gesui.metro.tokyo.lg.jp/business/b4/guide/s-fureai/index.html",
         "photos": [
             "",
             ""
@@ -284,7 +284,7 @@
         "latitude": 35.6485569,
         "longitude": 139.6928962,
         "prefecture": "東京都",
-        "description": "",
+        "description": "https://www.donki.com/store/shop_detail.php?shop_id=442",
         "URL": "",
         "address": "日本、〒153-0042 東京都目黒区青葉台２丁目１９−１０",
         "opening_hours": [],
@@ -292,7 +292,7 @@
         "breeding_types": 400,
         "like": 200,
         "comment": 60,
-        "website": "",
+        "website": "https://www.donki.com/store/shop_detail.php?shop_id=442",
         "photos": [
             "",
             ""
@@ -304,7 +304,7 @@
         "latitude": 35.792449,
         "longitude": 139.807227,
         "prefecture": "東京都",
-        "description": "",
+        "description": "https://seibutuen.jp/",
         "URL": "",
         "address": "日本、〒121-0064 東京都足立区保木間２丁目１７−１",
         "opening_hours": [
@@ -316,7 +316,7 @@
             "土曜日: 9時30分～17時30分",
             "日曜日: 9時30分～17時30分"
         ],
-        "ticket_price": "",
+        "ticket_price": "https://seibutuen.jp/",
         "breeding_types": 400,
         "like": 200,
         "comment": 60,
@@ -333,7 +333,7 @@
         "longitude": 142.2037514,
         "prefecture": "東京都",
         "description": "",
-        "URL": "",
+        "URL": "https://bonin-ocean.net/",
         "address": "日本、〒100-2101 東京都小笠原村父島屏風谷無番地",
         "opening_hours": [
             "月曜日: 9時00分～12時00分, 13時30分～16時00分",
@@ -348,7 +348,7 @@
         "breeding_types": 400,
         "like": 200,
         "comment": 60,
-        "website": "",
+        "website": "https://bonin-ocean.net/",
         "photos": [
             "",
             ""
