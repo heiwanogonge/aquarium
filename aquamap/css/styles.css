@@ -107,6 +107,19 @@ header {
     z-index: 1000;
     justify-content: center;
     align-items: center;
+    opacity: 0;
+    transform: translateY(-100%);
+    transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+.menu-page.show {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.menu-page.hide {
+    opacity: 0;
+    transform: translateY(-100%);
 }
 
 .menu-page-content {
