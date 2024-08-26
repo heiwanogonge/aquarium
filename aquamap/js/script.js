@@ -37,13 +37,21 @@ function initMap() {
                 const marker = new google.maps.Marker({
                     position: { lat: aquarium.latitude, lng: aquarium.longitude },
                     map: map,
-                    title: aquarium.name
+                    title: aquarium.name,
+                    icon: {
+                        url: 'img/aquamap_pin.png', // カスタムピン画像の相対パス
+                        scaledSize: new google.maps.Size(42, 42) // ピンのサイズを32x32に指定
+                    }
                 });
 
                 const infoWindow = new google.maps.InfoWindow({
                     content: `
                         <div style="position: relative; padding-right: 20px;">
-                            <h3 style="margin: 0; font-size: 16px;"><a href="${aquarium.URL}" target="_blank" style="color: black; text-decoration: none;">${aquarium.name}</a></h3>
+                            <h3 style="margin: 0; font-size: 16px;">
+                                <a href="${aquarium.URL}" target="_blank" style="color: black; text-decoration: none;">
+                                    ${aquarium.name}
+                                </a>
+                            </h3>
                             <p style="margin: 4px 0; font-size: 14px;">${aquarium.prefecture}</p>
                             <span class="custom-close-btn" style="cursor: pointer; position: absolute; top: -10px; right: 3px; font-size: 25px; color: black;">&times;</span>
                         </div>
@@ -60,8 +68,8 @@ function initMap() {
                     currentInfoWindow = infoWindow;
                     infoWindow.open(map, marker);
 
-                    // クリックしたピンの位置を地図の中心に設定
-                    map.setCenter(marker.getPosition());
+                    // クリックしたピンの位置を地図の中心に設定 (スムーズに移動)
+                    map.panTo(marker.getPosition());
                 });
 
                 google.maps.event.addListener(infoWindow, 'domready', function() {
@@ -78,11 +86,32 @@ function initMap() {
 
 document.getElementById("menu-icon").addEventListener("click", function() {
     const menuPage = document.getElementById("menu-page");
+
     if (menuPage.style.display === "none" || menuPage.style.display === "") {
-        menuPage.style.display = "block";
-    } else {
-        menuPage.style.display = "none";
+        menuPage.style.display = "flex";
+        setTimeout(function() {
+            menuPage.classList.add("show");
+            menuPage.classList.remove("hide");
+        }, 10); // リフローを確実にするための小さな遅延
+    } else if (menuPage.classList.contains("show")) {
+        menuPage.classList.remove("show");
+        menuPage.classList.add("hide");
+
+        setTimeout(function() {
+            menuPage.style.display = "none";
+        }, 300); // CSSのtransition時間と一致させる
     }
+});
+
+document.getElementById("close-menu").addEventListener("click", function() {
+    const menuPage = document.getElementById("menu-page");
+
+    menuPage.classList.remove("show");
+    menuPage.classList.add("hide");
+
+    setTimeout(function() {
+        menuPage.style.display = "none";
+    }, 300); // CSSのtransition時間と一致させる
 });
 
 document.getElementById('search-toggle').addEventListener('click', function() {
