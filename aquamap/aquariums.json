@@ -1,12 +1,12 @@
 [
     {
         "name": "サンシャイン水族館",
-        "latitude": 35.7289709,
-        "longitude": 139.7195415,
+        "latitude": 35.7289254,
+        "longitude": 139.7201573,
         "prefecture": "東京都",
         "description": "池袋サンシャインシティにある都市型水族館。",
         "URL": "https://sunshinecity.jp/aquarium/",
-        "address": "日本、〒170-8630 東京都豊島区東池袋３丁目１−１",
+        "address": "日本、〒170-8630 東京都豊島区東池袋３丁目１−１ サンシャインシティワールドインポートマートビル 屋上",
         "opening_hours": [
             "月曜日: 9時00分～21時00分",
             "火曜日: 9時00分～21時00分",
@@ -29,12 +29,12 @@
     },
     {
         "name": "葛西臨海水族園",
-        "latitude": 35.64005770000001,
-        "longitude": 139.8622571,
+        "latitude": 35.6398972,
+        "longitude": 139.8621737,
         "prefecture": "東京都",
         "description": "東京湾岸の大規模な水族館。",
         "URL": "https://www.tokyo-zoo.net/zoo/kasai/",
-        "address": "日本、〒134-0086 東京都江戸川区臨海町６丁目２−３",
+        "address": "日本、〒134-8587 東京都江戸川区臨海町６丁目２−３",
         "opening_hours": [
             "月曜日: 9時30分～17時00分",
             "火曜日: 9時30分～17時00分",
@@ -145,7 +145,7 @@
         "longitude": 139.7657375,
         "prefecture": "東京都",
         "description": "https://artaquarium.jp/",
-        "URL": "",
+        "URL": "https://artaquarium.jp/",
         "address": "日本、〒104-8212 東京都中央区銀座４丁目６−１６ 三越新館 8階 9階入場口",
         "opening_hours": [
             "月曜日: 10時00分～19時00分",
@@ -188,7 +188,7 @@
         "breeding_types": 400,
         "like": 200,
         "comment": 60,
-        "website": "",
+        "website": "https://uws-gakyo.com/",
         "photos": [
             "",
             ""
@@ -320,7 +320,7 @@
         "breeding_types": 400,
         "like": 200,
         "comment": 60,
-        "website": "",
+        "website": "https://www.seibutuen.jp/",
         "photos": [
             "",
             ""
@@ -349,6 +349,34 @@
         "like": 200,
         "comment": 60,
         "website": "https://bonin-ocean.net/",
+        "photos": [
+            "",
+            ""
+        ],
+        "icon": ""
+    },
+    {
+        "name": "さいたま水族館",
+        "latitude": 36.1728026,
+        "longitude": 139.597787,
+        "prefecture": "埼玉県",
+        "description": "",
+        "URL": "http://www.parks.or.jp/suizokukan/",
+        "address": "日本、〒348-0011 埼玉県羽生市三田ケ谷７５１−１ さいたま水族館",
+        "opening_hours": [
+            "月曜日: 9時30分～17時00分",
+            "火曜日: 9時30分～17時00分",
+            "水曜日: 9時30分～17時00分",
+            "木曜日: 9時30分～17時00分",
+            "金曜日: 9時30分～17時00分",
+            "土曜日: 9時30分～17時00分",
+            "日曜日: 9時30分～17時00分"
+        ],
+        "ticket_price": "",
+        "breeding_types": 400,
+        "like": 200,
+        "comment": 60,
+        "website": "http://www.parks.or.jp/suizokukan/",
         "photos": [
             "",
             ""
