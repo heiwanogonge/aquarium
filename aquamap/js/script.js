@@ -5,6 +5,116 @@ function initMap() {
     const map = new google.maps.Map(document.getElementById("map"), {
         zoom: 10,
         center: defaultLocation,
+        styles: [
+            {
+                "elementType": "geometry",
+                "stylers": [
+                    { "color": "#f0fdff" }
+                ]
+            },
+            {
+                "elementType": "labels.text.fill",
+                "stylers": [
+                    { "color": "#01579B" }
+                ]
+            },
+            {
+                "elementType": "labels.text.stroke",
+                "stylers": [
+                    { "color": "#E0F7FA" }
+                ]
+            },
+            {
+                "featureType": "administrative",
+                "elementType": "geometry.stroke",
+                "stylers": [
+                    { "color": "#81D4FA" }
+                ]
+            },
+            {
+                "featureType": "administrative",
+                "elementType": "labels.text.fill",
+                "stylers": [
+                    { "color": "#0288D1" }
+                ]
+            },
+            {
+                "featureType": "landscape.man_made",
+                "elementType": "geometry.stroke",
+                "stylers": [
+                    { "color": "#b2f0aa" }
+                ]
+            },
+            {
+                "featureType": "poi",
+                "elementType": "geometry",
+                "stylers": [
+                    { "color": "#81D4FA" }
+                ]
+            },
+            {
+                "featureType": "poi",
+                "elementType": "labels.text.fill",
+                "stylers": [
+                    { "color": "#01579B" }
+                ]
+            },
+            {
+                "featureType": "road",
+                "elementType": "geometry",
+                "stylers": [
+                    { "color": "#85ccf2" }
+                ]
+            },
+            {
+                "featureType": "road",
+                "elementType": "labels.text.fill",
+                "stylers": [
+                    { "color": "#069a88" }
+                ]
+            },
+            {
+                "featureType": "road.highway",
+                "elementType": "geometry",
+                "stylers": [
+                    { "color": "#7da6bd" }
+                ]
+            },
+            {
+                "featureType": "road.highway",
+                "elementType": "geometry.stroke",
+                "stylers": [
+                    { "color": "#01579B" }
+                ]
+            },
+            {
+                "featureType": "road.highway.controlled_access",
+                "elementType": "geometry",
+                "stylers": [
+                    { "color": "#7da6bd" }
+                ]
+            },
+            {
+                "featureType": "water",
+                "elementType": "geometry",
+                "stylers": [
+                    { "color": "#81D4FA" }
+                ]
+            },
+            {
+                "featureType": "water",
+                "elementType": "labels.text.fill",
+                "stylers": [
+                    { "color": "#0288D1" }
+                ]
+            }
+        ],
+        zoomControl: true,           // 拡大縮小ボタンを表示
+        zoomControlOptions: {
+            position: google.maps.ControlPosition.RIGHT_TOP // 拡大縮小ボタンを画面左に配置
+        },
+        fullscreenControl: false,    // 全画面表示ボタンを非表示
+        streetViewControl: false,    // ストリートビューボタンを非表示
     });
 
     // 現在地の取得
@@ -38,9 +148,9 @@ function initMap() {
                     position: { lat: aquarium.latitude, lng: aquarium.longitude },
                     map: map,
                     title: aquarium.name,
-                    icon: {
+                   icon: {
                         url: 'img/aquamap_pin.png', // カスタムピン画像の相対パス
-                        scaledSize: new google.maps.Size(42, 42) // ピンのサイズを32x32に指定
+                        scaledSize: new google.maps.Size(42, 42) // ピンのサイズを42x42に指定
                     }
                 });
 
@@ -83,6 +193,10 @@ function initMap() {
             console.error('Error loading JSON data:', error);
         });
 }
+
+
+// 残りのコードは変更なし
+
 
 document.getElementById("menu-icon").addEventListener("click", function() {
     const menuPage = document.getElementById("menu-page");
