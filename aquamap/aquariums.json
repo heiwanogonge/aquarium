@@ -8,11 +8,11 @@
         "URL": "https://sunshinecity.jp/aquarium/",
         "address": "日本、〒170-8630 東京都豊島区東池袋３丁目１−１ サンシャインシティワールドインポートマートビル 屋上",
         "opening_hours": [
-            "月曜日: 9時00分～21時00分",
-            "火曜日: 9時00分～21時00分",
-            "水曜日: 9時00分～21時00分",
-            "木曜日: 9時00分～21時00分",
-            "金曜日: 9時00分～21時00分",
+            "月曜日: 9時30分～18時00分",
+            "火曜日: 9時30分～18時00分",
+            "水曜日: 9時30分～18時00分",
+            "木曜日: 9時30分～18時00分",
+            "金曜日: 9時30分～18時00分",
             "土曜日: 9時00分～21時00分",
             "日曜日: 9時00分～21時00分"
         ],
@@ -309,12 +309,12 @@
         "address": "日本、〒121-0064 東京都足立区保木間２丁目１７−１",
         "opening_hours": [
             "月曜日: 定休日",
-            "火曜日: 9時30分～17時30分",
-            "水曜日: 9時30分～17時30分",
-            "木曜日: 9時30分～17時30分",
-            "金曜日: 9時30分～17時30分",
-            "土曜日: 9時30分～17時30分",
-            "日曜日: 9時30分～17時30分"
+            "火曜日: 9時30分～17時00分",
+            "水曜日: 9時30分～17時00分",
+            "木曜日: 9時30分～17時00分",
+            "金曜日: 9時30分～17時00分",
+            "土曜日: 9時30分～17時00分",
+            "日曜日: 9時30分～17時00分"
         ],
         "ticket_price": "https://seibutuen.jp/",
         "breeding_types": 400,
@@ -377,6 +377,3270 @@
         "like": 200,
         "comment": 60,
         "website": "http://www.parks.or.jp/suizokukan/",
+        "photos": [
+            "",
+            ""
+        ],
+        "icon": ""
+    },
+    {
+        "name": "ハートフル桶西水族館",
+        "latitude": 35.9841229,
+        "longitude": 139.5316477,
+        "prefecture": "埼玉県",
+        "description": "",
+        "URL": "http://www.okenishi-h.spec.ed.jp/",
+        "address": "日本、〒363-0027 埼玉県桶川市川田谷１５３１−２",
+        "opening_hours": [],
+        "ticket_price": "",
+        "breeding_types": 400,
+        "like": 200,
+        "comment": 60,
+        "website": "http://www.okenishi-h.spec.ed.jp/",
+        "photos": [
+            "",
+            ""
+        ],
+        "icon": ""
+    },
+    {
+        "name": "沼津港深海水族館",
+        "latitude": 35.0840434,
+        "longitude": 138.8581967,
+        "prefecture": "静岡県",
+        "description": "",
+        "URL": "http://www.numazu-deepsea.com/",
+        "address": "日本、〒410-0845 静岡県沼津市千本港町８３",
+        "opening_hours": [
+            "月曜日: 10時00分～18時00分",
+            "火曜日: 10時00分～18時00分",
+            "水曜日: 10時00分～18時00分",
+            "木曜日: 10時00分～18時00分",
+            "金曜日: 10時00分～18時00分",
+            "土曜日: 9時30分～18時00分",
+            "日曜日: 9時30分～18時00分"
+        ],
+        "ticket_price": "",
+        "breeding_types": 400,
+        "like": 200,
+        "comment": 60,
+        "website": "http://www.numazu-deepsea.com/",
+        "photos": [
+            "",
+            ""
+        ],
+        "icon": ""
+    },
+    {
+        "name": "あわしまマリンパーク",
+        "latitude": 35.0335475,
+        "longitude": 138.8899908,
+        "prefecture": "静岡県",
+        "description": "",
+        "URL": "http://www.marinepark.jp/",
+        "address": "日本、〒410-0221 静岡県沼津市内浦重寺１８６",
+        "opening_hours": [
+            "月曜日: 9時30分～17時00分",
+            "火曜日: 9時30分～17時00分",
+            "水曜日: 9時30分～17時00分",
+            "木曜日: 9時30分～17時00分",
+            "金曜日: 9時30分～17時00分",
+            "土曜日: 9時30分～17時00分",
+            "日曜日: 9時30分～17時00分"
+        ],
+        "ticket_price": "",
+        "breeding_types": 400,
+        "like": 200,
+        "comment": 60,
+        "website": "http://www.marinepark.jp/",
+        "photos": [
+            "",
+            ""
+        ],
+        "icon": ""
+    },
+    {
+        "name": "下田海中水族館",
+        "latitude": 34.66609,
+        "longitude": 138.945952,
+        "prefecture": "静岡県",
+        "description": "",
+        "URL": "https://shimoda-aquarium.com/",
+        "address": "日本、〒415-0023 静岡県下田市三丁目２２−３１",
+        "opening_hours": [
+            "月曜日: 9時00分～16時30分",
+            "火曜日: 9時00分～16時30分",
+            "水曜日: 9時00分～16時30分",
+            "木曜日: 9時00分～16時30分",
+            "金曜日: 9時00分～16時30分",
+            "土曜日: 9時00分～16時30分",
+            "日曜日: 9時00分～16時30分"
+        ],
+        "ticket_price": "",
+        "breeding_types": 400,
+        "like": 200,
+        "comment": 60,
+        "website": "https://shimoda-aquarium.com/",
+        "photos": [
+            "",
+            ""
+        ],
+        "icon": ""
+    },
+    {
+        "name": "スマートアクアリウム静岡",
+        "latitude": 34.973049,
+        "longitude": 138.3879569,
+        "prefecture": "静岡県",
+        "description": "",
+        "URL": "https://smartaqua-sz.jp/",
+        "address": "日本、〒420-0857 静岡県静岡市葵区御幸町１０−２ 松坂屋静岡店 ７Ｆ",
+        "opening_hours": [
+            "月曜日: 10時00分～18時30分",
+            "火曜日: 10時00分～18時30分",
+            "水曜日: 10時00分～18時30分",
+            "木曜日: 10時00分～18時30分",
+            "金曜日: 10時00分～18時30分",
+            "土曜日: 10時00分～18時30分",
+            "日曜日: 10時00分～18時30分"
+        ],
+        "ticket_price": "",
+        "breeding_types": 400,
+        "like": 200,
+        "comment": 60,
+        "website": "https://smartaqua-sz.jp/",
+        "photos": [
+            "",
+            ""
+        ],
+        "icon": ""
+    },
+    {
+        "name": "時之栖美術館 水中楽園AQUARIUM",
+        "latitude": 35.2360292,
+        "longitude": 138.9257345,
+        "prefecture": "静岡県",
+        "description": "",
+        "URL": "https://www.tokinosumika.com/activity/aquarium/",
+        "address": "日本、〒412-0033 静岡県御殿場市神山７１９",
+        "opening_hours": [
+            "月曜日: 10時00分～19時00分",
+            "火曜日: 10時00分～19時00分",
+            "水曜日: 10時00分～19時00分",
+            "木曜日: 10時00分～19時00分",
+            "金曜日: 10時00分～19時00分",
+            "土曜日: 10時00分～19時00分",
+            "日曜日: 10時00分～19時00分"
+        ],
+        "ticket_price": "",
+        "breeding_types": 400,
+        "like": 200,
+        "comment": 60,
+        "website": "https://www.tokinosumika.com/activity/aquarium/",
+        "photos": [
+            "",
+            ""
+        ],
+        "icon": ""
+    },
+    {
+        "name": "幼魚水族館",
+        "latitude": 35.1094782,
+        "longitude": 138.9008839,
+        "prefecture": "静岡県",
+        "description": "",
+        "URL": "https://yo-sui.com/",
+        "address": "日本、〒411-0907 静岡県駿東郡清水町伏見５２−１ サントムーン柿田川 オアシス 3階",
+        "opening_hours": [
+            "月曜日: 10時00分～18時00分",
+            "火曜日: 10時00分～18時00分",
+            "水曜日: 10時00分～18時00分",
+            "木曜日: 10時00分～18時00分",
+            "金曜日: 10時00分～18時00分",
+            "土曜日: 10時00分～18時00分",
+            "日曜日: 10時00分～18時00分"
+        ],
+        "ticket_price": "",
+        "breeding_types": 400,
+        "like": 200,
+        "comment": 60,
+        "website": "https://yo-sui.com/",
+        "photos": [
+            "",
+            ""
+        ],
+        "icon": ""
+    },
+    {
+        "name": "東海大学海洋科学博物館",
+        "latitude": 35.0191405,
+        "longitude": 138.5182496,
+        "prefecture": "静岡県",
+        "description": "",
+        "URL": "http://www.umi.muse-tokai.jp/",
+        "address": "日本、〒424-8620 静岡県静岡市清水区三保２３８９",
+        "opening_hours": [
+            "月曜日: 定休日",
+            "火曜日: 定休日",
+            "水曜日: 10時00分～13時00分",
+            "木曜日: 10時00分～13時00分",
+            "金曜日: 10時00分～13時00分",
+            "土曜日: 定休日",
+            "日曜日: 定休日"
+        ],
+        "ticket_price": "",
+        "breeding_types": 400,
+        "like": 200,
+        "comment": 60,
+        "website": "http://www.umi.muse-tokai.jp/",
+        "photos": [
+            "",
+            ""
+        ],
+        "icon": ""
+    },
+    {
+        "name": "栃木県なかがわ水遊園",
+        "latitude": 36.790613,
+        "longitude": 140.128634,
+        "prefecture": "栃木県",
+        "description": "",
+        "URL": "https://tnap.jp/index.php",
+        "address": "日本、〒324-0404 栃木県大田原市佐良土２６８６",
+        "opening_hours": [
+            "月曜日: 定休日",
+            "火曜日: 9時30分～16時30分",
+            "水曜日: 9時30分～16時30分",
+            "木曜日: 9時30分～16時30分",
+            "金曜日: 9時30分～16時30分",
+            "土曜日: 9時30分～16時30分",
+            "日曜日: 9時30分～16時30分"
+        ],
+        "ticket_price": "",
+        "breeding_types": 400,
+        "like": 200,
+        "comment": 60,
+        "website": "https://tnap.jp/index.php",
+        "photos": [
+            "",
+            ""
+        ],
+        "icon": ""
+    },
+    {
+        "name": "さかなと森の観察園",
+        "latitude": 36.754877,
+        "longitude": 139.4517029,
+        "prefecture": "栃木県",
+        "description": "",
+        "URL": "https://www.fra.affrc.go.jp/nikko/",
+        "address": "日本、〒321-1661 栃木県日光市中宮祠２４８２−３",
+        "opening_hours": [
+            "月曜日: 9時00分～17時00分",
+            "火曜日: 9時00分～17時00分",
+            "水曜日: 9時00分～17時00分",
+            "木曜日: 9時00分～17時00分",
+            "金曜日: 9時00分～17時00分",
+            "土曜日: 9時00分～17時00分",
+            "日曜日: 9時00分～17時00分"
+        ],
+        "ticket_price": "",
+        "breeding_types": 400,
+        "like": 200,
+        "comment": 60,
+        "website": "https://www.fra.affrc.go.jp/nikko/",
+        "photos": [
+            "",
+            ""
+        ],
+        "icon": ""
+    },
+    {
+        "name": "鴨川シーワールド",
+        "latitude": 35.115895,
+        "longitude": 140.1203229,
+        "prefecture": "千葉県",
+        "description": "",
+        "URL": "http://www.kamogawa-seaworld.jp/?utm_source=google&utm_medium=maps",
+        "address": "日本、〒296-0041 千葉県鴨川市東町１４６４−１８",
+        "opening_hours": [
+            "月曜日: 9時00分～17時00分",
+            "火曜日: 9時00分～17時00分",
+            "水曜日: 9時00分～17時00分",
+            "木曜日: 9時00分～17時00分",
+            "金曜日: 9時00分～17時00分",
+            "土曜日: 9時00分～17時00分",
+            "日曜日: 9時00分～17時00分"
+        ],
+        "ticket_price": "",
+        "breeding_types": 400,
+        "like": 200,
+        "comment": 60,
+        "website": "http://www.kamogawa-seaworld.jp/?utm_source=google&utm_medium=maps",
+        "photos": [
+            "",
+            ""
+        ],
+        "icon": ""
+    },
+    {
+        "name": "世界一ちっちゃな水族館",
+        "latitude": 35.7071066,
+        "longitude": 140.8404032,
+        "prefecture": "千葉県",
+        "description": "",
+        "URL": "https://choshi-aquarium.jimdofree.com/",
+        "address": "日本、〒288-0025 千葉県銚子市潮見町１５−９ 1階 銚子海洋研究所",
+        "opening_hours": [
+            "月曜日: 9時00分～18時00分",
+            "火曜日: 9時00分～18時00分",
+            "水曜日: 9時00分～18時00分",
+            "木曜日: 9時00分～18時00分",
+            "金曜日: 9時00分～18時00分",
+            "土曜日: 9時00分～18時00分",
+            "日曜日: 9時00分～18時00分"
+        ],
+        "ticket_price": "",
+        "breeding_types": 400,
+        "like": 200,
+        "comment": 60,
+        "website": "https://choshi-aquarium.jimdofree.com/",
+        "photos": [
+            "",
+            ""
+        ],
+        "icon": ""
+    },
+    {
+        "name": "おたる水族館",
+        "latitude": 43.2369305,
+        "longitude": 141.0119143,
+        "prefecture": "北海道",
+        "description": "",
+        "URL": "http://otaru-aq.jp/",
+        "address": "日本、〒047-0047 北海道小樽市祝津３丁目３０３",
+        "opening_hours": [
+            "月曜日: 9時00分～17時00分",
+            "火曜日: 9時00分～17時00分",
+            "水曜日: 9時00分～17時00分",
+            "木曜日: 9時00分～17時00分",
+            "金曜日: 9時00分～17時00分",
+            "土曜日: 9時00分～17時00分",
+            "日曜日: 9時00分～17時00分"
+        ],
+        "ticket_price": "",
+        "breeding_types": 400,
+        "like": 200,
+        "comment": 60,
+        "website": "http://otaru-aq.jp/",
+        "photos": [
+            "",
+            ""
+        ],
+        "icon": ""
+    },
+    {
+        "name": "サケのふるさと 千歳水族館",
+        "latitude": 42.83278989999999,
+        "longitude": 141.6591892,
+        "prefecture": "北海道",
+        "description": "",
+        "URL": "https://chitose-aq.jp/",
+        "address": "日本、〒066-0028 北海道千歳市花園２丁目４−３１２",
+        "opening_hours": [
+            "月曜日: 9時00分～17時00分",
+            "火曜日: 9時00分～17時00分",
+            "水曜日: 9時00分～17時00分",
+            "木曜日: 9時00分～17時00分",
+            "金曜日: 9時00分～17時00分",
+            "土曜日: 9時00分～17時00分",
+            "日曜日: 9時00分～17時00分"
+        ],
+        "ticket_price": "",
+        "breeding_types": 400,
+        "like": 200,
+        "comment": 60,
+        "website": "https://chitose-aq.jp/",
+        "photos": [
+            "",
+            ""
+        ],
+        "icon": ""
+    },
+    {
+        "name": "山の水族館－北の大地の水族館－",
+        "latitude": 43.7547404,
+        "longitude": 143.5008796,
+        "prefecture": "北海道",
+        "description": "",
+        "URL": "http://onneyu-aq.com/",
+        "address": "日本、〒091-0153 北海道北見市留辺蘂町松山１−４",
+        "opening_hours": [
+            "月曜日: 9時00分～17時30分",
+            "火曜日: 9時00分～17時30分",
+            "水曜日: 9時00分～17時30分",
+            "木曜日: 9時00分～17時30分",
+            "金曜日: 9時00分～17時30分",
+            "土曜日: 9時00分～17時30分",
+            "日曜日: 9時00分～17時30分"
+        ],
+        "ticket_price": "",
+        "breeding_types": 400,
+        "like": 200,
+        "comment": 60,
+        "website": "http://onneyu-aq.com/",
+        "photos": [
+            "",
+            ""
+        ],
+        "icon": ""
+    },
+    {
+        "name": "AOAO SAPPORO",
+        "latitude": 43.057771,
+        "longitude": 141.3535622,
+        "prefecture": "北海道",
+        "description": "",
+        "URL": "https://aoao-sapporo.blue/",
+        "address": "日本、〒060-0062 北海道札幌市中央区南２条西３丁目２０",
+        "opening_hours": [
+            "月曜日: 10時00分～22時00分",
+            "火曜日: 10時00分～22時00分",
+            "水曜日: 10時00分～22時00分",
+            "木曜日: 10時00分～22時00分",
+            "金曜日: 10時00分～22時00分",
+            "土曜日: 10時00分～22時00分",
+            "日曜日: 10時00分～22時00分"
+        ],
+        "ticket_price": "",
+        "breeding_types": 400,
+        "like": 200,
+        "comment": 60,
+        "website": "https://aoao-sapporo.blue/",
+        "photos": [
+            "",
+            ""
+        ],
+        "icon": ""
+    },
+    {
+        "name": "新さっぽろサンピアザ水族館",
+        "latitude": 43.0368399,
+        "longitude": 141.4717105,
+        "prefecture": "北海道",
+        "description": "",
+        "URL": "http://www.sunpiazza-aquarium.com/",
+        "address": "日本、〒004-0052 北海道札幌市厚別区厚別中央２条５丁目７",
+        "opening_hours": [
+            "月曜日: 10時00分～17時00分",
+            "火曜日: 10時00分～17時00分",
+            "水曜日: 10時00分～17時00分",
+            "木曜日: 10時00分～17時00分",
+            "金曜日: 10時00分～17時00分",
+            "土曜日: 10時00分～17時00分",
+            "日曜日: 10時00分～17時00分"
+        ],
+        "ticket_price": "",
+        "breeding_types": 400,
+        "like": 200,
+        "comment": 60,
+        "website": "http://www.sunpiazza-aquarium.com/",
+        "photos": [
+            "",
+            ""
+        ],
+        "icon": ""
+    },
+    {
+        "name": "登別マリンパークニクス",
+        "latitude": 42.4549885,
+        "longitude": 141.1821301,
+        "prefecture": "北海道",
+        "description": "",
+        "URL": "https://www.nixe.co.jp/",
+        "address": "日本、〒059-0492 北海道登別市登別東町１丁目２２",
+        "opening_hours": [
+            "月曜日: 9時00分～17時00分",
+            "火曜日: 9時00分～17時00分",
+            "水曜日: 9時00分～17時00分",
+            "木曜日: 9時00分～17時00分",
+            "金曜日: 9時00分～17時00分",
+            "土曜日: 9時00分～17時00分",
+            "日曜日: 9時00分～17時00分"
+        ],
+        "ticket_price": "",
+        "breeding_types": 400,
+        "like": 200,
+        "comment": 60,
+        "website": "https://www.nixe.co.jp/",
+        "photos": [
+            "",
+            ""
+        ],
+        "icon": ""
+    },
+    {
+        "name": "稚内市立ノシャップ寒流水族館",
+        "latitude": 45.4492716,
+        "longitude": 141.6449214,
+        "prefecture": "北海道",
+        "description": "",
+        "URL": "https://www.city.wakkanai.hokkaido.jp/suizokukan/",
+        "address": "日本、〒097-0026 北海道稚内市ノシャップ２丁目２−１６",
+        "opening_hours": [
+            "月曜日: 9時00分～16時40分",
+            "火曜日: 9時00分～16時40分",
+            "水曜日: 9時00分～16時40分",
+            "木曜日: 9時00分～16時40分",
+            "金曜日: 9時00分～16時40分",
+            "土曜日: 9時00分～16時40分",
+            "日曜日: 9時00分～16時40分"
+        ],
+        "ticket_price": "",
+        "breeding_types": 400,
+        "like": 200,
+        "comment": 60,
+        "website": "https://www.city.wakkanai.hokkaido.jp/suizokukan/",
+        "photos": [
+            "",
+            ""
+        ],
+        "icon": ""
+    },
+    {
+        "name": "室蘭民報みんなの水族館",
+        "latitude": 42.3397406,
+        "longitude": 140.9437681,
+        "prefecture": "北海道",
+        "description": "",
+        "URL": "http://iburi.net/murosui/",
+        "address": "日本、〒051-0036 北海道室蘭市祝津町３丁目３−１２",
+        "opening_hours": [
+            "月曜日: 9時30分～16時30分",
+            "火曜日: 9時30分～16時30分",
+            "水曜日: 9時30分～16時30分",
+            "木曜日: 9時30分～16時30分",
+            "金曜日: 9時30分～16時30分",
+            "土曜日: 9時30分～16時30分",
+            "日曜日: 9時30分～16時30分"
+        ],
+        "ticket_price": "",
+        "breeding_types": 400,
+        "like": 200,
+        "comment": 60,
+        "website": "http://iburi.net/murosui/",
+        "photos": [
+            "",
+            ""
+        ],
+        "icon": ""
+    },
+    {
+        "name": "標津サーモン科学館",
+        "latitude": 43.659719,
+        "longitude": 145.1158841,
+        "prefecture": "北海道",
+        "description": "",
+        "URL": "http://s-salmon.com/",
+        "address": "日本、〒086-1631 北海道標津郡標津町北１条西６丁目１−１",
+        "opening_hours": [
+            "月曜日: 9時30分～17時00分",
+            "火曜日: 9時30分～17時00分",
+            "水曜日: 9時30分～17時00分",
+            "木曜日: 9時30分～17時00分",
+            "金曜日: 9時30分～17時00分",
+            "土曜日: 9時30分～17時00分",
+            "日曜日: 9時30分～17時00分"
+        ],
+        "ticket_price": "",
+        "breeding_types": 400,
+        "like": 200,
+        "comment": 60,
+        "website": "http://s-salmon.com/",
+        "photos": [
+            "",
+            ""
+        ],
+        "icon": ""
+    },
+    {
+        "name": "美深チョウザメ館",
+        "latitude": 44.55713919999999,
+        "longitude": 142.3244446,
+        "prefecture": "北海道",
+        "description": "",
+        "URL": null,
+        "address": "日本、〒098-2366 北海道中川郡美深町紋穂内",
+        "opening_hours": [
+            "月曜日: 定休日",
+            "火曜日: 9時00分～17時00分",
+            "水曜日: 9時00分～17時00分",
+            "木曜日: 9時00分～17時00分",
+            "金曜日: 9時00分～17時00分",
+            "土曜日: 9時00分～17時00分",
+            "日曜日: 9時00分～17時00分"
+        ],
+        "ticket_price": "",
+        "breeding_types": 400,
+        "like": 200,
+        "comment": 60,
+        "website": null,
+        "photos": [
+            "",
+            ""
+        ],
+        "icon": ""
+    },
+    {
+        "name": "くしろ水族館 ぷくぷく",
+        "latitude": 43.0068186,
+        "longitude": 144.4043223,
+        "prefecture": "北海道",
+        "description": "",
+        "URL": "http://www.sennosuke.net/pukupuku/",
+        "address": "日本、〒088-0623 北海道釧路郡釧路町光和４丁目１１ 釧之助本店 2階",
+        "opening_hours": [
+            "月曜日: 9時00分～18時00分",
+            "火曜日: 9時00分～18時00分",
+            "水曜日: 9時00分～18時00分",
+            "木曜日: 9時00分～18時00分",
+            "金曜日: 9時00分～18時00分",
+            "土曜日: 9時00分～18時00分",
+            "日曜日: 9時00分～18時00分"
+        ],
+        "ticket_price": "",
+        "breeding_types": 400,
+        "like": 200,
+        "comment": 60,
+        "website": "http://www.sennosuke.net/pukupuku/",
+        "photos": [
+            "",
+            ""
+        ],
+        "icon": ""
+    },
+    {
+        "name": "アザラシ シーパラダイス",
+        "latitude": 44.3327239,
+        "longitude": 143.3752623,
+        "prefecture": "北海道",
+        "description": "",
+        "URL": "https://o-tower.co.jp/publics/index/47/",
+        "address": "日本、〒094-0031 北海道紋別市海洋公園２",
+        "opening_hours": [
+            "月曜日: 10時00分～16時00分",
+            "火曜日: 10時00分～16時00分",
+            "水曜日: 10時00分～16時00分",
+            "木曜日: 10時00分～16時00分",
+            "金曜日: 10時00分～16時00分",
+            "土曜日: 10時00分～16時00分",
+            "日曜日: 10時00分～16時00分"
+        ],
+        "ticket_price": "",
+        "breeding_types": 400,
+        "like": 200,
+        "comment": 60,
+        "website": "https://o-tower.co.jp/publics/index/47/",
+        "photos": [
+            "",
+            ""
+        ],
+        "icon": ""
+    },
+    {
+        "name": "新江ノ島水族館",
+        "latitude": 35.3100048,
+        "longitude": 139.479428,
+        "prefecture": "神奈川県",
+        "description": "",
+        "URL": "https://www.enosui.com/",
+        "address": "日本、〒251-0035 神奈川県藤沢市片瀬海岸２丁目１９−１",
+        "opening_hours": [
+            "月曜日: 9時00分～17時00分",
+            "火曜日: 9時00分～17時00分",
+            "水曜日: 9時00分～17時00分",
+            "木曜日: 9時00分～17時00分",
+            "金曜日: 9時00分～17時00分",
+            "土曜日: 9時00分～17時00分",
+            "日曜日: 9時00分～17時00分"
+        ],
+        "ticket_price": "",
+        "breeding_types": 400,
+        "like": 200,
+        "comment": 60,
+        "website": "https://www.enosui.com/",
+        "photos": [
+            "",
+            ""
+        ],
+        "icon": ""
+    },
+    {
+        "name": "横浜・八景島シーパラダイス",
+        "latitude": 35.336458,
+        "longitude": 139.6452299,
+        "prefecture": "神奈川県",
+        "description": "",
+        "URL": "https://www.seaparadise.co.jp/",
+        "address": "日本、〒236-0006 神奈川県横浜市金沢区八景島",
+        "opening_hours": [
+            "月曜日: 10時00分～20時00分",
+            "火曜日: 10時00分～20時00分",
+            "水曜日: 10時00分～20時00分",
+            "木曜日: 10時00分～20時00分",
+            "金曜日: 10時00分～20時00分",
+            "土曜日: 10時00分～20時00分",
+            "日曜日: 10時00分～20時00分"
+        ],
+        "ticket_price": "",
+        "breeding_types": 400,
+        "like": 200,
+        "comment": 60,
+        "website": "https://www.seaparadise.co.jp/",
+        "photos": [
+            "",
+            ""
+        ],
+        "icon": ""
+    },
+    {
+        "name": "相模川ふれあい科学館",
+        "latitude": 35.5474198,
+        "longitude": 139.3289159,
+        "prefecture": "神奈川県",
+        "description": "",
+        "URL": "https://sagamigawa-fureai.com/",
+        "address": "日本、〒252-0246 神奈川県相模原市中央区水郷田名１丁目５−１",
+        "opening_hours": [
+            "月曜日: 定休日",
+            "火曜日: 9時30分～16時30分",
+            "水曜日: 9時30分～16時30分",
+            "木曜日: 9時30分～16時30分",
+            "金曜日: 9時30分～16時30分",
+            "土曜日: 9時30分～16時30分",
+            "日曜日: 9時30分～16時30分"
+        ],
+        "ticket_price": "",
+        "breeding_types": 400,
+        "like": 200,
+        "comment": 60,
+        "website": "https://sagamigawa-fureai.com/",
+        "photos": [
+            "",
+            ""
+        ],
+        "icon": ""
+    },
+    {
+        "name": "横浜開運水族館 フォーチュンアクアリウム",
+        "latitude": 35.4431257,
+        "longitude": 139.6445491,
+        "prefecture": "神奈川県",
+        "description": "",
+        "URL": "https://fortune-aquarium.com/",
+        "address": "日本、〒231-0023 神奈川県横浜市中区山下町１４４",
+        "opening_hours": [
+            "月曜日: 10時00分～17時00分",
+            "火曜日: 10時00分～17時00分",
+            "水曜日: 10時00分～17時00分",
+            "木曜日: 10時00分～17時00分",
+            "金曜日: 10時00分～17時00分",
+            "土曜日: 10時00分～18時00分",
+            "日曜日: 10時00分～18時00分"
+        ],
+        "ticket_price": "",
+        "breeding_types": 400,
+        "like": 200,
+        "comment": 60,
+        "website": "https://fortune-aquarium.com/",
+        "photos": [
+            "",
+            ""
+        ],
+        "icon": ""
+    },
+    {
+        "name": "箱根園水族館",
+        "latitude": 35.2121419,
+        "longitude": 139.0092955,
+        "prefecture": "神奈川県",
+        "description": "",
+        "URL": "http://www.princehotels.co.jp/amuse/hakone-en/suizokukan/",
+        "address": "日本、〒250-0522 神奈川県足柄下郡箱根町元箱根１３９",
+        "opening_hours": [
+            "月曜日: 9時00分～16時30分",
+            "火曜日: 9時00分～16時30分",
+            "水曜日: 9時00分～16時30分",
+            "木曜日: 9時00分～16時30分",
+            "金曜日: 9時00分～16時30分",
+            "土曜日: 9時00分～16時30分",
+            "日曜日: 9時00分～16時30分"
+        ],
+        "ticket_price": "",
+        "breeding_types": 400,
+        "like": 200,
+        "comment": 60,
+        "website": "http://www.princehotels.co.jp/amuse/hakone-en/suizokukan/",
+        "photos": [
+            "",
+            ""
+        ],
+        "icon": ""
+    },
+    {
+        "name": "北里アクアリウムラボ",
+        "latitude": 35.5417894,
+        "longitude": 139.3946711,
+        "prefecture": "神奈川県",
+        "description": "",
+        "URL": "https://www.kitasato-u.ac.jp/mb/faculty/aquarium/",
+        "address": "日本、〒252-0329 神奈川県相模原市南区北里１丁目１５−１ Mb号館（海洋生命科学部校舎）",
+        "opening_hours": [
+            "月曜日: 10時00分～16時00分",
+            "火曜日: 10時00分～16時00分",
+            "水曜日: 10時00分～16時00分",
+            "木曜日: 10時00分～16時00分",
+            "金曜日: 10時00分～16時00分",
+            "土曜日: 定休日",
+            "日曜日: 定休日"
+        ],
+        "ticket_price": "",
+        "breeding_types": 400,
+        "like": 200,
+        "comment": 60,
+        "website": "https://www.kitasato-u.ac.jp/mb/faculty/aquarium/",
+        "photos": [
+            "",
+            ""
+        ],
+        "icon": ""
+    },
+    {
+        "name": "カワスイ 川崎水族館",
+        "latitude": 35.5295343,
+        "longitude": 139.6966885,
+        "prefecture": "神奈川県",
+        "description": "",
+        "URL": "https://kawa-sui.com/?utm_source=google&utm_medium=maps&utm_campaign=gbp",
+        "address": "日本、〒210-0024 神奈川県川崎市川崎区日進町１−１１ 9F 10F 川崎 ルフロン",
+        "opening_hours": [
+            "月曜日: 10時00分～20時00分",
+            "火曜日: 10時00分～20時00分",
+            "水曜日: 10時00分～20時00分",
+            "木曜日: 10時00分～20時00分",
+            "金曜日: 10時00分～20時00分",
+            "土曜日: 10時00分～20時00分",
+            "日曜日: 10時00分～20時00分"
+        ],
+        "ticket_price": "",
+        "breeding_types": 400,
+        "like": 200,
+        "comment": 60,
+        "website": "https://kawa-sui.com/?utm_source=google&utm_medium=maps&utm_campaign=gbp",
+        "photos": [
+            "",
+            ""
+        ],
+        "icon": ""
+    },
+    {
+        "name": "青森県営浅虫水族館",
+        "latitude": 40.8975,
+        "longitude": 140.8627778,
+        "prefecture": "青森県",
+        "description": "",
+        "URL": "https://asamushi-aqua.com/",
+        "address": "日本、〒039-3501 青森県青森市浅虫馬場山１−２５",
+        "opening_hours": [
+            "月曜日: 9時00分～17時00分",
+            "火曜日: 9時00分～17時00分",
+            "水曜日: 9時00分～17時00分",
+            "木曜日: 9時00分～17時00分",
+            "金曜日: 9時00分～17時00分",
+            "土曜日: 9時00分～17時00分",
+            "日曜日: 9時00分～17時00分"
+        ],
+        "ticket_price": "",
+        "breeding_types": 400,
+        "like": 200,
+        "comment": 60,
+        "website": "https://asamushi-aqua.com/",
+        "photos": [
+            "",
+            ""
+        ],
+        "icon": ""
+    },
+    {
+        "name": "岩手県立水産科学館",
+        "latitude": 39.6486484,
+        "longitude": 141.9760361,
+        "prefecture": "岩手県",
+        "description": "",
+        "URL": "https://www.city.miyako.iwate.jp/suisan/suisan_kagakukan.html",
+        "address": "日本、〒027-0001 岩手県宮古市日立浜町３２−２８",
+        "opening_hours": [
+            "月曜日: 定休日",
+            "火曜日: 9時00分～16時30分",
+            "水曜日: 9時00分～16時30分",
+            "木曜日: 9時00分～16時30分",
+            "金曜日: 9時00分～16時30分",
+            "土曜日: 9時00分～16時30分",
+            "日曜日: 9時00分～16時30分"
+        ],
+        "ticket_price": "",
+        "breeding_types": 400,
+        "like": 200,
+        "comment": 60,
+        "website": "https://www.city.miyako.iwate.jp/suisan/suisan_kagakukan.html",
+        "photos": [
+            "",
+            ""
+        ],
+        "icon": ""
+    },
+    {
+        "name": "モリオーネ美術水族館",
+        "latitude": 39.6185711,
+        "longitude": 141.1849326,
+        "prefecture": "岩手県",
+        "description": "",
+        "URL": "https://moriohne.yokochou.com/",
+        "address": "日本、〒020-0402 岩手県盛岡市黒川２３地割４０−２",
+        "opening_hours": [
+            "月曜日: 10時00分～19時00分",
+            "火曜日: 定休日",
+            "水曜日: 10時00分～19時00分",
+            "木曜日: 10時00分～19時00分",
+            "金曜日: 10時00分～19時00分",
+            "土曜日: 10時00分～19時00分",
+            "日曜日: 10時00分～19時00分"
+        ],
+        "ticket_price": "",
+        "breeding_types": 400,
+        "like": 200,
+        "comment": 60,
+        "website": "https://moriohne.yokochou.com/",
+        "photos": [
+            "",
+            ""
+        ],
+        "icon": ""
+    },
+    {
+        "name": "モリオーネ美術水族館",
+        "latitude": 38.630612,
+        "longitude": 141.1193048,
+        "prefecture": "宮城県",
+        "description": "",
+        "URL": "https://moriohne.yokochou.com/",
+        "address": "日本、宮城県",
+        "opening_hours": [
+            "月曜日: 10時00分～19時00分",
+            "火曜日: 定休日",
+            "水曜日: 10時00分～19時00分",
+            "木曜日: 10時00分～19時00分",
+            "金曜日: 10時00分～19時00分",
+            "土曜日: 10時00分～19時00分",
+            "日曜日: 10時00分～19時00分"
+        ],
+        "ticket_price": "",
+        "breeding_types": 400,
+        "like": 200,
+        "comment": 60,
+        "website": "https://moriohne.yokochou.com/",
+        "photos": [
+            "",
+            ""
+        ],
+        "icon": ""
+    },
+    {
+        "name": "アクアテラス錦ケ丘",
+        "latitude": 38.2576919,
+        "longitude": 140.7649078,
+        "prefecture": "宮城県",
+        "description": "",
+        "URL": "http://aquaterrace.co.jp/",
+        "address": "日本、〒989-3123 宮城県仙台市青葉区錦ケ丘１丁目３−１",
+        "opening_hours": [
+            "月曜日: 10時00分～18時00分",
+            "火曜日: 10時00分～18時00分",
+            "水曜日: 10時00分～18時00分",
+            "木曜日: 10時00分～18時00分",
+            "金曜日: 10時00分～18時00分",
+            "土曜日: 10時00分～19時00分",
+            "日曜日: 10時00分～19時00分"
+        ],
+        "ticket_price": "",
+        "breeding_types": 400,
+        "like": 200,
+        "comment": 60,
+        "website": "http://aquaterrace.co.jp/",
+        "photos": [
+            "",
+            ""
+        ],
+        "icon": ""
+    },
+    {
+        "name": "氷の水族館",
+        "latitude": 38.9002804,
+        "longitude": 141.5792455,
+        "prefecture": "宮城県",
+        "description": "",
+        "URL": "http://okamotoseihyo.jp/ice-aquarium/",
+        "address": "日本、〒988-0037 宮城県気仙沼市魚市場前７−１３",
+        "opening_hours": [
+            "月曜日: 7時00分～17時00分",
+            "火曜日: 7時00分～17時00分",
+            "水曜日: 7時00分～17時00分",
+            "木曜日: 7時00分～17時00分",
+            "金曜日: 7時00分～17時00分",
+            "土曜日: 7時00分～17時00分",
+            "日曜日: 7時00分～23時30分"
+        ],
+        "ticket_price": "",
+        "breeding_types": 400,
+        "like": 200,
+        "comment": 60,
+        "website": "http://okamotoseihyo.jp/ice-aquarium/",
+        "photos": [
+            "",
+            ""
+        ],
+        "icon": ""
+    },
+    {
+        "name": "男鹿水族館GAO",
+        "latitude": 39.942178,
+        "longitude": 139.70459,
+        "prefecture": "秋田県",
+        "description": "",
+        "URL": "http://www.gao-aqua.jp/",
+        "address": "日本、〒010-0673 秋田県男鹿市戸賀塩浜壷ケ沢９３",
+        "opening_hours": [
+            "月曜日: 9時00分～17時00分",
+            "火曜日: 9時00分～17時00分",
+            "水曜日: 9時00分～17時00分",
+            "木曜日: 9時00分～17時00分",
+            "金曜日: 9時00分～17時00分",
+            "土曜日: 9時00分～17時00分",
+            "日曜日: 9時00分～17時00分"
+        ],
+        "ticket_price": "",
+        "breeding_types": 400,
+        "like": 200,
+        "comment": 60,
+        "website": "http://www.gao-aqua.jp/",
+        "photos": [
+            "",
+            ""
+        ],
+        "icon": ""
+    },
+    {
+        "name": "アクアマリンふくしま",
+        "latitude": 36.9431029,
+        "longitude": 140.901476,
+        "prefecture": "福島県",
+        "description": "",
+        "URL": "https://www.aquamarine.or.jp/",
+        "address": "日本、〒971-8101 福島県いわき市小名浜辰巳町５０",
+        "opening_hours": [
+            "月曜日: 9時00分～17時30分",
+            "火曜日: 9時00分～17時30分",
+            "水曜日: 9時00分～17時30分",
+            "木曜日: 9時00分～17時30分",
+            "金曜日: 9時00分～17時30分",
+            "土曜日: 9時00分～17時30分",
+            "日曜日: 9時00分～17時30分"
+        ],
+        "ticket_price": "",
+        "breeding_types": 400,
+        "like": 200,
+        "comment": 60,
+        "website": "https://www.aquamarine.or.jp/",
+        "photos": [
+            "",
+            ""
+        ],
+        "icon": ""
+    },
+    {
+        "name": "アクアマリンいなわしろカワセミ水族館",
+        "latitude": 37.5614387,
+        "longitude": 140.0745716,
+        "prefecture": "福島県",
+        "description": "",
+        "URL": "https://www.aquamarine.or.jp/kawasemi/",
+        "address": "日本、〒969-3283 福島県耶麻郡猪苗代町長田東中丸3447番地4",
+        "opening_hours": [
+            "月曜日: 9時30分～17時00分",
+            "火曜日: 9時30分～17時00分",
+            "水曜日: 9時30分～17時00分",
+            "木曜日: 9時30分～17時00分",
+            "金曜日: 9時30分～17時00分",
+            "土曜日: 9時30分～17時00分",
+            "日曜日: 9時30分～17時00分"
+        ],
+        "ticket_price": "",
+        "breeding_types": 400,
+        "like": 200,
+        "comment": 60,
+        "website": "https://www.aquamarine.or.jp/kawasemi/",
+        "photos": [
+            "",
+            ""
+        ],
+        "icon": ""
+    },
+    {
+        "name": "新潟市水族館 マリンピア日本海",
+        "latitude": 37.923672,
+        "longitude": 139.0280003,
+        "prefecture": "新潟県",
+        "description": "",
+        "URL": "https://www.marinepia.or.jp/",
+        "address": "日本、〒951-8101 新潟県新潟市中央区西船見町５９３２−４４５",
+        "opening_hours": [
+            "月曜日: 9時00分～17時00分",
+            "火曜日: 9時00分～17時00分",
+            "水曜日: 9時00分～17時00分",
+            "木曜日: 9時00分～17時00分",
+            "金曜日: 9時00分～17時00分",
+            "土曜日: 9時00分～17時00分",
+            "日曜日: 9時00分～17時00分"
+        ],
+        "ticket_price": "",
+        "breeding_types": 400,
+        "like": 200,
+        "comment": 60,
+        "website": "https://www.marinepia.or.jp/",
+        "photos": [
+            "",
+            ""
+        ],
+        "icon": ""
+    },
+    {
+        "name": "上越市立水族博物館 うみがたり",
+        "latitude": 37.17352109999999,
+        "longitude": 138.2328751,
+        "prefecture": "新潟県",
+        "description": "",
+        "URL": "http://www.umigatari.jp/joetsu/",
+        "address": "日本、〒942-0081 新潟県上越市五智２丁目１５−１５",
+        "opening_hours": [
+            "月曜日: 10時00分～17時00分",
+            "火曜日: 10時00分～17時00分",
+            "水曜日: 10時00分～17時00分",
+            "木曜日: 10時00分～17時00分",
+            "金曜日: 10時00分～17時00分",
+            "土曜日: 10時00分～17時00分",
+            "日曜日: 10時00分～17時00分"
+        ],
+        "ticket_price": "",
+        "breeding_types": 400,
+        "like": 200,
+        "comment": 60,
+        "website": "http://www.umigatari.jp/joetsu/",
+        "photos": [
+            "",
+            ""
+        ],
+        "icon": ""
+    },
+    {
+        "name": "長岡市寺泊水族博物館",
+        "latitude": 37.6338712,
+        "longitude": 138.7603547,
+        "prefecture": "新潟県",
+        "description": "",
+        "URL": "http://www.aquarium-teradomari.jp/",
+        "address": "日本、〒940-2502 新潟県長岡市寺泊花立９３５３−１５８",
+        "opening_hours": [
+            "月曜日: 9時00分～16時30分",
+            "火曜日: 9時00分～16時30分",
+            "水曜日: 9時00分～16時30分",
+            "木曜日: 9時00分～16時30分",
+            "金曜日: 9時00分～16時30分",
+            "土曜日: 9時00分～16時30分",
+            "日曜日: 9時00分～16時30分"
+        ],
+        "ticket_price": "",
+        "breeding_types": 400,
+        "like": 200,
+        "comment": 60,
+        "website": "http://www.aquarium-teradomari.jp/",
+        "photos": [
+            "",
+            ""
+        ],
+        "icon": ""
+    },
+    {
+        "name": "桐生が岡公園 水族館",
+        "latitude": 36.419536,
+        "longitude": 139.3402338,
+        "prefecture": "群馬県",
+        "description": "",
+        "URL": "http://www.city.kiryu.lg.jp/zoo/",
+        "address": "日本、〒376-0054 群馬県桐生市宮本町３丁目８−１３",
+        "opening_hours": [
+            "月曜日: 9時00分～16時00分",
+            "火曜日: 9時00分～16時00分",
+            "水曜日: 9時00分～16時00分",
+            "木曜日: 9時00分～16時00分",
+            "金曜日: 9時00分～16時00分",
+            "土曜日: 9時00分～16時00分",
+            "日曜日: 9時00分～16時00分"
+        ],
+        "ticket_price": "",
+        "breeding_types": 400,
+        "like": 200,
+        "comment": 60,
+        "website": "http://www.city.kiryu.lg.jp/zoo/",
+        "photos": [
+            "",
+            ""
+        ],
+        "icon": ""
+    },
+    {
+        "name": "蓼科アミューズメント水族館",
+        "latitude": 36.066586,
+        "longitude": 138.302949,
+        "prefecture": "長野県",
+        "description": "",
+        "URL": "http://tateshina-aquarium.jp/",
+        "address": "日本、〒391-0301 長野県茅野市北山４０３５−２４０９",
+        "opening_hours": [
+            "月曜日: 10時00分～17時00分",
+            "火曜日: 10時00分～17時00分",
+            "水曜日: 10時00分～17時00分",
+            "木曜日: 定休日",
+            "金曜日: 10時00分～17時00分",
+            "土曜日: 10時00分～17時30分",
+            "日曜日: 10時00分～17時30分"
+        ],
+        "ticket_price": "",
+        "breeding_types": 400,
+        "like": 200,
+        "comment": 60,
+        "website": "http://tateshina-aquarium.jp/",
+        "photos": [
+            "",
+            ""
+        ],
+        "icon": ""
+    },
+    {
+        "name": "国営アルプスあづみの公園 水族館",
+        "latitude": 36.3144308,
+        "longitude": 137.8405425,
+        "prefecture": "長野県",
+        "description": "",
+        "URL": "https://www.azumino-koen.jp/horigane_hotaka/map/exhibition/index.html",
+        "address": "日本、〒399-8211 長野県安曇野市堀金烏川岩原３３−４",
+        "opening_hours": [],
+        "ticket_price": "",
+        "breeding_types": 400,
+        "like": 200,
+        "comment": 60,
+        "website": "https://www.azumino-koen.jp/horigane_hotaka/map/exhibition/index.html",
+        "photos": [
+            "",
+            ""
+        ],
+        "icon": ""
+    },
+    {
+        "name": "山梨県立富士湧水の里水族館",
+        "latitude": 35.455605,
+        "longitude": 138.8240633,
+        "prefecture": "山梨県",
+        "description": "",
+        "URL": "http://www.morinonakano-suizokukan.com/",
+        "address": "日本、〒401-0511 山梨県南都留郡忍野村忍草３０９８−１",
+        "opening_hours": [
+            "月曜日: 9時00分～18時00分",
+            "火曜日: 9時00分～18時00分",
+            "水曜日: 9時00分～18時00分",
+            "木曜日: 9時00分～18時00分",
+            "金曜日: 9時00分～18時00分",
+            "土曜日: 9時00分～18時00分",
+            "日曜日: 9時00分～18時00分"
+        ],
+        "ticket_price": "",
+        "breeding_types": 400,
+        "like": 200,
+        "comment": 60,
+        "website": "http://www.morinonakano-suizokukan.com/",
+        "photos": [
+            "",
+            ""
+        ],
+        "icon": ""
+    },
+    {
+        "name": "魚津水族館",
+        "latitude": 36.7983556,
+        "longitude": 137.3881941,
+        "prefecture": "富山県",
+        "description": "",
+        "URL": "http://www.uozu-aquarium.jp/",
+        "address": "日本、〒937-0857 富山県魚津市三ケ１３９０",
+        "opening_hours": [
+            "月曜日: 9時00分～17時00分",
+            "火曜日: 9時00分～17時00分",
+            "水曜日: 9時00分～17時00分",
+            "木曜日: 9時00分～17時00分",
+            "金曜日: 9時00分～17時00分",
+            "土曜日: 9時00分～17時00分",
+            "日曜日: 9時00分～17時00分"
+        ],
+        "ticket_price": "",
+        "breeding_types": 400,
+        "like": 200,
+        "comment": 60,
+        "website": "http://www.uozu-aquarium.jp/",
+        "photos": [
+            "",
+            ""
+        ],
+        "icon": ""
+    },
+    {
+        "name": "のとじま水族館",
+        "latitude": 37.1491624,
+        "longitude": 136.9822215,
+        "prefecture": "石川県",
+        "description": "",
+        "URL": "http://www.notoaqua.jp/",
+        "address": "日本、〒926-0216 石川県七尾市能登島曲町１５−４０",
+        "opening_hours": [
+            "月曜日: 9時00分～17時00分",
+            "火曜日: 9時00分～17時00分",
+            "水曜日: 9時00分～17時00分",
+            "木曜日: 9時00分～17時00分",
+            "金曜日: 9時00分～17時00分",
+            "土曜日: 9時00分～17時00分",
+            "日曜日: 9時00分～17時00分"
+        ],
+        "ticket_price": "",
+        "breeding_types": 400,
+        "like": 200,
+        "comment": 60,
+        "website": "http://www.notoaqua.jp/",
+        "photos": [
+            "",
+            ""
+        ],
+        "icon": ""
+    },
+    {
+        "name": "世界淡水魚園水族館 アクア・トト ぎふ",
+        "latitude": 35.3717574,
+        "longitude": 136.8104,
+        "prefecture": "岐阜県",
+        "description": "",
+        "URL": "https://aquatotto.com/",
+        "address": "日本、〒501-6021 岐阜県各務原市川島笠田町１４５３ 河川環境楽園内",
+        "opening_hours": [
+            "月曜日: 9時30分～17時00分",
+            "火曜日: 9時30分～17時00分",
+            "水曜日: 9時30分～17時00分",
+            "木曜日: 9時30分～17時00分",
+            "金曜日: 9時30分～17時00分",
+            "土曜日: 9時30分～18時00分",
+            "日曜日: 9時30分～18時00分"
+        ],
+        "ticket_price": "",
+        "breeding_types": 400,
+        "like": 200,
+        "comment": 60,
+        "website": "https://aquatotto.com/",
+        "photos": [
+            "",
+            ""
+        ],
+        "icon": ""
+    },
+    {
+        "name": "名古屋港水族館",
+        "latitude": 35.09050879999999,
+        "longitude": 136.8784377,
+        "prefecture": "愛知県",
+        "description": "",
+        "URL": "https://nagoyaaqua.jp/",
+        "address": "日本、〒455-0033 愛知県名古屋市港区港町１−３",
+        "opening_hours": [
+            "月曜日: 9時30分～20時00分",
+            "火曜日: 9時30分～20時00分",
+            "水曜日: 9時30分～20時00分",
+            "木曜日: 9時30分～20時00分",
+            "金曜日: 9時30分～20時00分",
+            "土曜日: 9時30分～20時00分",
+            "日曜日: 9時30分～20時00分"
+        ],
+        "ticket_price": "",
+        "breeding_types": 400,
+        "like": 200,
+        "comment": 60,
+        "website": "https://nagoyaaqua.jp/",
+        "photos": [
+            "",
+            ""
+        ],
+        "icon": ""
+    },
+    {
+        "name": "蒲郡市竹島水族館",
+        "latitude": 34.8172716,
+        "longitude": 137.2319455,
+        "prefecture": "愛知県",
+        "description": "",
+        "URL": "http://www.city.gamagori.lg.jp/site/takesui/",
+        "address": "日本、〒443-0031 愛知県蒲郡市竹島町１−６",
+        "opening_hours": [
+            "月曜日: 9時00分～17時00分",
+            "火曜日: 9時00分～17時00分",
+            "水曜日: 9時00分～17時00分",
+            "木曜日: 9時00分～17時00分",
+            "金曜日: 9時00分～17時00分",
+            "土曜日: 9時00分～17時00分",
+            "日曜日: 9時00分～17時00分"
+        ],
+        "ticket_price": "",
+        "breeding_types": 400,
+        "like": 200,
+        "comment": 60,
+        "website": "http://www.city.gamagori.lg.jp/site/takesui/",
+        "photos": [
+            "",
+            ""
+        ],
+        "icon": ""
+    },
+    {
+        "name": "碧南海浜水族館",
+        "latitude": 34.880168,
+        "longitude": 136.981964,
+        "prefecture": "愛知県",
+        "description": "",
+        "URL": "https://www.city.hekinan.lg.jp/aquarium/",
+        "address": "日本、〒447-0853 愛知県碧南市浜町２−３",
+        "opening_hours": [
+            "月曜日: 定休日",
+            "火曜日: 9時00分～17時00分",
+            "水曜日: 9時00分～17時00分",
+            "木曜日: 9時00分～17時00分",
+            "金曜日: 9時00分～17時00分",
+            "土曜日: 9時00分～17時00分",
+            "日曜日: 9時00分～17時00分"
+        ],
+        "ticket_price": "",
+        "breeding_types": 400,
+        "like": 200,
+        "comment": 60,
+        "website": "https://www.city.hekinan.lg.jp/aquarium/",
+        "photos": [
+            "",
+            ""
+        ],
+        "icon": ""
+    },
+    {
+        "name": "SEA LIFE Centre Nagoya",
+        "latitude": 35.0503899,
+        "longitude": 136.846351,
+        "prefecture": "愛知県",
+        "description": "",
+        "URL": "http://www.sealife.jp/",
+        "address": "SEA LIFE Nagoya, 1 Kinjoufutou, ２丁目-7 金城ふ頭 港区 名古屋市 愛知県 455-8605 日本",
+        "opening_hours": [
+            "月曜日: 11時00分～18時30分",
+            "火曜日: 11時00分～18時30分",
+            "水曜日: 11時00分～18時30分",
+            "木曜日: 11時00分～18時30分",
+            "金曜日: 11時00分～18時30分",
+            "土曜日: 10時00分～19時00分",
+            "日曜日: 10時00分～19時00分"
+        ],
+        "ticket_price": "",
+        "breeding_types": 400,
+        "like": 200,
+        "comment": 60,
+        "website": "http://www.sealife.jp/",
+        "photos": [
+            "",
+            ""
+        ],
+        "icon": ""
+    },
+    {
+        "name": "南知多ビーチランド",
+        "latitude": 34.7882466,
+        "longitude": 136.8548122,
+        "prefecture": "愛知県",
+        "description": "",
+        "URL": "https://www.beachland.jp/",
+        "address": "日本、〒470-3233 愛知県知多郡美浜町奥田儀路４２８−１",
+        "opening_hours": [
+            "月曜日: 9時30分～16時00分",
+            "火曜日: 9時30分～16時00分",
+            "水曜日: 9時30分～16時00分",
+            "木曜日: 9時30分～16時00分",
+            "金曜日: 9時30分～16時00分",
+            "土曜日: 9時30分～17時00分",
+            "日曜日: 9時30分～17時00分"
+        ],
+        "ticket_price": "",
+        "breeding_types": 400,
+        "like": 200,
+        "comment": 60,
+        "website": "https://www.beachland.jp/",
+        "photos": [
+            "",
+            ""
+        ],
+        "icon": ""
+    },
+    {
+        "name": "ぎょぎょランド",
+        "latitude": 34.8469272,
+        "longitude": 137.3598333,
+        "prefecture": "愛知県",
+        "description": "",
+        "URL": "http://www.city.toyokawa.lg.jp/shisetsu/koen/akatsukayama.html",
+        "address": "日本、〒442-0862 愛知県豊川市市田町東堤上１−３０",
+        "opening_hours": [
+            "月曜日: 9時00分～17時00分",
+            "火曜日: 定休日",
+            "水曜日: 9時00分～17時00分",
+            "木曜日: 9時00分～17時00分",
+            "金曜日: 9時00分～17時00分",
+            "土曜日: 9時00分～17時00分",
+            "日曜日: 9時00分～17時00分"
+        ],
+        "ticket_price": "",
+        "breeding_types": 400,
+        "like": 200,
+        "comment": 60,
+        "website": "http://www.city.toyokawa.lg.jp/shisetsu/koen/akatsukayama.html",
+        "photos": [
+            "",
+            ""
+        ],
+        "icon": ""
+    },
+    {
+        "name": "鶴岡市立加茂水族館",
+        "latitude": 38.76165659999999,
+        "longitude": 139.7246678,
+        "prefecture": "山形県",
+        "description": "",
+        "URL": "http://kamo-kurage.jp/",
+        "address": "日本、〒997-1206 山形県鶴岡市今泉大久保６５７−１",
+        "opening_hours": [
+            "月曜日: 9時00分～17時00分",
+            "火曜日: 9時00分～17時00分",
+            "水曜日: 9時00分～17時00分",
+            "木曜日: 9時00分～17時00分",
+            "金曜日: 9時00分～17時00分",
+            "土曜日: 9時00分～17時00分",
+            "日曜日: 9時00分～17時00分"
+        ],
+        "ticket_price": "",
+        "breeding_types": 400,
+        "like": 200,
+        "comment": 60,
+        "website": "http://kamo-kurage.jp/",
+        "photos": [
+            "",
+            ""
+        ],
+        "icon": ""
+    },
+    {
+        "name": "アクアワールド茨城県大洗水族館",
+        "latitude": 36.3335762,
+        "longitude": 140.5940178,
+        "prefecture": "茨城県",
+        "description": "",
+        "URL": "http://www.aquaworld-oarai.com/",
+        "address": "日本、〒311-1301 茨城県東茨城郡大洗町磯浜町８２５２−３",
+        "opening_hours": [
+            "月曜日: 9時00分～17時00分",
+            "火曜日: 9時00分～17時00分",
+            "水曜日: 9時00分～17時00分",
+            "木曜日: 9時00分～17時00分",
+            "金曜日: 9時00分～17時00分",
+            "土曜日: 9時00分～17時00分",
+            "日曜日: 9時00分～17時00分"
+        ],
+        "ticket_price": "",
+        "breeding_types": 400,
+        "like": 200,
+        "comment": 60,
+        "website": "http://www.aquaworld-oarai.com/",
+        "photos": [
+            "",
+            ""
+        ],
+        "icon": ""
+    },
+    {
+        "name": "越前松島水族館",
+        "latitude": 36.252703,
+        "longitude": 136.147069,
+        "prefecture": "福井県",
+        "description": "",
+        "URL": "http://www.echizen-aquarium.com/",
+        "address": "日本、〒913-0065 福井県坂井市三国町崎７４−２−３",
+        "opening_hours": [
+            "月曜日: 9時00分～17時30分",
+            "火曜日: 9時00分～17時30分",
+            "水曜日: 9時00分～17時30分",
+            "木曜日: 9時00分～17時30分",
+            "金曜日: 9時00分～17時30分",
+            "土曜日: 9時00分～17時30分",
+            "日曜日: 9時00分～17時30分"
+        ],
+        "ticket_price": "",
+        "breeding_types": 400,
+        "like": 200,
+        "comment": 60,
+        "website": "http://www.echizen-aquarium.com/",
+        "photos": [
+            "",
+            ""
+        ],
+        "icon": ""
+    },
+    {
+        "name": "鳥羽水族館",
+        "latitude": 34.4815825,
+        "longitude": 136.8456926,
+        "prefecture": "三重県",
+        "description": "",
+        "URL": "https://aquarium.co.jp/?utm_source=gmap&utm_medium=meo&utm_campaign=2206",
+        "address": "日本、〒517-8517 三重県鳥羽市鳥羽３丁目３−６",
+        "opening_hours": [
+            "月曜日: 9時30分～17時00分",
+            "火曜日: 9時30分～17時00分",
+            "水曜日: 9時30分～17時00分",
+            "木曜日: 9時00分～17時00分",
+            "金曜日: 9時00分～17時00分",
+            "土曜日: 9時30分～17時00分",
+            "日曜日: 9時30分～17時00分"
+        ],
+        "ticket_price": "",
+        "breeding_types": 400,
+        "like": 200,
+        "comment": 60,
+        "website": "https://aquarium.co.jp/?utm_source=gmap&utm_medium=meo&utm_campaign=2206",
+        "photos": [
+            "",
+            ""
+        ],
+        "icon": ""
+    },
+    {
+        "name": "伊勢シーパラダイス",
+        "latitude": 34.5073454,
+        "longitude": 136.7915976,
+        "prefecture": "三重県",
+        "description": "",
+        "URL": "https://ise-seaparadise.com/",
+        "address": "日本、〒519-0602 三重県伊勢市二見町江５８０",
+        "opening_hours": [
+            "月曜日: 9時30分～16時30分",
+            "火曜日: 9時30分～16時30分",
+            "水曜日: 9時30分～16時30分",
+            "木曜日: 9時30分～16時30分",
+            "金曜日: 9時30分～16時30分",
+            "土曜日: 9時30分～17時00分",
+            "日曜日: 9時30分～17時00分"
+        ],
+        "ticket_price": "",
+        "breeding_types": 400,
+        "like": 200,
+        "comment": 60,
+        "website": "https://ise-seaparadise.com/",
+        "photos": [
+            "",
+            ""
+        ],
+        "icon": ""
+    },
+    {
+        "name": "ウミガメ水族館",
+        "latitude": 33.7697739,
+        "longitude": 136.0285003,
+        "prefecture": "三重県",
+        "description": "",
+        "URL": "https://umigame.info/",
+        "address": "日本、〒519-5711 三重県南牟婁郡紀宝町井田５６８−７",
+        "opening_hours": [
+            "月曜日: 8時30分～19時00分",
+            "火曜日: 8時30分～19時00分",
+            "水曜日: 8時30分～19時00分",
+            "木曜日: 8時30分～19時00分",
+            "金曜日: 8時30分～19時00分",
+            "土曜日: 8時30分～19時00分",
+            "日曜日: 8時30分～19時00分"
+        ],
+        "ticket_price": "",
+        "breeding_types": 400,
+        "like": 200,
+        "comment": 60,
+        "website": "https://umigame.info/",
+        "photos": [
+            "",
+            ""
+        ],
+        "icon": ""
+    },
+    {
+        "name": "赤目滝水族館",
+        "latitude": 34.5635028,
+        "longitude": 136.0857155,
+        "prefecture": "三重県",
+        "description": "",
+        "URL": "https://www.akame48taki.com/",
+        "address": "日本、〒518-0469 三重県名張市赤目町長坂８６１−１",
+        "opening_hours": [
+            "月曜日: 8時30分～17時00分",
+            "火曜日: 8時30分～17時00分",
+            "水曜日: 8時30分～17時00分",
+            "木曜日: 8時30分～17時00分",
+            "金曜日: 8時30分～17時00分",
+            "土曜日: 8時30分～17時00分",
+            "日曜日: 8時30分～17時00分"
+        ],
+        "ticket_price": "",
+        "breeding_types": 400,
+        "like": 200,
+        "comment": 60,
+        "website": "https://www.akame48taki.com/",
+        "photos": [
+            "",
+            ""
+        ],
+        "icon": ""
+    },
+    {
+        "name": "滋賀県立琵琶湖博物館",
+        "latitude": 35.0739541,
+        "longitude": 135.934879,
+        "prefecture": "滋賀県",
+        "description": "",
+        "URL": "https://www.biwahaku.jp/",
+        "address": "日本、〒525-0001 滋賀県草津市下物町１０９１",
+        "opening_hours": [
+            "月曜日: 定休日",
+            "火曜日: 9時30分～17時00分",
+            "水曜日: 9時30分～17時00分",
+            "木曜日: 9時30分～17時00分",
+            "金曜日: 9時30分～17時00分",
+            "土曜日: 9時30分～17時00分",
+            "日曜日: 9時30分～17時00分"
+        ],
+        "ticket_price": "",
+        "breeding_types": 400,
+        "like": 200,
+        "comment": 60,
+        "website": "https://www.biwahaku.jp/",
+        "photos": [
+            "",
+            ""
+        ],
+        "icon": ""
+    },
+    {
+        "name": "伊香立水族館",
+        "latitude": 35.1500767,
+        "longitude": 135.8783126,
+        "prefecture": "滋賀県",
+        "description": "",
+        "URL": "http://www.otsu.ed.jp/ikd-j/iFrame/08.html",
+        "address": "日本、〒520-0352 滋賀県大津市伊香立下在地町４１４",
+        "opening_hours": [],
+        "ticket_price": "",
+        "breeding_types": 400,
+        "like": 200,
+        "comment": 60,
+        "website": "http://www.otsu.ed.jp/ikd-j/iFrame/08.html",
+        "photos": [
+            "",
+            ""
+        ],
+        "icon": ""
+    },
+    {
+        "name": "南郷水産センター",
+        "latitude": 34.9393355,
+        "longitude": 135.9121206,
+        "prefecture": "滋賀県",
+        "description": "",
+        "URL": "http://www.suisan-center.com/",
+        "address": "日本、〒520-2279 滋賀県大津市黒津４丁目４−１",
+        "opening_hours": [
+            "月曜日: 9時30分～16時30分",
+            "火曜日: 定休日",
+            "水曜日: 9時30分～16時30分",
+            "木曜日: 9時30分～16時30分",
+            "金曜日: 9時30分～16時30分",
+            "土曜日: 9時30分～16時30分",
+            "日曜日: 9時30分～16時30分"
+        ],
+        "ticket_price": "",
+        "breeding_types": 400,
+        "like": 200,
+        "comment": 60,
+        "website": "http://www.suisan-center.com/",
+        "photos": [
+            "",
+            ""
+        ],
+        "icon": ""
+    },
+    {
+        "name": "京都水族館",
+        "latitude": 34.987516,
+        "longitude": 135.7472123,
+        "prefecture": "京都県",
+        "description": "",
+        "URL": "https://www.kyoto-aquarium.com/",
+        "address": "日本、〒600-8835 京都府京都市下京区観喜寺町３５−１ 内 梅小路公園",
+        "opening_hours": [
+            "月曜日: 10時00分～18時00分",
+            "火曜日: 10時00分～18時00分",
+            "水曜日: 10時00分～18時00分",
+            "木曜日: 10時00分～18時00分",
+            "金曜日: 10時00分～18時00分",
+            "土曜日: 9時00分～19時00分",
+            "日曜日: 9時00分～19時00分"
+        ],
+        "ticket_price": "",
+        "breeding_types": 400,
+        "like": 200,
+        "comment": 60,
+        "website": "https://www.kyoto-aquarium.com/",
+        "photos": [
+            "",
+            ""
+        ],
+        "icon": ""
+    },
+    {
+        "name": "海遊館",
+        "latitude": 34.6413315,
+        "longitude": 135.5629394,
+        "prefecture": "大阪府",
+        "description": "",
+        "URL": "https://www.kaiyukan.com/",
+        "address": "日本、大阪府",
+        "opening_hours": [
+            "月曜日: 10時00分～20時00分",
+            "火曜日: 10時00分～20時00分",
+            "水曜日: 10時00分～20時00分",
+            "木曜日: 10時00分～20時00分",
+            "金曜日: 10時00分～20時00分",
+            "土曜日: 9時30分～20時00分",
+            "日曜日: 9時30分～20時00分"
+        ],
+        "ticket_price": "",
+        "breeding_types": 400,
+        "like": 200,
+        "comment": 60,
+        "website": "https://www.kaiyukan.com/",
+        "photos": [
+            "",
+            ""
+        ],
+        "icon": ""
+    },
+    {
+        "name": "ニフレル",
+        "latitude": 34.8062981,
+        "longitude": 135.5336441,
+        "prefecture": "大阪府",
+        "description": "",
+        "URL": "https://www.nifrel.jp/",
+        "address": "日本、〒565-0826 大阪府吹田市千里万博公園２−１ ＮＩＦＲＥＬ 2 階",
+        "opening_hours": [
+            "月曜日: 10時00分～18時00分",
+            "火曜日: 10時00分～18時00分",
+            "水曜日: 10時00分～18時00分",
+            "木曜日: 10時00分～18時00分",
+            "金曜日: 10時00分～18時00分",
+            "土曜日: 9時30分～19時00分",
+            "日曜日: 9時30分～19時00分"
+        ],
+        "ticket_price": "",
+        "breeding_types": 400,
+        "like": 200,
+        "comment": 60,
+        "website": "https://www.nifrel.jp/",
+        "photos": [
+            "",
+            ""
+        ],
+        "icon": ""
+    },
+    {
+        "name": "城崎マリンワールド",
+        "latitude": 35.6555561,
+        "longitude": 134.8246145,
+        "prefecture": "兵庫県",
+        "description": "",
+        "URL": "https://marineworld.hiyoriyama.co.jp/",
+        "address": "日本、〒669-6192 兵庫県豊岡市瀬戸1090番地",
+        "opening_hours": [
+            "月曜日: 9時30分～16時30分",
+            "火曜日: 9時30分～16時30分",
+            "水曜日: 9時30分～16時30分",
+            "木曜日: 9時30分～16時30分",
+            "金曜日: 9時30分～16時30分",
+            "土曜日: 9時30分～17時00分",
+            "日曜日: 9時30分～17時00分"
+        ],
+        "ticket_price": "",
+        "breeding_types": 400,
+        "like": 200,
+        "comment": 60,
+        "website": "https://marineworld.hiyoriyama.co.jp/",
+        "photos": [
+            "",
+            ""
+        ],
+        "icon": ""
+    },
+    {
+        "name": "姫路市立水族館",
+        "latitude": 34.8220294,
+        "longitude": 134.6761997,
+        "prefecture": "兵庫県",
+        "description": "",
+        "URL": "http://www.city.himeji.hyogo.jp/aqua/",
+        "address": "日本、〒670-0971 兵庫県姫路市西延末４４０",
+        "opening_hours": [
+            "月曜日: 9時00分～17時00分",
+            "火曜日: 定休日",
+            "水曜日: 9時00分～17時00分",
+            "木曜日: 9時00分～17時00分",
+            "金曜日: 9時00分～17時00分",
+            "土曜日: 9時00分～17時00分",
+            "日曜日: 9時00分～17時00分"
+        ],
+        "ticket_price": "",
+        "breeding_types": 400,
+        "like": 200,
+        "comment": 60,
+        "website": "http://www.city.himeji.hyogo.jp/aqua/",
+        "photos": [
+            "",
+            ""
+        ],
+        "icon": ""
+    },
+    {
+        "name": "みなとやま水族館",
+        "latitude": 34.6897757,
+        "longitude": 135.1650909,
+        "prefecture": "兵庫県",
+        "description": "",
+        "URL": "https://minatoyama.jp/",
+        "address": "日本、〒652-0031 兵庫県神戸市兵庫区雪御所町２−２４ 101",
+        "opening_hours": [
+            "月曜日: 10時00分～18時00分",
+            "火曜日: 10時00分～18時00分",
+            "水曜日: 10時00分～18時00分",
+            "木曜日: 10時00分～18時00分",
+            "金曜日: 10時00分～18時00分",
+            "土曜日: 10時00分～18時00分",
+            "日曜日: 10時00分～18時00分"
+        ],
+        "ticket_price": "",
+        "breeding_types": 400,
+        "like": 200,
+        "comment": 60,
+        "website": "https://minatoyama.jp/",
+        "photos": [
+            "",
+            ""
+        ],
+        "icon": ""
+    },
+    {
+        "name": "神戸須磨シーワールド",
+        "latitude": 34.6438947,
+        "longitude": 135.1279256,
+        "prefecture": "兵庫県",
+        "description": "",
+        "URL": "https://www.kobesuma-seaworld.jp/",
+        "address": "日本、〒654-0049 兵庫県神戸市須磨区若宮町１丁目３−５",
+        "opening_hours": [
+            "月曜日: 10時00分～18時00分",
+            "火曜日: 10時00分～18時00分",
+            "水曜日: 10時00分～18時00分",
+            "木曜日: 10時00分～18時00分",
+            "金曜日: 10時00分～18時00分",
+            "土曜日: 9時00分～21時00分",
+            "日曜日: 9時00分～21時00分"
+        ],
+        "ticket_price": "",
+        "breeding_types": 400,
+        "like": 200,
+        "comment": 60,
+        "website": "https://www.kobesuma-seaworld.jp/",
+        "photos": [
+            "",
+            ""
+        ],
+        "icon": ""
+    },
+    {
+        "name": "アトア（átoa）",
+        "latitude": 34.6832222,
+        "longitude": 135.1936194,
+        "prefecture": "兵庫県",
+        "description": "",
+        "URL": "https://atoa-kobe.jp/",
+        "address": "日本、〒650-0041 兵庫県神戸市中央区新港町７−２",
+        "opening_hours": [
+            "月曜日: 10時00分～19時00分",
+            "火曜日: 10時00分～19時00分",
+            "水曜日: 10時00分～19時00分",
+            "木曜日: 10時00分～19時00分",
+            "金曜日: 10時00分～19時00分",
+            "土曜日: 10時00分～19時00分",
+            "日曜日: 10時00分～19時00分"
+        ],
+        "ticket_price": "",
+        "breeding_types": 400,
+        "like": 200,
+        "comment": 60,
+        "website": "https://atoa-kobe.jp/",
+        "photos": [
+            "",
+            ""
+        ],
+        "icon": ""
+    },
+    {
+        "name": "神戸ポートミュージアム（KPM）",
+        "latitude": 34.6831635,
+        "longitude": 135.1937474,
+        "prefecture": "兵庫県",
+        "description": "",
+        "URL": "https://kobe-port-museum.jp/",
+        "address": "日本、〒650-0041 兵庫県神戸市中央区新港町７−２",
+        "opening_hours": [
+            "月曜日: 10時00分～20時00分",
+            "火曜日: 10時00分～20時00分",
+            "水曜日: 10時00分～20時00分",
+            "木曜日: 10時00分～22時00分",
+            "金曜日: 10時00分～20時00分",
+            "土曜日: 10時00分～20時00分",
+            "日曜日: 10時00分～20時00分"
+        ],
+        "ticket_price": "",
+        "breeding_types": 400,
+        "like": 200,
+        "comment": 60,
+        "website": "https://kobe-port-museum.jp/",
+        "photos": [
+            "",
+            ""
+        ],
+        "icon": ""
+    },
+    {
+        "name": "アクア東条",
+        "latitude": 34.9287447,
+        "longitude": 135.0665233,
+        "prefecture": "兵庫県",
+        "description": "",
+        "URL": "https://www.hyoturi.or.jp/aqua/",
+        "address": "日本、〒673-1301 兵庫県加東市黒谷１１９７−２３",
+        "opening_hours": [
+            "月曜日: 9時30分～17時30分",
+            "火曜日: 9時30分～17時30分",
+            "水曜日: 9時30分～17時30分",
+            "木曜日: 定休日",
+            "金曜日: 9時30分～17時30分",
+            "土曜日: 9時30分～17時30分",
+            "日曜日: 9時30分～17時30分"
+        ],
+        "ticket_price": "",
+        "breeding_types": 400,
+        "like": 200,
+        "comment": 60,
+        "website": "https://www.hyoturi.or.jp/aqua/",
+        "photos": [
+            "",
+            ""
+        ],
+        "icon": ""
+    },
+    {
+        "name": "つかしん水族館",
+        "latitude": 34.7613334,
+        "longitude": 135.4180219,
+        "prefecture": "兵庫県",
+        "description": "",
+        "URL": null,
+        "address": "日本、〒661-0001 兵庫県尼崎市塚口本町４丁目８−１ つかしん水族館",
+        "opening_hours": [],
+        "ticket_price": "",
+        "breeding_types": 400,
+        "like": 200,
+        "comment": 60,
+        "website": null,
+        "photos": [
+            "",
+            ""
+        ],
+        "icon": ""
+    },
+    {
+        "name": "奈良金魚ミュージアム",
+        "latitude": 34.6851869,
+        "longitude": 135.8021921,
+        "prefecture": "奈良県",
+        "description": "",
+        "URL": "https://kingyomuseum.com/",
+        "address": "日本、〒630-8012 奈良県奈良市二条大路南１丁目３−１ ミ・ナーラ ４F",
+        "opening_hours": [
+            "月曜日: 10時00分～17時30分",
+            "火曜日: 10時00分～17時30分",
+            "水曜日: 10時00分～17時30分",
+            "木曜日: 10時00分～17時30分",
+            "金曜日: 10時00分～17時30分",
+            "土曜日: 10時00分～17時30分",
+            "日曜日: 10時00分～17時30分"
+        ],
+        "ticket_price": "",
+        "breeding_types": 400,
+        "like": 200,
+        "comment": 60,
+        "website": "https://kingyomuseum.com/",
+        "photos": [
+            "",
+            ""
+        ],
+        "icon": ""
+    },
+    {
+        "name": "京都大学白浜水族館",
+        "latitude": 33.6927167,
+        "longitude": 135.3376006,
+        "prefecture": "和歌山県",
+        "description": "",
+        "URL": "https://www.seto.kyoto-u.ac.jp/shirahama_aqua/",
+        "address": "日本、〒649-2211 和歌山県西牟婁郡白浜町 西牟婁郡白浜町459",
+        "opening_hours": [
+            "月曜日: 9時00分～17時00分",
+            "火曜日: 9時00分～17時00分",
+            "水曜日: 9時00分～17時00分",
+            "木曜日: 9時00分～17時00分",
+            "金曜日: 9時00分～17時00分",
+            "土曜日: 9時00分～17時00分",
+            "日曜日: 9時00分～17時00分"
+        ],
+        "ticket_price": "",
+        "breeding_types": 400,
+        "like": 200,
+        "comment": 60,
+        "website": "https://www.seto.kyoto-u.ac.jp/shirahama_aqua/",
+        "photos": [
+            "",
+            ""
+        ],
+        "icon": ""
+    },
+    {
+        "name": "串本海中公園",
+        "latitude": 33.480543,
+        "longitude": 135.74462,
+        "prefecture": "和歌山県",
+        "description": "",
+        "URL": "https://www.kushimoto.co.jp/",
+        "address": "日本、〒649-3514 和歌山県東牟婁郡串本町有田１１５７",
+        "opening_hours": [
+            "月曜日: 9時00分～16時30分",
+            "火曜日: 9時00分～16時30分",
+            "水曜日: 9時00分～16時30分",
+            "木曜日: 9時00分～16時30分",
+            "金曜日: 9時00分～16時30分",
+            "土曜日: 9時00分～16時30分",
+            "日曜日: 9時00分～16時30分"
+        ],
+        "ticket_price": "",
+        "breeding_types": 400,
+        "like": 200,
+        "comment": 60,
+        "website": "https://www.kushimoto.co.jp/",
+        "photos": [
+            "",
+            ""
+        ],
+        "icon": ""
+    },
+    {
+        "name": "エビとカニの水族館",
+        "latitude": 33.5058522,
+        "longitude": 135.6001476,
+        "prefecture": "和歌山県",
+        "description": "",
+        "URL": "http://www.ebikani-aquarium.com/",
+        "address": "日本、〒649-3142 和歌山県西牟婁郡すさみ町江住８０８−１",
+        "opening_hours": [
+            "月曜日: 9時00分～17時00分",
+            "火曜日: 9時00分～17時00分",
+            "水曜日: 9時00分～17時00分",
+            "木曜日: 9時00分～17時00分",
+            "金曜日: 9時00分～17時00分",
+            "土曜日: 9時00分～17時00分",
+            "日曜日: 9時00分～17時00分"
+        ],
+        "ticket_price": "",
+        "breeding_types": 400,
+        "like": 200,
+        "comment": 60,
+        "website": "http://www.ebikani-aquarium.com/",
+        "photos": [
+            "",
+            ""
+        ],
+        "icon": ""
+    },
+    {
+        "name": "和歌山県立自然博物館",
+        "latitude": 34.1585858,
+        "longitude": 135.1921202,
+        "prefecture": "和歌山県",
+        "description": "",
+        "URL": "https://www.shizenhaku.wakayama-c.ed.jp/",
+        "address": "日本、〒642-0001 和歌山県海南市船尾３７０−１",
+        "opening_hours": [
+            "月曜日: 定休日",
+            "火曜日: 9時30分～17時00分",
+            "水曜日: 9時30分～17時00分",
+            "木曜日: 9時30分～17時00分",
+            "金曜日: 9時30分～17時00分",
+            "土曜日: 9時30分～17時00分",
+            "日曜日: 9時30分～17時00分"
+        ],
+        "ticket_price": "",
+        "breeding_types": 400,
+        "like": 200,
+        "comment": 60,
+        "website": "https://www.shizenhaku.wakayama-c.ed.jp/",
+        "photos": [
+            "",
+            ""
+        ],
+        "icon": ""
+    },
+    {
+        "name": "太地町立くじらの博物館",
+        "latitude": 33.6018789,
+        "longitude": 135.9458029,
+        "prefecture": "和歌山県",
+        "description": "",
+        "URL": "http://www.kujirakan.jp/",
+        "address": "日本、〒649-5171 和歌山県東牟婁郡太地町太地２９３４−２ 太地町立くじらの博物館",
+        "opening_hours": [
+            "月曜日: 8時30分～17時00分",
+            "火曜日: 8時30分～17時00分",
+            "水曜日: 8時30分～17時00分",
+            "木曜日: 8時30分～17時00分",
+            "金曜日: 8時30分～17時00分",
+            "土曜日: 8時30分～17時00分",
+            "日曜日: 8時30分～17時00分"
+        ],
+        "ticket_price": "",
+        "breeding_types": 400,
+        "like": 200,
+        "comment": 60,
+        "website": "http://www.kujirakan.jp/",
+        "photos": [
+            "",
+            ""
+        ],
+        "icon": ""
+    },
+    {
+        "name": "とっとり賀露かにっこ館",
+        "latitude": 35.534477,
+        "longitude": 134.17879,
+        "prefecture": "鳥取県",
+        "description": "",
+        "URL": "https://kanikko.jp/",
+        "address": "日本、〒680-0908 鳥取県鳥取市賀露町西３丁目２７−２",
+        "opening_hours": [
+            "月曜日: 9時00分～17時00分",
+            "火曜日: 定休日",
+            "水曜日: 9時00分～17時00分",
+            "木曜日: 9時00分～17時00分",
+            "金曜日: 9時00分～17時00分",
+            "土曜日: 9時00分～17時00分",
+            "日曜日: 9時00分～17時00分"
+        ],
+        "ticket_price": "",
+        "breeding_types": 400,
+        "like": 200,
+        "comment": 60,
+        "website": "https://kanikko.jp/",
+        "photos": [
+            "",
+            ""
+        ],
+        "icon": ""
+    },
+    {
+        "name": "島根県立しまね海洋館 アクアス",
+        "latitude": 34.9594578,
+        "longitude": 132.1446342,
+        "prefecture": "島根県",
+        "description": "",
+        "URL": "https://aquas.or.jp/",
+        "address": "日本、〒697-0004 島根県浜田市久代町１１１７−２ 島根県立しまね海洋館 アクアス",
+        "opening_hours": [
+            "月曜日: 9時00分～18時00分",
+            "火曜日: 9時00分～18時00分",
+            "水曜日: 9時00分～18時00分",
+            "木曜日: 9時00分～18時00分",
+            "金曜日: 9時00分～18時00分",
+            "土曜日: 9時00分～18時00分",
+            "日曜日: 9時00分～18時00分"
+        ],
+        "ticket_price": "",
+        "breeding_types": 400,
+        "like": 200,
+        "comment": 60,
+        "website": "https://aquas.or.jp/",
+        "photos": [
+            "",
+            ""
+        ],
+        "icon": ""
+    },
+    {
+        "name": "渋川マリン水族館（玉野海洋博物館）",
+        "latitude": 34.4548984,
+        "longitude": 133.9054393,
+        "prefecture": "岡山県",
+        "description": "",
+        "URL": "https://www.city.tamano.lg.jp/site/kaihaku/",
+        "address": "日本、〒706-0028 岡山県玉野市渋川２丁目６−１",
+        "opening_hours": [
+            "月曜日: 9時00分～17時00分",
+            "火曜日: 9時00分～17時00分",
+            "水曜日: 9時00分～17時00分",
+            "木曜日: 9時00分～17時00分",
+            "金曜日: 9時00分～17時00分",
+            "土曜日: 9時00分～17時00分",
+            "日曜日: 9時00分～17時00分"
+        ],
+        "ticket_price": "",
+        "breeding_types": 400,
+        "like": 200,
+        "comment": 60,
+        "website": "https://www.city.tamano.lg.jp/site/kaihaku/",
+        "photos": [
+            "",
+            ""
+        ],
+        "icon": ""
+    },
+    {
+        "name": "岡山淡水魚水族館",
+        "latitude": 34.6186659,
+        "longitude": 133.9276663,
+        "prefecture": "岡山県",
+        "description": "",
+        "URL": "http://kibitanago.blog.fc2.com/",
+        "address": "日本、〒702-8021 岡山県岡山市南区福田１９４",
+        "opening_hours": [
+            "月曜日: 24 時間営業",
+            "火曜日: 24 時間営業",
+            "水曜日: 24 時間営業",
+            "木曜日: 24 時間営業",
+            "金曜日: 24 時間営業",
+            "土曜日: 24 時間営業",
+            "日曜日: 24 時間営業"
+        ],
+        "ticket_price": "",
+        "breeding_types": 400,
+        "like": 200,
+        "comment": 60,
+        "website": "http://kibitanago.blog.fc2.com/",
+        "photos": [
+            "",
+            ""
+        ],
+        "icon": ""
+    },
+    {
+        "name": "マリホ水族館",
+        "latitude": 34.359683,
+        "longitude": 132.4164352,
+        "prefecture": "広島県",
+        "description": "",
+        "URL": "http://mariho-aquarium.com/",
+        "address": "日本、〒733-0036 広島県広島市西区観音新町４丁目１４−３５",
+        "opening_hours": [
+            "月曜日: 10時00分～19時00分",
+            "火曜日: 10時00分～19時00分",
+            "水曜日: 10時00分～19時00分",
+            "木曜日: 10時00分～17時00分",
+            "金曜日: 10時00分～19時00分",
+            "土曜日: 10時00分～19時00分",
+            "日曜日: 10時00分～19時00分"
+        ],
+        "ticket_price": "",
+        "breeding_types": 400,
+        "like": 200,
+        "comment": 60,
+        "website": "http://mariho-aquarium.com/",
+        "photos": [
+            "",
+            ""
+        ],
+        "icon": ""
+    },
+    {
+        "name": "みやじマリン 宮島水族館",
+        "latitude": 34.2954961,
+        "longitude": 132.3157922,
+        "prefecture": "広島県",
+        "description": "",
+        "URL": "http://miyajima-aqua.jp/",
+        "address": "日本、〒739-0588 広島県廿日市市宮島町１０−３",
+        "opening_hours": [
+            "月曜日: 9時00分～17時00分",
+            "火曜日: 9時00分～17時00分",
+            "水曜日: 9時00分～17時00分",
+            "木曜日: 9時00分～17時00分",
+            "金曜日: 9時00分～17時00分",
+            "土曜日: 9時00分～17時00分",
+            "日曜日: 9時00分～17時00分"
+        ],
+        "ticket_price": "",
+        "breeding_types": 400,
+        "like": 200,
+        "comment": 60,
+        "website": "http://miyajima-aqua.jp/",
+        "photos": [
+            "",
+            ""
+        ],
+        "icon": ""
+    },
+    {
+        "name": "広島マリーナホップ",
+        "latitude": 34.3606528,
+        "longitude": 132.415716,
+        "prefecture": "広島県",
+        "description": "",
+        "URL": "http://www.marinahop.com/index.html",
+        "address": "日本、〒733-0036 広島県広島市西区観音新町４丁目１４−３５",
+        "opening_hours": [
+            "月曜日: 10時00分～19時00分",
+            "火曜日: 10時00分～19時00分",
+            "水曜日: 10時00分～19時00分",
+            "木曜日: 10時00分～19時00分",
+            "金曜日: 10時00分～19時00分",
+            "土曜日: 10時00分～19時00分",
+            "日曜日: 10時00分～19時00分"
+        ],
+        "ticket_price": "",
+        "breeding_types": 400,
+        "like": 200,
+        "comment": 60,
+        "website": "http://www.marinahop.com/index.html",
+        "photos": [
+            "",
+            ""
+        ],
+        "icon": ""
+    },
+    {
+        "name": "福山大学 マリンバイオセンター水族館",
+        "latitude": 34.3491164,
+        "longitude": 133.1751006,
+        "prefecture": "広島県",
+        "description": "",
+        "URL": "https://www.fukuyama-u.ac.jp/marine-bio-center/",
+        "address": "日本、〒722-2101 広島県尾道市因島大浜町４５２−１０ 福山大学内海生物資源研究所",
+        "opening_hours": [
+            "月曜日: 10時00分～16時00分",
+            "火曜日: 10時00分～16時00分",
+            "水曜日: 10時00分～16時00分",
+            "木曜日: 10時00分～16時00分",
+            "金曜日: 10時00分～16時00分",
+            "土曜日: 定休日",
+            "日曜日: 定休日"
+        ],
+        "ticket_price": "",
+        "breeding_types": 400,
+        "like": 200,
+        "comment": 60,
+        "website": "https://www.fukuyama-u.ac.jp/marine-bio-center/",
+        "photos": [
+            "",
+            ""
+        ],
+        "icon": ""
+    },
+    {
+        "name": "市立しものせき水族館 海響館",
+        "latitude": 33.9546189,
+        "longitude": 130.9423611,
+        "prefecture": "山口県",
+        "description": "",
+        "URL": "http://www.kaikyokan.com/",
+        "address": "日本、〒750-0036 山口県下関市あるかぽーと６−１",
+        "opening_hours": [
+            "月曜日: 9時30分～17時30分",
+            "火曜日: 9時30分～17時30分",
+            "水曜日: 9時30分～17時30分",
+            "木曜日: 9時30分～17時30分",
+            "金曜日: 9時30分～17時30分",
+            "土曜日: 9時30分～17時30分",
+            "日曜日: 9時30分～17時30分"
+        ],
+        "ticket_price": "",
+        "breeding_types": 400,
+        "like": 200,
+        "comment": 60,
+        "website": "http://www.kaikyokan.com/",
+        "photos": [
+            "",
+            ""
+        ],
+        "icon": ""
+    },
+    {
+        "name": "市立しものせき水族館 海響館",
+        "latitude": 33.95752969999999,
+        "longitude": 130.9411759,
+        "prefecture": "なぎさ水族館",
+        "description": "",
+        "URL": "http://www.kaikyokan.com/",
+        "address": "日本、山口県下関市",
+        "opening_hours": [
+            "月曜日: 9時30分～17時30分",
+            "火曜日: 9時30分～17時30分",
+            "水曜日: 9時30分～17時30分",
+            "木曜日: 9時30分～17時30分",
+            "金曜日: 9時30分～17時30分",
+            "土曜日: 9時30分～17時30分",
+            "日曜日: 9時30分～17時30分"
+        ],
+        "ticket_price": "",
+        "breeding_types": 400,
+        "like": 200,
+        "comment": 60,
+        "website": "http://www.kaikyokan.com/",
+        "photos": [
+            "",
+            ""
+        ],
+        "icon": ""
+    },
+    {
+        "name": "海洋自然博物館 マリンジャム",
+        "latitude": 33.5477395,
+        "longitude": 134.316682,
+        "prefecture": "徳島県",
+        "description": "",
+        "URL": "https://marine.kaiyo-kankou.jp/",
+        "address": "日本、〒775-0513 徳島県海部郡海陽町宍喰浦竹ケ島２８−４５",
+        "opening_hours": [
+            "月曜日: 8時30分～16時00分",
+            "火曜日: 定休日",
+            "水曜日: 8時30分～16時00分",
+            "木曜日: 8時30分～16時00分",
+            "金曜日: 8時30分～16時00分",
+            "土曜日: 8時30分～16時00分",
+            "日曜日: 8時30分～16時00分"
+        ],
+        "ticket_price": "",
+        "breeding_types": 400,
+        "like": 200,
+        "comment": 60,
+        "website": "https://marine.kaiyo-kankou.jp/",
+        "photos": [
+            "",
+            ""
+        ],
+        "icon": ""
+    },
+    {
+        "name": "四国水族館",
+        "latitude": 34.3126547,
+        "longitude": 133.8079776,
+        "prefecture": "香川県",
+        "description": "",
+        "URL": "http://shikoku-aquarium.jp/",
+        "address": "日本、〒769-0201 香川県綾歌郡宇多津町浜一番丁４",
+        "opening_hours": [
+            "月曜日: 9時00分～18時00分",
+            "火曜日: 9時00分～18時00分",
+            "水曜日: 9時00分～18時00分",
+            "木曜日: 9時00分～18時00分",
+            "金曜日: 9時00分～18時00分",
+            "土曜日: 9時00分～18時00分",
+            "日曜日: 9時00分～18時00分"
+        ],
+        "ticket_price": "",
+        "breeding_types": 400,
+        "like": 200,
+        "comment": 60,
+        "website": "http://shikoku-aquarium.jp/",
+        "photos": [
+            "",
+            ""
+        ],
+        "icon": ""
+    },
+    {
+        "name": "新屋島水族館",
+        "latitude": 34.3584829,
+        "longitude": 134.0998699,
+        "prefecture": "香川県",
+        "description": "",
+        "URL": "https://r.goope.jp/new-yashima-aq",
+        "address": "日本、〒761-0111 香川県高松市屋島東町１７８５−１",
+        "opening_hours": [
+            "月曜日: 9時00分～17時00分",
+            "火曜日: 9時00分～17時00分",
+            "水曜日: 9時00分～17時00分",
+            "木曜日: 9時00分～17時00分",
+            "金曜日: 9時00分～17時00分",
+            "土曜日: 9時00分～17時00分",
+            "日曜日: 9時00分～17時00分"
+        ],
+        "ticket_price": "",
+        "breeding_types": 400,
+        "like": 200,
+        "comment": 60,
+        "website": "https://r.goope.jp/new-yashima-aq",
+        "photos": [
+            "",
+            ""
+        ],
+        "icon": ""
+    },
+    {
+        "name": "虹の森公園 おさかな館",
+        "latitude": 33.2293506,
+        "longitude": 132.710337,
+        "prefecture": "愛媛県",
+        "description": "",
+        "URL": "https://morinokuni.or.jp/publics/index/27/",
+        "address": "日本、〒798-2102 愛媛県北宇和郡松野町延野々１５１０−１ 内 虹の森公園",
+        "opening_hours": [
+            "月曜日: 10時00分～17時00分",
+            "火曜日: 10時00分～17時00分",
+            "水曜日: 10時00分～17時00分",
+            "木曜日: 10時00分～17時00分",
+            "金曜日: 10時00分～17時00分",
+            "土曜日: 10時00分～17時00分",
+            "日曜日: 10時00分～17時00分"
+        ],
+        "ticket_price": "",
+        "breeding_types": 400,
+        "like": 200,
+        "comment": 60,
+        "website": "https://morinokuni.or.jp/publics/index/27/",
+        "photos": [
+            "",
+            ""
+        ],
+        "icon": ""
+    },
+    {
+        "name": "鈍川めだか水族館",
+        "latitude": 33.9846685,
+        "longitude": 132.9404652,
+        "prefecture": "愛媛県",
+        "description": "",
+        "URL": "https://seseragi-onsen.com/medaka/",
+        "address": "日本、〒794-0121 愛媛県今治市玉川町鈍川２１８−１",
+        "opening_hours": [
+            "月曜日: 10時30分～21時00分",
+            "火曜日: 10時30分～21時00分",
+            "水曜日: 10時30分～21時00分",
+            "木曜日: 10時30分～21時00分",
+            "金曜日: 10時30分～21時00分",
+            "土曜日: 10時30分～21時00分",
+            "日曜日: 10時30分～21時00分"
+        ],
+        "ticket_price": "",
+        "breeding_types": 400,
+        "like": 200,
+        "comment": 60,
+        "website": "https://seseragi-onsen.com/medaka/",
+        "photos": [
+            "",
+            ""
+        ],
+        "icon": ""
+    },
+    {
+        "name": "長高水族館",
+        "latitude": 33.6153991,
+        "longitude": 132.4791731,
+        "prefecture": "愛媛県",
+        "description": "",
+        "URL": null,
+        "address": "日本、〒799-3401 愛媛県大洲市長浜甲５７６",
+        "opening_hours": [],
+        "ticket_price": "",
+        "breeding_types": 400,
+        "like": 200,
+        "comment": 60,
+        "website": null,
+        "photos": [
+            "",
+            ""
+        ],
+        "icon": ""
+    },
+    {
+        "name": "高知県立足摺海洋館 SATOUMI",
+        "latitude": 32.7914466,
+        "longitude": 132.8622794,
+        "prefecture": "高知県",
+        "description": "",
+        "URL": "http://www.kaiyoukan.jp/",
+        "address": "日本、〒787-0450 高知県土佐清水市三崎４０３２",
+        "opening_hours": [
+            "月曜日: 9時00分～17時00分",
+            "火曜日: 9時00分～17時00分",
+            "水曜日: 9時00分～17時00分",
+            "木曜日: 9時00分～17時00分",
+            "金曜日: 9時00分～17時00分",
+            "土曜日: 9時00分～17時00分",
+            "日曜日: 9時00分～17時00分"
+        ],
+        "ticket_price": "",
+        "breeding_types": 400,
+        "like": 200,
+        "comment": 60,
+        "website": "http://www.kaiyoukan.jp/",
+        "photos": [
+            "",
+            ""
+        ],
+        "icon": ""
+    },
+    {
+        "name": "桂浜水族館",
+        "latitude": 33.4970941,
+        "longitude": 133.573698,
+        "prefecture": "高知県",
+        "description": "",
+        "URL": "http://katurahama-aq.jp/",
+        "address": "日本、〒781-0262 高知県高知市浦戸７７８",
+        "opening_hours": [
+            "月曜日: 9時00分～17時00分",
+            "火曜日: 9時00分～17時00分",
+            "水曜日: 9時00分～17時00分",
+            "木曜日: 9時00分～17時00分",
+            "金曜日: 9時00分～17時00分",
+            "土曜日: 9時00分～17時00分",
+            "日曜日: 9時00分～17時00分"
+        ],
+        "ticket_price": "",
+        "breeding_types": 400,
+        "like": 200,
+        "comment": 60,
+        "website": "http://katurahama-aq.jp/",
+        "photos": [
+            "",
+            ""
+        ],
+        "icon": ""
+    },
+    {
+        "name": "むろと廃校水族館",
+        "latitude": 33.3257253,
+        "longitude": 134.1951462,
+        "prefecture": "高知県",
+        "description": "",
+        "URL": "https://twitter.com/murosui_kochi",
+        "address": "日本、〒781-7101 高知県室戸市室戸岬町533ｰ2",
+        "opening_hours": [
+            "月曜日: 9時00分～18時00分",
+            "火曜日: 9時00分～18時00分",
+            "水曜日: 9時00分～18時00分",
+            "木曜日: 9時00分～18時00分",
+            "金曜日: 9時00分～18時00分",
+            "土曜日: 9時00分～18時00分",
+            "日曜日: 9時00分～18時00分"
+        ],
+        "ticket_price": "",
+        "breeding_types": 400,
+        "like": 200,
+        "comment": 60,
+        "website": "https://twitter.com/murosui_kochi",
+        "photos": [
+            "",
+            ""
+        ],
+        "icon": ""
+    },
+    {
+        "name": "マリンワールド海の中道",
+        "latitude": 33.660851,
+        "longitude": 130.363413,
+        "prefecture": "福岡県",
+        "description": "",
+        "URL": "http://www.marine-world.jp/",
+        "address": "日本、〒811-0321 福岡県福岡市東区西戸崎１８−２８",
+        "opening_hours": [
+            "月曜日: 9時30分～17時30分",
+            "火曜日: 9時30分～17時30分",
+            "水曜日: 9時30分～17時30分",
+            "木曜日: 9時30分～17時30分",
+            "金曜日: 9時30分～17時30分",
+            "土曜日: 9時30分～17時30分",
+            "日曜日: 9時30分～17時30分"
+        ],
+        "ticket_price": "",
+        "breeding_types": 400,
+        "like": 200,
+        "comment": 60,
+        "website": "http://www.marine-world.jp/",
+        "photos": [
+            "",
+            ""
+        ],
+        "icon": ""
+    },
+    {
+        "name": "ベイサイドアクアリウム",
+        "latitude": 33.6043972,
+        "longitude": 130.3987857,
+        "prefecture": "福岡県",
+        "description": "",
+        "URL": "http://www.baysideplace.jp/entertainment/aqua/",
+        "address": "日本、〒812-0021 福岡県福岡市博多区築港本町１３−６",
+        "opening_hours": [
+            "月曜日: 10時00分～20時00分",
+            "火曜日: 10時00分～20時00分",
+            "水曜日: 10時00分～20時00分",
+            "木曜日: 10時00分～20時00分",
+            "金曜日: 10時00分～20時00分",
+            "土曜日: 10時00分～20時00分",
+            "日曜日: 10時00分～20時00分"
+        ],
+        "ticket_price": "",
+        "breeding_types": 400,
+        "like": 200,
+        "comment": 60,
+        "website": "http://www.baysideplace.jp/entertainment/aqua/",
+        "photos": [
+            "",
+            ""
+        ],
+        "icon": ""
+    },
+    {
+        "name": "長崎ペンギン水族館",
+        "latitude": 32.7581537,
+        "longitude": 129.9467149,
+        "prefecture": "長崎県",
+        "description": "",
+        "URL": "http://penguin-aqua.jp/",
+        "address": "日本、〒851-0121 長崎県長崎市宿町３−１６",
+        "opening_hours": [
+            "月曜日: 9時00分～17時00分",
+            "火曜日: 9時00分～17時00分",
+            "水曜日: 9時00分～17時00分",
+            "木曜日: 9時00分～17時00分",
+            "金曜日: 9時00分～17時00分",
+            "土曜日: 9時00分～17時00分",
+            "日曜日: 9時00分～17時00分"
+        ],
+        "ticket_price": "",
+        "breeding_types": 400,
+        "like": 200,
+        "comment": 60,
+        "website": "http://penguin-aqua.jp/",
+        "photos": [
+            "",
+            ""
+        ],
+        "icon": ""
+    },
+    {
+        "name": "九十九島水族館海きらら",
+        "latitude": 33.1614464,
+        "longitude": 129.6790753,
+        "prefecture": "長崎県",
+        "description": "",
+        "URL": "https://www.umikirara.jp/",
+        "address": "日本、〒858-0922 長崎県佐世保市鹿子前町１００８",
+        "opening_hours": [
+            "月曜日: 9時00分～18時00分",
+            "火曜日: 9時00分～18時00分",
+            "水曜日: 9時00分～18時00分",
+            "木曜日: 9時00分～18時00分",
+            "金曜日: 9時00分～18時00分",
+            "土曜日: 9時00分～18時00分",
+            "日曜日: 9時00分～18時00分"
+        ],
+        "ticket_price": "",
+        "breeding_types": 400,
+        "like": 200,
+        "comment": 60,
+        "website": "https://www.umikirara.jp/",
+        "photos": [
+            "",
+            ""
+        ],
+        "icon": ""
+    },
+    {
+        "name": "海中水族館シードーナツ",
+        "latitude": 32.529844,
+        "longitude": 130.428386,
+        "prefecture": "熊本県",
+        "description": "",
+        "URL": "https://amakusapearl.com/",
+        "address": "日本、〒861-6102 熊本県上天草市松島町合津６２２５−７",
+        "opening_hours": [
+            "月曜日: 9時00分～18時00分",
+            "火曜日: 9時00分～18時00分",
+            "水曜日: 9時00分～18時00分",
+            "木曜日: 9時00分～18時00分",
+            "金曜日: 9時00分～18時00分",
+            "土曜日: 9時00分～18時00分",
+            "日曜日: 9時00分～18時00分"
+        ],
+        "ticket_price": "",
+        "breeding_types": 400,
+        "like": 200,
+        "comment": 60,
+        "website": "https://amakusapearl.com/",
+        "photos": [
+            "",
+            ""
+        ],
+        "icon": ""
+    },
+    {
+        "name": "阿蘇ファームランド おもしろ水族感アクア",
+        "latitude": 32.896607,
+        "longitude": 131.0067061,
+        "prefecture": "熊本県",
+        "description": "",
+        "URL": "https://asofarmland.co.jp/",
+        "address": "日本、〒869-1404 熊本県阿蘇郡南阿蘇村河陽５５７９−３",
+        "opening_hours": [
+            "月曜日: 9時00分～17時00分",
+            "火曜日: 9時00分～17時00分",
+            "水曜日: 9時00分～17時00分",
+            "木曜日: 9時00分～17時00分",
+            "金曜日: 9時00分～17時00分",
+            "土曜日: 9時00分～17時00分",
+            "日曜日: 9時00分～17時00分"
+        ],
+        "ticket_price": "",
+        "breeding_types": 400,
+        "like": 200,
+        "comment": 60,
+        "website": "https://asofarmland.co.jp/",
+        "photos": [
+            "",
+            ""
+        ],
+        "icon": ""
+    },
+    {
+        "name": "大分マリーンパレス水族館「うみたまご」",
+        "latitude": 33.2587254,
+        "longitude": 131.5355632,
+        "prefecture": "大分県",
+        "description": "",
+        "URL": "https://www.umitamago.jp/",
+        "address": "日本、〒870-0100 大分県大分市神崎字ウト−3078番地の22",
+        "opening_hours": [
+            "月曜日: 9時00分～17時00分",
+            "火曜日: 9時00分～17時00分",
+            "水曜日: 9時00分～17時00分",
+            "木曜日: 9時00分～17時00分",
+            "金曜日: 9時00分～17時00分",
+            "土曜日: 9時00分～17時00分",
+            "日曜日: 9時00分～17時00分"
+        ],
+        "ticket_price": "",
+        "breeding_types": 400,
+        "like": 200,
+        "comment": 60,
+        "website": "https://www.umitamago.jp/",
+        "photos": [
+            "",
+            ""
+        ],
+        "icon": ""
+    },
+    {
+        "name": "すみえファミリー水族館",
+        "latitude": 32.6617585,
+        "longitude": 131.7681301,
+        "prefecture": "宮崎県",
+        "description": "",
+        "URL": null,
+        "address": "日本、〒889-0321 宮崎県延岡市須美江町１４５０−２",
+        "opening_hours": [
+            "月曜日: 9時00分～17時00分",
+            "火曜日: 9時00分～17時00分",
+            "水曜日: 定休日",
+            "木曜日: 9時00分～17時00分",
+            "金曜日: 9時00分～17時00分",
+            "土曜日: 9時00分～17時00分",
+            "日曜日: 9時00分～17時00分"
+        ],
+        "ticket_price": "",
+        "breeding_types": 400,
+        "like": 200,
+        "comment": 60,
+        "website": null,
+        "photos": [
+            "",
+            ""
+        ],
+        "icon": ""
+    },
+    {
+        "name": "志布志湾大黒イルカランド",
+        "latitude": 31.46076639999999,
+        "longitude": 131.1609565,
+        "prefecture": "宮崎県",
+        "description": "",
+        "URL": "http://www.irukaland.com/",
+        "address": "日本、〒888-0002 宮崎県串間市高松１４８１−３",
+        "opening_hours": [
+            "月曜日: 10時00分～17時00分",
+            "火曜日: 10時00分～17時00分",
+            "水曜日: 10時00分～17時00分",
+            "木曜日: 10時00分～17時00分",
+            "金曜日: 10時00分～17時00分",
+            "土曜日: 10時00分～17時00分",
+            "日曜日: 10時00分～17時00分"
+        ],
+        "ticket_price": "",
+        "breeding_types": 400,
+        "like": 200,
+        "comment": 60,
+        "website": "http://www.irukaland.com/",
+        "photos": [
+            "",
+            ""
+        ],
+        "icon": ""
+    },
+    {
+        "name": "高千穂峡淡水魚水族館",
+        "latitude": 32.7021433,
+        "longitude": 131.3006718,
+        "prefecture": "宮崎県",
+        "description": "",
+        "URL": "https://takachiho-kanko.info/sightseeing/11/",
+        "address": "日本、〒882-1103 宮崎県西臼杵郡高千穂町向山１",
+        "opening_hours": [
+            "月曜日: 9時00分～16時00分",
+            "火曜日: 9時00分～16時00分",
+            "水曜日: 9時00分～16時00分",
+            "木曜日: 9時00分～16時00分",
+            "金曜日: 9時00分～16時00分",
+            "土曜日: 9時00分～16時00分",
+            "日曜日: 9時00分～16時00分"
+        ],
+        "ticket_price": "",
+        "breeding_types": 400,
+        "like": 200,
+        "comment": 60,
+        "website": "https://takachiho-kanko.info/sightseeing/11/",
+        "photos": [
+            "",
+            ""
+        ],
+        "icon": ""
+    },
+    {
+        "name": "出の山淡水魚水族館",
+        "latitude": 31.98,
+        "longitude": 130.9433333,
+        "prefecture": "宮崎県",
+        "description": "",
+        "URL": "https://idenoyama-aquarium.weebly.com/",
+        "address": "日本、〒886-0005 宮崎県小林市南西方１０９１",
+        "opening_hours": [
+            "月曜日: 定休日",
+            "火曜日: 9時00分～17時00分",
+            "水曜日: 9時00分～17時00分",
+            "木曜日: 9時00分～17時00分",
+            "金曜日: 9時00分～17時00分",
+            "土曜日: 9時00分～17時00分",
+            "日曜日: 9時00分～17時00分"
+        ],
+        "ticket_price": "",
+        "breeding_types": 400,
+        "like": 200,
+        "comment": 60,
+        "website": "https://idenoyama-aquarium.weebly.com/",
+        "photos": [
+            "",
+            ""
+        ],
+        "icon": ""
+    },
+    {
+        "name": "須美江家族旅行村 水族館",
+        "latitude": 32.661735,
+        "longitude": 131.768056,
+        "prefecture": "宮崎県",
+        "description": "",
+        "URL": null,
+        "address": "日本、〒889-0321 宮崎県延岡市須美江町６９−１",
+        "opening_hours": [
+            "月曜日: 9時00分～17時00分",
+            "火曜日: 9時00分～17時00分",
+            "水曜日: 9時00分～17時00分",
+            "木曜日: 9時00分～17時00分",
+            "金曜日: 9時00分～17時00分",
+            "土曜日: 9時00分～17時00分",
+            "日曜日: 9時00分～17時00分"
+        ],
+        "ticket_price": "",
+        "breeding_types": 400,
+        "like": 200,
+        "comment": 60,
+        "website": null,
+        "photos": [
+            "",
+            ""
+        ],
+        "icon": ""
+    },
+    {
+        "name": "いおワールドかごしま水族館",
+        "latitude": 31.5960577,
+        "longitude": 130.5646969,
+        "prefecture": "鹿児島県",
+        "description": "",
+        "URL": "http://ioworld.jp/",
+        "address": "日本、〒892-0814 鹿児島県鹿児島市本港新町３−１",
+        "opening_hours": [
+            "月曜日: 9時30分～18時00分",
+            "火曜日: 9時30分～18時00分",
+            "水曜日: 9時30分～18時00分",
+            "木曜日: 9時30分～18時00分",
+            "金曜日: 9時30分～18時00分",
+            "土曜日: 9時30分～18時00分",
+            "日曜日: 9時30分～18時00分"
+        ],
+        "ticket_price": "",
+        "breeding_types": 400,
+        "like": 200,
+        "comment": 60,
+        "website": "http://ioworld.jp/",
+        "photos": [
+            "",
+            ""
+        ],
+        "icon": ""
+    },
+    {
+        "name": "沖縄美ら海水族館",
+        "latitude": 26.694338,
+        "longitude": 127.8780131,
+        "prefecture": "沖縄県",
+        "description": "",
+        "URL": "https://churaumi.okinawa/",
+        "address": "日本、〒905-0206 沖縄県国頭郡本部町石川４２４",
+        "opening_hours": [
+            "月曜日: 8時30分～20時00分",
+            "火曜日: 8時30分～20時00分",
+            "水曜日: 8時30分～20時00分",
+            "木曜日: 8時30分～20時00分",
+            "金曜日: 8時30分～20時00分",
+            "土曜日: 8時30分～20時00分",
+            "日曜日: 8時30分～20時00分"
+        ],
+        "ticket_price": "",
+        "breeding_types": 400,
+        "like": 200,
+        "comment": 60,
+        "website": "https://churaumi.okinawa/",
+        "photos": [
+            "",
+            ""
+        ],
+        "icon": ""
+    },
+    {
+        "name": "DMMかりゆし水族館",
+        "latitude": 26.1562547,
+        "longitude": 127.6507959,
+        "prefecture": "沖縄県",
+        "description": "",
+        "URL": "https://kariyushi-aquarium.com/",
+        "address": "日本、〒901-0225 沖縄県豊見城市豊崎３−３５",
+        "opening_hours": [
+            "月曜日: 9時00分～20時00分",
+            "火曜日: 9時00分～20時00分",
+            "水曜日: 9時00分～20時00分",
+            "木曜日: 9時00分～20時00分",
+            "金曜日: 9時00分～20時00分",
+            "土曜日: 9時00分～20時00分",
+            "日曜日: 9時00分～20時00分"
+        ],
+        "ticket_price": "",
+        "breeding_types": 400,
+        "like": 200,
+        "comment": 60,
+        "website": "https://kariyushi-aquarium.com/",
+        "photos": [
+            "",
+            ""
+        ],
+        "icon": ""
+    },
+    {
+        "name": "Rycom aquarium",
+        "latitude": 26.3142545,
+        "longitude": 127.7963407,
+        "prefecture": "沖縄県",
+        "description": "",
+        "URL": "http://okinawarycom-aeonmall.com/special/lists/rycomaquarium",
+        "address": "日本、〒901-2306 沖縄県中頭郡北中城村ライカム イオンモール沖縄ライカム ライカムグランドスクエア1F",
+        "opening_hours": [
+            "月曜日: 10時00分～22時00分",
+            "火曜日: 10時00分～22時00分",
+            "水曜日: 10時00分～22時00分",
+            "木曜日: 10時00分～22時00分",
+            "金曜日: 10時00分～22時00分",
+            "土曜日: 10時00分～22時00分",
+            "日曜日: 10時00分～22時00分"
+        ],
+        "ticket_price": "",
+        "breeding_types": 400,
+        "like": 200,
+        "comment": 60,
+        "website": "http://okinawarycom-aeonmall.com/special/lists/rycomaquarium",
         "photos": [
             "",
             ""
