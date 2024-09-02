@@ -5,6 +5,7 @@ function initMap() {
     const map = new google.maps.Map(document.getElementById("map"), {
         zoom: 10,
         center: defaultLocation,
+        gestureHandling: "greedy",  // スマホでの1本指スクロールを有効化
         styles: [
             {
                 "elementType": "geometry",
@@ -134,6 +135,9 @@ function initMap() {
         map.setCenter(defaultLocation);
     }
 
+        // マーカー用の配列
+        const markers = [];
+
     // JSONファイルから水族館のデータを取得
     fetch('aquariums.json')
         .then(response => {
@@ -143,6 +147,8 @@ function initMap() {
             return response.json();
         })
         .then(data => {
+                const markers = []; // マーカーを格納する配列
+
             data.forEach(aquarium => {
                 const marker = new google.maps.Marker({
                     position: { lat: aquarium.latitude, lng: aquarium.longitude },
@@ -153,6 +159,8 @@ function initMap() {
                         scaledSize: new google.maps.Size(42, 42) // ピンのサイズを42x42に指定
                     }
                 });
+
+                markers.push(marker); // マーカーを配列に追加
 
                 const infoWindow = new google.maps.InfoWindow({
                     content: `
@@ -188,7 +196,13 @@ function initMap() {
                     });
                 });
             });
-        })
+
+            // マーカークラスタリングを追加
+            new MarkerClusterer(map, markers, {
+                imagePath: 'https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/m'
+            });
+        })        
+     
         .catch(error => {
             console.error('Error loading JSON data:', error);
         });
