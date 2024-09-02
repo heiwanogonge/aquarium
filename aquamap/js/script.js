@@ -135,8 +135,8 @@ function initMap() {
         map.setCenter(defaultLocation);
     }
 
-        // マーカー用の配列
-        const markers = [];
+    // マーカー用の配列
+    const markers = [];
 
     // JSONファイルから水族館のデータを取得
     fetch('aquariums.json')
@@ -147,14 +147,12 @@ function initMap() {
             return response.json();
         })
         .then(data => {
-                const markers = []; // マーカーを格納する配列
-
             data.forEach(aquarium => {
                 const marker = new google.maps.Marker({
                     position: { lat: aquarium.latitude, lng: aquarium.longitude },
                     map: map,
                     title: aquarium.name,
-                   icon: {
+                    icon: {
                         url: 'img/aquamap_pin.png', // カスタムピン画像の相対パス
                         scaledSize: new google.maps.Size(42, 42) // ピンのサイズを42x42に指定
                     }
@@ -198,16 +196,36 @@ function initMap() {
             });
 
             // マーカークラスタリングを追加
-            new MarkerClusterer(map, markers, {
-                imagePath: 'https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/m'
+            new markerClusterer.MarkerClusterer({ 
+                map, 
+                markers,
+                renderer: {
+                    render: ({ count, position }) => {
+                        // 色とスタイルをカスタマイズ
+                        return new google.maps.Marker({
+                            position,
+                            label: {
+                                text: String(count),
+                                color: 'white', // テキストの色を変更
+                                fontSize: '14px',
+                            },
+                            icon: {
+                                path: google.maps.SymbolPath.CIRCLE,
+                                fillColor: '#0288D1', // クラスターマーカーの背景色
+                                fillOpacity: 0.8,
+                                strokeColor: '#01579B',
+                                strokeWeight: 2,
+                                scale: 20 // サイズを調整
+                            }
+                        });
+                    }
+                }
             });
-        })        
-     
+        })
         .catch(error => {
             console.error('Error loading JSON data:', error);
         });
 }
-
 
 // 残りのコードは変更なし
 
