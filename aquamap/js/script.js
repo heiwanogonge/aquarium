@@ -1,8 +1,9 @@
 let currentInfoWindow = null;
+let map; // グローバルにmap変数を定義
 
 function initMap() {
     const defaultLocation = { lat: 35.6895, lng: 139.6917 }; // 東京都中心のデフォルト位置
-    const map = new google.maps.Map(document.getElementById("map"), {
+    map = new google.maps.Map(document.getElementById("map"), {
         zoom: 10,
         center: defaultLocation,
         gestureHandling: "greedy",  // スマホでの1本指スクロールを有効化
@@ -227,7 +228,21 @@ function initMap() {
         });
 }
 
-// 残りのコードは変更なし
+// 検索機能の実装
+document.getElementById('search-button').addEventListener('click', function() {
+    const query = document.getElementById('search-input').value;
+    const geocoder = new google.maps.Geocoder();
+
+    geocoder.geocode({ 'address': query }, function(results, status) {
+        if (status === 'OK') {
+            map.setCenter(results[0].geometry.location);
+            map.setZoom(14);
+        } else {
+            alert('検索結果が見つかりませんでした: ' + status);
+        }
+    });
+});
+
 
 
 document.getElementById("menu-icon").addEventListener("click", function() {
@@ -269,19 +284,6 @@ document.getElementById('search-toggle').addEventListener('click', function() {
     }
 });
 
-document.getElementById('search-button').addEventListener('click', function() {
-    const query = document.getElementById('search-input').value;
-    const geocoder = new google.maps.Geocoder();
-
-    geocoder.geocode({ 'address': query }, function(results, status) {
-        if (status === 'OK') {
-            map.setCenter(results[0].geometry.location);
-            map.setZoom(14);
-        } else {
-            alert('検索結果が見つかりませんでした: ' + status);
-        }
-    });
-});
 
 // 追加: メニューページを閉じる機能
 document.addEventListener("DOMContentLoaded", function() {
