@@ -306,3 +306,12 @@ document.addEventListener("DOMContentLoaded", function() {
     // 対象のリンクにactiveクラスを追加
     document.getElementById(pageId).classList.add("active");
 });
+
+// 検索バーのズームリセット
+document.getElementById('search-input').addEventListener('blur', function() {
+    // ズームを元に戻すためのタイムアウト設定
+    setTimeout(function() {
+        document.body.style.transform = 'scale(1)';
+        document.body.style.transformOrigin = '0 0';
+    }, 0);
+});
