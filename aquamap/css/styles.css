@@ -78,14 +78,14 @@ header {
 }
 
 .searchbar input {
-    width: 200px;
+    width: 295px;
     padding: 5px;
     border: 1px solid #ccc;
     border-radius: 4px;
+    margin-right: 5px;
 }
 
 .searchbar button {
-    margin-top: 5px;
     background-color: #679CF7;
     color: white;
     border: none;
