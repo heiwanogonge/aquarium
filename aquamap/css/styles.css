@@ -67,7 +67,7 @@ header {
 .searchbar {
     display: none;
     position: fixed;
-    top: 86%; /* 上から50%の位置 */
+    top: 83%; /* 上から50%の位置 */
     left: 50%; /* 左から50%の位置 */
     transform: translate(-50%, -50%); /* 自身のサイズ分だけ中央に配置 */
     background-color: white;
