@@ -1,5 +1,3 @@
-
-
 /* styles.css */
 
 body {
@@ -69,12 +67,14 @@ header {
 .searchbar {
     display: none;
     position: fixed;
-    bottom: 80px;
-    right: 20px;
+    top: 86%; /* 上から50%の位置 */
+    left: 50%; /* 左から50%の位置 */
+    transform: translate(-50%, -50%); /* 自身のサイズ分だけ中央に配置 */
     background-color: white;
     padding: 10px;
     border-radius: 8px;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    z-index: 1000; /* メニューやマップの上に表示 */
 }
 
 .searchbar input {
@@ -94,8 +94,10 @@ header {
     cursor: pointer;
 }
 
-/* メニューボタンで表示されるページのスタイル */
-/* メニューページが閉じれるように修正 */
+input[type="text"] {
+    font-size: 16px; /* フォントサイズを16px以上に設定 */
+}
+
 .menu-page {
     display: none;
     position: fixed;
@@ -155,14 +157,14 @@ header {
     z-index: 1001; /* 閉じるボタンを最前面に表示 */
 }
 
-    /* デフォルトの閉じるボタンを非表示にする */
-    .gm-ui-hover-effect {
-        display: none !important;
-    }
+/* デフォルトの閉じるボタンを非表示にする */
+.gm-ui-hover-effect {
+    display: none !important;
+}
 
-    a {
-        text-decoration: none; /* 下線を削除 */
-        color: black; /* 文字色を黒に設定 */
-        border: none; /* 枠線を削除 */
-        outline: none; /* フォーカス時の枠線を削除 */
-    }
+a {
+    text-decoration: none; /* 下線を削除 */
+    color: black; /* 文字色を黒に設定 */
+    border: none; /* 枠線を削除 */
+    outline: none; /* フォーカス時の枠線を削除 */
+}
